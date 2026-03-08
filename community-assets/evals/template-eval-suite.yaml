@@ -1,0 +1,16 @@
+suite_id: "ssa-suite-001"
+versao: "v1"
+objetivo: "Comparar qualidade de resposta entre arquiteturas"
+metricas:
+  - nome: "aderencia-politicas"
+    meta: 0.95
+  - nome: "coerencia-semantica"
+    meta: 0.90
+  - nome: "latencia"
+    meta: 4.0
+casos:
+  - "saude-triagem-001"
+  - "juridico-contrato-001"
+gate_release:
+  score_global_minimo: 0.88
+  falhas_criticas_maximo: 0

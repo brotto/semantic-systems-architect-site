@@ -76,6 +76,18 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Plataforma de Pratica',
+      items: [
+        'plataforma-pratica/visao-geral',
+        'plataforma-pratica/banco-de-casos',
+        'plataforma-pratica/evals-comunitarias',
+        'plataforma-pratica/capstones-referencia',
+        'plataforma-pratica/matriz-maturidade-ssa',
+        'plataforma-pratica/como-submeter',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

@@ -23,16 +23,16 @@ title: Roadmap Publico
 - [SSA para Juridico](../especializacoes/ssa-para-juridico)
 - [SSA para Suporte B2B](../especializacoes/ssa-para-suporte-b2b)
 
-## Fase 4 - Plataforma de pratica (proxima)
+## Fase 4 - Plataforma de pratica (em andamento)
 
-- Banco de casos para evals comunitarias.
-- Colecao de capstones referencia.
-- Matriz de maturidade SSA por organizacao.
+- [Banco de casos para evals comunitarias](../plataforma-pratica/banco-de-casos)
+- [Colecao de capstones referencia](../plataforma-pratica/capstones-referencia)
+- [Matriz de maturidade SSA por organizacao](../plataforma-pratica/matriz-maturidade-ssa)
 
 ## Backlog priorizado
 
 1. Guia de arquitetura para RAG em producao.
-2. Modulo de custos e otimização economica em sistemas de IA.
+2. Modulo de custos e otimizacao economica em sistemas de IA.
 3. Pacote de exemplos adversariais para seguranca.
 4. Trilha de onboarding corporativo SSA.
 5. Traducao completa para ingles.

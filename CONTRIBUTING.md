@@ -25,6 +25,8 @@ Obrigado por contribuir com o projeto do curso Semantic Systems Architect.
 - Nao editar arquivos gerados (`build/`, `.docusaurus/`).
 - Links internos devem usar caminhos do Docusaurus.
 - Se alterar navegacao, atualizar `sidebars.js`.
+- Para contribuicoes praticas, usar `community-assets/` com os templates oficiais.
+- Casos e capstones devem remover qualquer dado sensivel.
 
 ## Checklist do PR
 

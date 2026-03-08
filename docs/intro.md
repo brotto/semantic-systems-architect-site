@@ -46,6 +46,14 @@ Formar um SSA capaz de:
 - [SSA para Juridico](./especializacoes/ssa-para-juridico)
 - [SSA para Suporte B2B](./especializacoes/ssa-para-suporte-b2b)
 
+## Plataforma de pratica
+
+- [Visao geral](./plataforma-pratica/visao-geral)
+- [Banco de casos](./plataforma-pratica/banco-de-casos)
+- [Evals comunitarias](./plataforma-pratica/evals-comunitarias)
+- [Capstones de referencia](./plataforma-pratica/capstones-referencia)
+- [Matriz de maturidade SSA](./plataforma-pratica/matriz-maturidade-ssa)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)

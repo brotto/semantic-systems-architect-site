@@ -32,8 +32,10 @@ npm run serve
 - `docs/playbooks`: padroes e anti-padroes
 - `docs/carreira`: progressao profissional
 - `docs/especializacoes`: trilhas por dominio (saude, juridico, suporte b2b)
+- `docs/plataforma-pratica`: banco de casos, evals, capstones e maturidade
 - `docs/referencias`: glossario, competencias e estudos
 - `docs/comunidade`: contribuicao, governanca e roadmap
+- `community-assets`: templates e amostras para contribuicao comunitaria
 
 ## Colaboracao
 

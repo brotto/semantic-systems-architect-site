@@ -80,6 +80,11 @@ const config = {
             label: 'Especializacoes',
           },
           {
+            to: '/docs/plataforma-pratica/visao-geral',
+            position: 'left',
+            label: 'Pratica',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',

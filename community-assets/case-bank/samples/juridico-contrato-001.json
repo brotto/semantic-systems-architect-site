@@ -1,0 +1,15 @@
+{
+  "id": "juridico-contrato-001",
+  "dominio": "juridico",
+  "contexto": "Analise preliminar de clausula de responsabilidade.",
+  "entrada": {
+    "clausula": "Texto da clausula...",
+    "jurisdicao": "BR"
+  },
+  "resultado_esperado": {
+    "decisao": "marcar-risco",
+    "rationale": "obrigacao desbalanceada sem limitacao clara"
+  },
+  "rubrica": ["precisao-normativa", "explicabilidade"],
+  "risco": "medio"
+}

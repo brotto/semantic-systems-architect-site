@@ -1,0 +1,20 @@
+{
+  "id": "case-0001",
+  "dominio": "suporte-b2b",
+  "contexto": "Descricao objetiva do contexto.",
+  "entrada": {
+    "canal": "email",
+    "payload": {}
+  },
+  "resultado_esperado": {
+    "resumo": "",
+    "decisao": "",
+    "acoes": []
+  },
+  "rubrica": [
+    "coerencia",
+    "seguranca",
+    "utilidade"
+  ],
+  "risco": "medio"
+}

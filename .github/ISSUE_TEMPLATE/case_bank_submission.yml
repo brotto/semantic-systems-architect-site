@@ -1,0 +1,41 @@
+name: Case bank submission
+description: Submissao de novo caso para banco comunitario
+labels: [content, case-bank]
+body:
+  - type: input
+    id: case_id
+    attributes:
+      label: Case ID
+      placeholder: dominio-assunto-001
+    validations:
+      required: true
+  - type: dropdown
+    id: dominio
+    attributes:
+      label: Dominio
+      options:
+        - Saude
+        - Juridico
+        - Suporte B2B
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto do caso
+    validations:
+      required: true
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Compliance
+      options:
+        - label: Confirmo que nao inclui dados pessoais ou sensiveis.
+          required: true
