@@ -38,3 +38,9 @@ Formar um SSA capaz de:
 1. Entregar os 3 labs com evidencias.
 2. Atingir media >= 7,5 nas rubricas.
 3. Apresentar capstone com arquitetura, metricas e plano de evolucao.
+
+## Comunidade e evolucao
+
+- [Como contribuir](./comunidade/como-contribuir)
+- [Governanca](./comunidade/governanca)
+- [Roadmap publico](./comunidade/roadmap-publico)

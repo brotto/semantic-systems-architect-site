@@ -10,7 +10,7 @@
   border-radius: 18px;
   padding: 1.4rem 1.2rem;
   box-shadow: 0 10px 35px rgba(22, 69, 69, 0.07);
-  min-height: 210px;
+  min-height: 230px;
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 

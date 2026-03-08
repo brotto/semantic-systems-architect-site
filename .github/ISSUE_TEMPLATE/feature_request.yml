@@ -1,0 +1,29 @@
+name: Feature request
+description: Sugestao de melhoria para curso, site ou comunidade
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: O que voce quer adicionar ou melhorar?
+    validations:
+      required: true
+  - type: textarea
+    id: valor
+    attributes:
+      label: Valor esperado
+      description: Qual ganho de aprendizado/comunidade isso gera?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Trilha
+        - Labs
+        - Templates
+        - Certificacao
+        - Site/UX
+        - Governanca

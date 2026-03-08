@@ -70,6 +70,15 @@ const sidebars = {
         'referencias/roteiro-de-estudos-e-leitura',
       ],
     },
+    {
+      type: 'category',
+      label: 'Comunidade',
+      items: [
+        'comunidade/como-contribuir',
+        'comunidade/governanca',
+        'comunidade/roadmap-publico',
+      ],
+    },
   ],
 };
 

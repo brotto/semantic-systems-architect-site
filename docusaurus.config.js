@@ -70,6 +70,11 @@ const config = {
             label: 'Guia',
           },
           {
+            to: '/docs/comunidade/roadmap-publico',
+            position: 'left',
+            label: 'Roadmap',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',
@@ -108,6 +113,10 @@ const config = {
           {
             title: 'Comunidade',
             items: [
+              {
+                label: 'Como contribuir',
+                to: '/docs/comunidade/como-contribuir',
+              },
               {
                 label: 'Repositorio',
                 href: 'https://github.com/brotto/semantic-systems-architect-site',

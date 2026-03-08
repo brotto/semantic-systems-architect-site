@@ -32,6 +32,14 @@ npm run serve
 - `docs/playbooks`: padroes e anti-padroes
 - `docs/carreira`: progressao profissional
 - `docs/referencias`: glossario, competencias e estudos
+- `docs/comunidade`: contribuicao, governanca e roadmap
+
+## Colaboracao
+
+- Guia: `CONTRIBUTING.md`
+- Conduta: `CODE_OF_CONDUCT.md`
+- Issues: `.github/ISSUE_TEMPLATE/`
+- PR template: `.github/pull_request_template.md`
 
 ## Publicar no GitHub
 

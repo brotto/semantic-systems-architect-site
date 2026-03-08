@@ -1,0 +1,26 @@
+name: Bug report
+description: Reporte problemas no site ou conteudo
+labels: [bug]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema
+      description: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+  - type: input
+    id: pagina
+    attributes:
+      label: Pagina/arquivo
+      placeholder: docs/trilha/...
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional

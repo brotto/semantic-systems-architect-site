@@ -18,11 +18,16 @@ const FeatureList = [
     description:
       'Labs, templates, rubricas e capstone para formar um SSA pronto para producao.',
   },
+  {
+    title: 'Comunidade open source',
+    description:
+      'Roadmap aberto, governanca e contribuicoes por issue/PR para evolucao continua.',
+  },
 ];
 
 function Feature({title, description}) {
   return (
-    <article className={clsx('col col--4', styles.card)}>
+    <article className={clsx('col col--3', styles.card)}>
       <Heading as="h3" className={styles.cardTitle}>
         {title}
       </Heading>
