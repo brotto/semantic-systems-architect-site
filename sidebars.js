@@ -63,6 +63,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Especializacoes',
+      items: [
+        'especializacoes/visao-geral',
+        'especializacoes/ssa-para-saude',
+        'especializacoes/lab-saude',
+        'especializacoes/ssa-para-juridico',
+        'especializacoes/lab-juridico',
+        'especializacoes/ssa-para-suporte-b2b',
+        'especializacoes/lab-suporte-b2b',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

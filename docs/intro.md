@@ -39,6 +39,13 @@ Formar um SSA capaz de:
 2. Atingir media >= 7,5 nas rubricas.
 3. Apresentar capstone com arquitetura, metricas e plano de evolucao.
 
+## Especializacoes por dominio
+
+- [Visao geral](./especializacoes/visao-geral)
+- [SSA para Saude](./especializacoes/ssa-para-saude)
+- [SSA para Juridico](./especializacoes/ssa-para-juridico)
+- [SSA para Suporte B2B](./especializacoes/ssa-para-suporte-b2b)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)

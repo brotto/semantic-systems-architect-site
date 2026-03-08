@@ -31,6 +31,7 @@ npm run serve
 - `docs/certificacao`: rubricas e capstone
 - `docs/playbooks`: padroes e anti-padroes
 - `docs/carreira`: progressao profissional
+- `docs/especializacoes`: trilhas por dominio (saude, juridico, suporte b2b)
 - `docs/referencias`: glossario, competencias e estudos
 - `docs/comunidade`: contribuicao, governanca e roadmap
 

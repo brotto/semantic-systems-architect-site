@@ -75,6 +75,11 @@ const config = {
             label: 'Roadmap',
           },
           {
+            to: '/docs/especializacoes/visao-geral',
+            position: 'left',
+            label: 'Especializacoes',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',

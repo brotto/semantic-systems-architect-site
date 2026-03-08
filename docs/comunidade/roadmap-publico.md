@@ -17,11 +17,11 @@ title: Roadmap Publico
 - Templates de issue e PR.
 - Backlog publico priorizado.
 
-## Fase 3 - Especializacoes por dominio (proxima)
+## Fase 3 - Especializacoes por dominio (em andamento)
 
-- Trilha SSA para Saude.
-- Trilha SSA para Juridico.
-- Trilha SSA para Suporte B2B.
+- [SSA para Saude](../especializacoes/ssa-para-saude)
+- [SSA para Juridico](../especializacoes/ssa-para-juridico)
+- [SSA para Suporte B2B](../especializacoes/ssa-para-suporte-b2b)
 
 ## Fase 4 - Plataforma de pratica (proxima)
 
