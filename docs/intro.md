@@ -54,6 +54,12 @@ Formar um SSA capaz de:
 - [Capstones de referencia](./plataforma-pratica/capstones-referencia)
 - [Matriz de maturidade SSA](./plataforma-pratica/matriz-maturidade-ssa)
 
+## Arquiteturas avancadas
+
+- [Visao geral](./arquiteturas-avancadas/visao-geral)
+- [RAG em producao](./arquiteturas-avancadas/rag-em-producao)
+- [Lab RAG de producao](./arquiteturas-avancadas/lab-rag-producao)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)

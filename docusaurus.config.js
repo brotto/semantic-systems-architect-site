@@ -85,6 +85,11 @@ const config = {
             label: 'Pratica',
           },
           {
+            to: '/docs/arquiteturas-avancadas/visao-geral',
+            position: 'left',
+            label: 'Avancadas',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',

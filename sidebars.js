@@ -88,6 +88,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Arquiteturas Avancadas',
+      items: [
+        'arquiteturas-avancadas/visao-geral',
+        'arquiteturas-avancadas/rag-em-producao',
+        'arquiteturas-avancadas/design-ingestao-indexacao',
+        'arquiteturas-avancadas/retrieval-e-reranking',
+        'arquiteturas-avancadas/avaliacao-rag',
+        'arquiteturas-avancadas/operacao-rag',
+        'arquiteturas-avancadas/lab-rag-producao',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

@@ -11,28 +11,34 @@ title: Roadmap Publico
 - Labs, templates, certificacao e carreira.
 - Publicacao em GitHub Pages.
 
-## Fase 2 - Comunidade e colaboracao (em andamento)
+## Fase 2 - Comunidade e colaboracao (concluida)
 
 - Guia de contribuicao e governanca.
 - Templates de issue e PR.
 - Backlog publico priorizado.
 
-## Fase 3 - Especializacoes por dominio (em andamento)
+## Fase 3 - Especializacoes por dominio (concluida)
 
 - [SSA para Saude](../especializacoes/ssa-para-saude)
 - [SSA para Juridico](../especializacoes/ssa-para-juridico)
 - [SSA para Suporte B2B](../especializacoes/ssa-para-suporte-b2b)
 
-## Fase 4 - Plataforma de pratica (em andamento)
+## Fase 4 - Plataforma de pratica (concluida)
 
 - [Banco de casos para evals comunitarias](../plataforma-pratica/banco-de-casos)
 - [Colecao de capstones referencia](../plataforma-pratica/capstones-referencia)
 - [Matriz de maturidade SSA por organizacao](../plataforma-pratica/matriz-maturidade-ssa)
 
+## Fase 5 - Arquiteturas avancadas (em andamento)
+
+- [Guia de arquitetura para RAG em producao](../arquiteturas-avancadas/rag-em-producao)
+- [Design de ingestao e indexacao](../arquiteturas-avancadas/design-ingestao-indexacao)
+- [Retrieval e reranking](../arquiteturas-avancadas/retrieval-e-reranking)
+- [Lab RAG de producao](../arquiteturas-avancadas/lab-rag-producao)
+
 ## Backlog priorizado
 
-1. Guia de arquitetura para RAG em producao.
-2. Modulo de custos e otimizacao economica em sistemas de IA.
-3. Pacote de exemplos adversariais para seguranca.
-4. Trilha de onboarding corporativo SSA.
-5. Traducao completa para ingles.
+1. Modulo de custos e otimizacao economica em sistemas de IA.
+2. Pacote de exemplos adversariais para seguranca.
+3. Trilha de onboarding corporativo SSA.
+4. Traducao completa para ingles.

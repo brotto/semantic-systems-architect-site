@@ -1,0 +1,3 @@
+case_id,dominio,query,expected_answer_summary,expected_sources,requires_escalation,risk_level
+rag-001,suporte-b2b,"Como resolver timeout no conector X?","Diagnostico inicial e passos de verificacao","runbook-123|kb-77",false,medio
+rag-002,juridico,"Qual limite de responsabilidade nesta clausula?","Mapear risco e sugerir revisao","contrato-A|politica-legal-2",true,alto

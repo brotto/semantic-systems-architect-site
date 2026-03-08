@@ -7,6 +7,7 @@ Repositorio de artefatos submetidos pela comunidade para pratica SSA.
 - `case-bank/`: casos padronizados
 - `evals/`: suites e relatorios de avaliacao
 - `capstones/`: templates e referencias
+- `rag/`: templates e checklists para arquitetura RAG em producao
 
 ## Regras
 
