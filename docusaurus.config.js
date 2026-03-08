@@ -95,6 +95,11 @@ const config = {
             label: 'Economia',
           },
           {
+            to: '/docs/seguranca-adversarial/visao-geral',
+            position: 'left',
+            label: 'Seguranca',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',

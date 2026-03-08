@@ -114,6 +114,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Seguranca Adversarial',
+      items: [
+        'seguranca-adversarial/visao-geral',
+        'seguranca-adversarial/modelo-de-ameacas',
+        'seguranca-adversarial/catalogo-de-ataques',
+        'seguranca-adversarial/metodologia-red-teaming',
+        'seguranca-adversarial/evals-adversariais',
+        'seguranca-adversarial/resposta-a-incidentes',
+        'seguranca-adversarial/lab-seguranca-adversarial',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

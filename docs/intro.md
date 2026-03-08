@@ -67,6 +67,13 @@ Formar um SSA capaz de:
 - [Unit economics](./economia-ia/unit-economics)
 - [Lab otimizacao de custos](./economia-ia/lab-otimizacao-custos)
 
+## Seguranca adversarial
+
+- [Visao geral](./seguranca-adversarial/visao-geral)
+- [Catalogo de ataques](./seguranca-adversarial/catalogo-de-ataques)
+- [Evals adversariais](./seguranca-adversarial/evals-adversariais)
+- [Lab de seguranca adversarial](./seguranca-adversarial/lab-seguranca-adversarial)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)

@@ -35,11 +35,13 @@ npm run serve
 - `docs/plataforma-pratica`: banco de casos, evals, capstones e maturidade
 - `docs/arquiteturas-avancadas`: guias tecnicos (RAG em producao e labs)
 - `docs/economia-ia`: custos, unit economics, FinOps e otimização
+- `docs/seguranca-adversarial`: threat model, red teaming e resposta a incidentes
 - `docs/referencias`: glossario, competencias e estudos
 - `docs/comunidade`: contribuicao, governanca e roadmap
 - `community-assets`: templates e amostras para contribuicao comunitaria
   - `community-assets/rag`: templates de arquitetura, eval dataset e checklist operacional
   - `community-assets/economia`: templates de custo, dashboard e experimentos
+  - `community-assets/security`: casos adversariais, suites e checklist de release segura
 
 ## Colaboracao
 
