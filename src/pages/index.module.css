@@ -1,0 +1,62 @@
+.heroBanner {
+  padding: 7rem 0 5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle at 15% 20%, #e9fff6 0%, transparent 36%),
+    radial-gradient(circle at 82% 18%, #fff1db 0%, transparent 38%),
+    linear-gradient(140deg, #0b2628 0%, #103538 42%, #145059 100%);
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16rem;
+  font-weight: 700;
+  color: #ffe9ba;
+  margin-bottom: 0.6rem;
+}
+
+.heroTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  color: #f4fffb;
+  margin-bottom: 0.75rem;
+}
+
+.heroSubtitle {
+  color: #d7fff5;
+  font-size: 1.2rem;
+  max-width: 760px;
+  margin: 0 auto 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.buttons :global(.button) {
+  background: #ffd68d;
+  border: 1px solid #ffe2ac;
+  color: #0b2628;
+  font-weight: 700;
+}
+
+.buttons :global(.button.button--secondary) {
+  background: transparent;
+  color: #f4fffb;
+  border: 1px solid #b8ece1;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4.5rem 1rem 3.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.05rem;
+  }
+}

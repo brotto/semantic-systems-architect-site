@@ -1,0 +1,76 @@
+// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  tutorialSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Trilha Principal',
+      items: [
+        'trilha/fundamentos-ssa',
+        'trilha/modelagem-semantica-e-ontologias',
+        'trilha/arquitetura-de-agentes',
+        'trilha/workflows-ferramentas-e-pipelines',
+        'trilha/context-engineering-e-prompting-estrutural',
+        'trilha/avaliacao-qualidade-observabilidade',
+        'trilha/seguranca-governanca-etica',
+        'trilha/produto-operacao-escala',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Laboratorios',
+      items: [
+        'labs/lab-01-modelagem-dominio-contrato-semantico',
+        'labs/lab-02-sistema-multiagente-com-ferramentas',
+        'labs/lab-03-hardening-para-producao',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Templates',
+      items: [
+        'templates/template-architecture-spec-semantica',
+        'templates/template-ontologia-de-dominio',
+        'templates/template-system-prompt-estrutural',
+        'templates/template-suite-de-evals',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Certificacao',
+      items: [
+        'certificacao/rubricas-de-avaliacao',
+        'certificacao/capstone-ssa',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Playbooks',
+      items: [
+        'playbooks/padroes-arquiteturais-ssa',
+        'playbooks/anti-padroes-e-recuperacao',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Carreira',
+      items: [
+        'carreira/plano-90-dias-ssa',
+        'carreira/trilha-de-carreira-ssa',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Referencias',
+      items: [
+        'referencias/mapa-de-competencias-ssa',
+        'referencias/glossario-ssa',
+        'referencias/roteiro-de-estudos-e-leitura',
+      ],
+    },
+  ],
+};
+
+export default sidebars;
