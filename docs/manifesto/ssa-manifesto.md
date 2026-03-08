@@ -41,5 +41,8 @@ Semantic Systems Architecture is the discipline where:
 
 ## Read the canonical long form
 
-The full foundational manifesto lives in:
-- `/manifesto/ssa-manifesto.md`
+Read on site:
+- [SSA Manifesto (web page)](/docs/manifesto/ssa-manifesto)
+
+Canonical source file:
+- [`manifesto/ssa-manifesto.md`](https://github.com/brotto/semantic-systems-architect-site/blob/main/manifesto/ssa-manifesto.md)
