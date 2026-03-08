@@ -1,7 +1,7 @@
-@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
+  /* brotto.io brand palette */
   --brotto-dark: #141413;
   --brotto-light: #faf9f5;
   --brotto-mid-gray: #b0aea5;
@@ -10,6 +10,7 @@
   --brotto-blue: #6a9bcc;
   --brotto-green: #788c5d;
 
+  /* Docusaurus primary = orange CTA */
   --ifm-color-primary: #d97757;
   --ifm-color-primary-dark: #c56b4e;
   --ifm-color-primary-darker: #bb6548;
@@ -18,21 +19,26 @@
   --ifm-color-primary-lighter: #e08b71;
   --ifm-color-primary-lightest: #e8a089;
 
+  /* Light mode */
   --ifm-background-color: #faf9f5;
   --ifm-background-surface-color: #faf9f5;
   --ifm-font-color-base: #141413;
   --ifm-font-color-secondary: #b0aea5;
 
+  /* Typography */
   --ifm-font-family-base: 'Lora', serif;
   --ifm-heading-font-family: 'Cabinet Grotesk', sans-serif;
   --ifm-code-font-size: 94%;
 
+  /* Chrome */
   --ifm-navbar-background-color: rgba(250, 249, 245, 0.92);
   --ifm-footer-background-color: #141413;
 
+  /* Links */
   --ifm-link-color: #d97757;
   --ifm-link-hover-color: #c56b4e;
 
+  /* Misc */
   --ifm-color-content-secondary: #b0aea5;
   --ifm-toc-border-color: #e8e6dc;
 
@@ -65,11 +71,13 @@
   --docusaurus-highlighted-code-line-bg: rgba(217, 119, 87, 0.2);
 }
 
+/* ---- Base typography ---- */
 html,
 body {
   font-family: 'Lora', serif;
 }
 
+/* ---- Navbar ---- */
 .navbar {
   backdrop-filter: blur(8px);
   border-bottom: 1px solid #e8e6dc;
@@ -79,20 +87,19 @@ body {
   border-bottom: 1px solid #2a2926;
 }
 
+/* ---- Headings — per brotto.io brand guide ---- */
+
+/* H1: Cabinet Grotesk Regular 48-64px */
 .markdown > h1,
-.markdown > h2,
 .theme-doc-markdown header h1 {
   font-family: 'Cabinet Grotesk', sans-serif;
   font-weight: 400;
+  font-size: clamp(3rem, 5vw, 4rem);
   letter-spacing: -0.03em;
   line-height: 1.05;
 }
 
-.markdown > h1,
-.theme-doc-markdown header h1 {
-  font-size: clamp(3rem, 5vw, 4rem);
-}
-
+/* H2: Cabinet Grotesk Regular 28-40px */
 .markdown > h2 {
   font-family: 'Cabinet Grotesk', sans-serif;
   font-weight: 400;
@@ -101,6 +108,7 @@ body {
   line-height: 1.15;
 }
 
+/* H3: Lora Medium 18-22px */
 .markdown > h3,
 h3 {
   font-family: 'Lora', serif;
@@ -109,6 +117,7 @@ h3 {
   line-height: 1.35;
 }
 
+/* Body: Lora Regular 15-17px */
 .markdown p,
 .markdown li,
 .markdown blockquote {
@@ -116,4 +125,24 @@ h3 {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.75;
+}
+
+/* ---- Footer refinements ---- */
+.footer {
+  font-family: 'Lora', serif;
+}
+
+.footer .footer__title {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.footer .footer__link-item {
+  font-size: 0.9rem;
+}
+
+.footer .footer__copyright {
+  font-size: 0.85rem;
+  color: #b0aea5;
 }

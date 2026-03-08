@@ -1,4 +1,5 @@
-.heroBanner {
+/* ---- Hero ---- */
+.hero {
   padding: 7rem 0 5rem;
   text-align: center;
   position: relative;
@@ -38,6 +39,37 @@
   line-height: 1.75;
 }
 
+/* ---- Stats row ---- */
+.statRow {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-bottom: 2.2rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statValue {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #d97757;
+  line-height: 1.1;
+}
+
+.statLabel {
+  font-family: 'Lora', serif;
+  font-size: 0.82rem;
+  color: #b0aea5;
+  margin-top: 0.2rem;
+}
+
+/* ---- Buttons ---- */
 .buttons {
   display: flex;
   align-items: center;
@@ -54,18 +86,259 @@
   font-family: 'Cabinet Grotesk', sans-serif;
 }
 
+.buttons :global(.button:hover) {
+  background: #c56b4e;
+  border-color: #c56b4e;
+}
+
 .buttons :global(.button.button--secondary) {
   background: transparent;
   color: #faf9f5;
   border: 1px solid #e8e6dc;
 }
 
+.buttons :global(.button.button--secondary:hover) {
+  background: rgba(250, 249, 245, 0.06);
+}
+
+/* ---- Sections ---- */
+.section {
+  padding: 4rem 0;
+  background: #141413;
+  color: #faf9f5;
+}
+
+.sectionAlt {
+  background: #1c1c1b;
+}
+
+.sectionTitle {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.sectionSub {
+  color: #b0aea5;
+  font-family: 'Lora', serif;
+  max-width: 640px;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+}
+
+/* ---- Learning Path cards ---- */
+.trackGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.trackCard {
+  display: flex;
+  flex-direction: column;
+  background: #1c1c1b;
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  padding: 1.6rem 1.4rem;
+  text-decoration: none !important;
+  color: #faf9f5 !important;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.trackCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 38px rgba(0, 0, 0, 0.36);
+  border-color: #d97757;
+}
+
+.trackTag {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #d97757;
+  margin-bottom: 0.8rem;
+}
+
+.trackTitle {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.trackDesc {
+  font-family: 'Lora', serif;
+  font-size: 0.92rem;
+  color: #b0aea5;
+  line-height: 1.65;
+  flex: 1;
+}
+
+/* ---- Specialization cards ---- */
+.specGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.specCard {
+  display: flex;
+  flex-direction: column;
+  background: #141413;
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  padding: 1.6rem 1.4rem;
+  text-decoration: none !important;
+  color: #faf9f5 !important;
+  transition: transform 160ms ease, border-color 160ms ease;
+  border-top: 3px solid transparent;
+}
+
+.specCard:hover {
+  transform: translateY(-4px);
+}
+
+.green {
+  border-top-color: #788c5d;
+}
+
+.blue {
+  border-top-color: #6a9bcc;
+}
+
+.orange {
+  border-top-color: #d97757;
+}
+
+.specTitle {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.specDesc {
+  font-family: 'Lora', serif;
+  font-size: 0.92rem;
+  color: #b0aea5;
+  line-height: 1.65;
+}
+
+/* ---- Advanced tracks ---- */
+.advGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.advCard {
+  background: #1c1c1b;
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  padding: 1.4rem 1.2rem;
+  text-decoration: none !important;
+  color: #faf9f5 !important;
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.advCard:hover {
+  transform: translateY(-4px);
+  border-color: #d97757;
+}
+
+.advTitle {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.advDesc {
+  font-family: 'Lora', serif;
+  font-size: 0.85rem;
+  color: #b0aea5;
+  line-height: 1.6;
+}
+
+/* ---- Community banner ---- */
+.communityBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.communityText {
+  color: #b0aea5;
+  font-family: 'Lora', serif;
+  max-width: 560px;
+  line-height: 1.75;
+}
+
+.communityButtons {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.communityButtons :global(.button) {
+  background: #d97757;
+  border: 1px solid #d97757;
+  color: #faf9f5;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+}
+
+.communityButtons :global(.button:hover) {
+  background: #c56b4e;
+  border-color: #c56b4e;
+}
+
+.communityButtons :global(.button.button--secondary) {
+  background: transparent;
+  border: 1px solid #e8e6dc;
+}
+
+.communityButtons :global(.button.button--secondary:hover) {
+  background: rgba(250, 249, 245, 0.06);
+}
+
+/* ---- Responsive ---- */
 @media screen and (max-width: 996px) {
-  .heroBanner {
+  .hero {
     padding: 4.5rem 1rem 3.5rem;
   }
 
-  .heroSubtitle {
-    font-size: 0.98rem;
+  .statRow {
+    gap: 1.6rem;
+  }
+
+  .trackGrid,
+  .specGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .advGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .communityBanner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .communityButtons {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .advGrid {
+    grid-template-columns: 1fr;
   }
 }

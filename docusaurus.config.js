@@ -25,6 +25,19 @@ const config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ['en'],
+        indexBlog: false,
+        docsRouteBasePath: '/docs',
+      }),
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -45,7 +58,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/brotto-logo-256.png',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -67,49 +80,45 @@ const config = {
             label: 'Course',
           },
           {
-            to: '/docs/intro',
-            position: 'left',
-            label: 'Guide',
-          },
-          {
             to: '/manifesto',
             position: 'left',
             label: 'Manifesto',
           },
           {
+            type: 'dropdown',
+            label: 'Explore',
+            position: 'left',
+            items: [
+              {
+                label: 'Specializations',
+                to: '/docs/especializacoes/visao-geral',
+              },
+              {
+                label: 'Advanced Architectures',
+                to: '/docs/arquiteturas-avancadas/visao-geral',
+              },
+              {
+                label: 'AI Economics',
+                to: '/docs/economia-ia/visao-geral',
+              },
+              {
+                label: 'Adversarial Security',
+                to: '/docs/seguranca-adversarial/visao-geral',
+              },
+              {
+                label: 'Corporate Onboarding',
+                to: '/docs/onboarding-corporativo/visao-geral',
+              },
+              {
+                label: 'Practice Platform',
+                to: '/docs/plataforma-pratica/visao-geral',
+              },
+            ],
+          },
+          {
             to: '/docs/comunidade/roadmap-publico',
             position: 'left',
-            label: 'Roadmap',
-          },
-          {
-            to: '/docs/especializacoes/visao-geral',
-            position: 'left',
-            label: 'Specializations',
-          },
-          {
-            to: '/docs/plataforma-pratica/visao-geral',
-            position: 'left',
-            label: 'Practice',
-          },
-          {
-            to: '/docs/arquiteturas-avancadas/visao-geral',
-            position: 'left',
-            label: 'Advanced',
-          },
-          {
-            to: '/docs/economia-ia/visao-geral',
-            position: 'left',
-            label: 'Economics',
-          },
-          {
-            to: '/docs/seguranca-adversarial/visao-geral',
-            position: 'left',
-            label: 'Security',
-          },
-          {
-            to: '/docs/onboarding-corporativo/visao-geral',
-            position: 'left',
-            label: 'Onboarding',
+            label: 'Community',
           },
           {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
@@ -122,32 +131,77 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Course',
+            title: 'Learn',
             items: [
               {
-                label: 'Manifesto page',
-                to: '/manifesto',
-              },
-              {
-                label: 'Overview',
+                label: 'Course overview',
                 to: '/docs/intro',
               },
               {
                 label: 'Core Track',
                 to: '/docs/trilha/fundamentos-ssa',
               },
-            ],
-          },
-          {
-            title: 'Project',
-            items: [
+              {
+                label: 'Labs',
+                to: '/docs/labs/lab-01-modelagem-dominio-contrato-semantico',
+              },
               {
                 label: 'Templates',
                 to: '/docs/templates/template-architecture-spec-semantica',
               },
               {
-                label: 'Capstone',
+                label: 'Certification',
                 to: '/docs/certificacao/capstone-ssa',
+              },
+            ],
+          },
+          {
+            title: 'Explore',
+            items: [
+              {
+                label: 'Specializations',
+                to: '/docs/especializacoes/visao-geral',
+              },
+              {
+                label: 'Advanced Architectures',
+                to: '/docs/arquiteturas-avancadas/visao-geral',
+              },
+              {
+                label: 'AI Economics',
+                to: '/docs/economia-ia/visao-geral',
+              },
+              {
+                label: 'Adversarial Security',
+                to: '/docs/seguranca-adversarial/visao-geral',
+              },
+              {
+                label: 'Corporate Onboarding',
+                to: '/docs/onboarding-corporativo/visao-geral',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Playbooks',
+                to: '/docs/playbooks/padroes-arquiteturais-ssa',
+              },
+              {
+                label: 'Career path',
+                to: '/docs/carreira/trilha-de-carreira-ssa',
+              },
+              {
+                label: 'Glossary',
+                to: '/docs/referencias/glossario-ssa',
+              },
+              {
+                label: 'Competency map',
+                to: '/docs/referencias/mapa-de-competencias-ssa',
+              },
+              {
+                label: 'Practice Platform',
+                to: '/docs/plataforma-pratica/visao-geral',
               },
             ],
           },
@@ -155,17 +209,29 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Manifesto',
+                to: '/manifesto',
+              },
+              {
                 label: 'How to contribute',
                 to: '/docs/comunidade/como-contribuir',
               },
               {
-                label: 'Repository',
+                label: 'Governance',
+                to: '/docs/comunidade/governanca',
+              },
+              {
+                label: 'Roadmap',
+                to: '/docs/comunidade/roadmap-publico',
+              },
+              {
+                label: 'GitHub',
                 href: 'https://github.com/brotto/semantic-systems-architect-site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SSA Academy.`,
+        copyright: `Copyright \u00a9 ${new Date().getFullYear()} SSA Academy \u00b7 brotto.io`,
       },
       prism: {
         theme: prismThemes.github,
