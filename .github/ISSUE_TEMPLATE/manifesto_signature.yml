@@ -1,0 +1,42 @@
+name: Manifesto signature
+description: Sign the SSA Declaration and join the public signatory list
+labels: [manifesto, community]
+body:
+  - type: input
+    id: full_name
+    attributes:
+      label: Full name
+      placeholder: Your full name
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      placeholder: e.g. AI Architect, Researcher, Engineer
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country/Region
+      placeholder: e.g. Brazil
+  - type: input
+    id: public_link
+    attributes:
+      label: Public profile link
+      placeholder: https://...
+  - type: textarea
+    id: statement
+    attributes:
+      label: Why you support the declaration
+      description: One short paragraph is enough.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I authorize this signature to be listed publicly on the project website.
+          required: true

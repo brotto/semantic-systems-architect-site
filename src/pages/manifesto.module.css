@@ -1,0 +1,150 @@
+.page {
+  background: #141413;
+  color: #faf9f5;
+}
+
+.hero {
+  padding: 7rem 0 5rem;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(217, 119, 87, 0.24) 0%, transparent 40%),
+    radial-gradient(circle at 80% 25%, rgba(106, 155, 204, 0.2) 0%, transparent 35%),
+    radial-gradient(circle at 55% 85%, rgba(120, 140, 93, 0.2) 0%, transparent 40%),
+    #141413;
+  border-bottom: 1px solid #2a2926;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14rem;
+  color: #b0aea5;
+  margin-bottom: 0.7rem;
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+.title {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: clamp(3rem, 5vw, 4rem);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  max-width: 860px;
+  color: #e8e6dc;
+  font-family: 'Lora', serif;
+  line-height: 1.75;
+  margin-bottom: 1.6rem;
+}
+
+.heroButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.heroButtons :global(.button) {
+  background: #d97757;
+  border: 1px solid #d97757;
+  color: #faf9f5;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+}
+
+.heroButtons :global(.button.button--secondary) {
+  background: transparent;
+  border: 1px solid #e8e6dc;
+}
+
+.section {
+  padding: 3.2rem 0;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+}
+
+.sectionText {
+  color: #b0aea5;
+  margin-bottom: 1.2rem;
+}
+
+.declarationCard {
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  background: #1c1c1b;
+  padding: 1.4rem 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  background: #1c1c1b;
+  padding: 1.3rem 1.1rem;
+}
+
+.signatureList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.signatureCard {
+  border: 1px solid #2a2926;
+  border-radius: 16px;
+  background: #1c1c1b;
+  padding: 1.2rem 1rem;
+}
+
+.signatureMeta {
+  color: #d97757;
+  margin-bottom: 0.3rem;
+}
+
+.signatureActions {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.signatureActions :global(.button) {
+  background: #d97757;
+  border: 1px solid #d97757;
+  color: #faf9f5;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+}
+
+.signatureActions :global(.button.button--secondary) {
+  background: transparent;
+  border: 1px solid #e8e6dc;
+}
+
+.shareBox {
+  border: 1px dashed #b0aea5;
+  border-radius: 16px;
+  padding: 1.2rem 1rem;
+  background: rgba(232, 230, 220, 0.03);
+}
+
+@media (max-width: 996px) {
+  .hero {
+    padding: 5rem 0 3.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .signatureList {
+    grid-template-columns: 1fr;
+  }
+}

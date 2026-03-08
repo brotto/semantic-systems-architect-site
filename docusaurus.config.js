@@ -72,7 +72,7 @@ const config = {
             label: 'Guide',
           },
           {
-            to: '/docs/manifesto/declaration',
+            to: '/manifesto',
             position: 'left',
             label: 'Manifesto',
           },
@@ -125,8 +125,8 @@ const config = {
             title: 'Course',
             items: [
               {
-                label: 'Declaration',
-                to: '/docs/manifesto/declaration',
+                label: 'Manifesto page',
+                to: '/manifesto',
               },
               {
                 label: 'Overview',

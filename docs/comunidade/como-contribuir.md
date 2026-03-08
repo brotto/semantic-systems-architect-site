@@ -23,6 +23,13 @@ This course was designed to evolve with the community.
 3. New domain-specific labs.
 4. Evolution of rubrics and capstone.
 5. Material for translation and accessibility.
+6. Public signature of the declaration.
+
+## Sign the declaration
+
+If you want to support the movement as a signatory, use the issue template:
+
+- [Manifesto signature issue](https://github.com/brotto/semantic-systems-architect-site/issues/new?template=manifesto_signature.yml)
 
 ## Recommended process
 
