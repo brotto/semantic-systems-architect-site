@@ -36,9 +36,15 @@ title: Roadmap Publico
 - [Retrieval e reranking](../arquiteturas-avancadas/retrieval-e-reranking)
 - [Lab RAG de producao](../arquiteturas-avancadas/lab-rag-producao)
 
+## Fase 6 - Economia de IA (em andamento)
+
+- [Modelo de custos](../economia-ia/modelo-de-custos)
+- [Unit economics](../economia-ia/unit-economics)
+- [Governanca FinOps](../economia-ia/governanca-finops)
+- [Lab de otimizacao de custos](../economia-ia/lab-otimizacao-custos)
+
 ## Backlog priorizado
 
-1. Modulo de custos e otimizacao economica em sistemas de IA.
-2. Pacote de exemplos adversariais para seguranca.
-3. Trilha de onboarding corporativo SSA.
-4. Traducao completa para ingles.
+1. Pacote de exemplos adversariais para seguranca.
+2. Trilha de onboarding corporativo SSA.
+3. Traducao completa para ingles.

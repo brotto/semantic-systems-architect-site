@@ -101,6 +101,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Economia de IA',
+      items: [
+        'economia-ia/visao-geral',
+        'economia-ia/modelo-de-custos',
+        'economia-ia/unit-economics',
+        'economia-ia/otimizacao-tecnica',
+        'economia-ia/governanca-finops',
+        'economia-ia/dashboard-e-metricas',
+        'economia-ia/lab-otimizacao-custos',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

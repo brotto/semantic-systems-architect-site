@@ -34,10 +34,12 @@ npm run serve
 - `docs/especializacoes`: trilhas por dominio (saude, juridico, suporte b2b)
 - `docs/plataforma-pratica`: banco de casos, evals, capstones e maturidade
 - `docs/arquiteturas-avancadas`: guias tecnicos (RAG em producao e labs)
+- `docs/economia-ia`: custos, unit economics, FinOps e otimização
 - `docs/referencias`: glossario, competencias e estudos
 - `docs/comunidade`: contribuicao, governanca e roadmap
 - `community-assets`: templates e amostras para contribuicao comunitaria
   - `community-assets/rag`: templates de arquitetura, eval dataset e checklist operacional
+  - `community-assets/economia`: templates de custo, dashboard e experimentos
 
 ## Colaboracao
 

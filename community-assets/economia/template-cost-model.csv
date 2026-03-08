@@ -1,0 +1,3 @@
+flow_id,dominio,volume_mensal,custo_inferencia_unit,custo_retrieval_unit,custo_tools_unit,custo_operacao_unit,taxa_erro,taxa_escalonamento,custo_total_estimado
+flow-001,suporte-b2b,10000,0.08,0.02,0.01,0.01,0.06,0.12,1200
+flow-002,juridico,1500,0.22,0.03,0.02,0.03,0.04,0.18,450

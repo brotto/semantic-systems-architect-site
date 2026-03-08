@@ -60,6 +60,13 @@ Formar um SSA capaz de:
 - [RAG em producao](./arquiteturas-avancadas/rag-em-producao)
 - [Lab RAG de producao](./arquiteturas-avancadas/lab-rag-producao)
 
+## Economia de IA
+
+- [Visao geral](./economia-ia/visao-geral)
+- [Modelo de custos](./economia-ia/modelo-de-custos)
+- [Unit economics](./economia-ia/unit-economics)
+- [Lab otimizacao de custos](./economia-ia/lab-otimizacao-custos)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)

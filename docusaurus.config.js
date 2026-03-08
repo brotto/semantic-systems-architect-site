@@ -90,6 +90,11 @@ const config = {
             label: 'Avancadas',
           },
           {
+            to: '/docs/economia-ia/visao-geral',
+            position: 'left',
+            label: 'Economia',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',
