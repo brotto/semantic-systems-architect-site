@@ -1,41 +1,35 @@
 # The Semantic Systems Architect Declaration
 
-A fundamental shift is happening in computing.
+A structural shift is unfolding in computing.
 
-For decades, programming was treated as code writing. Programming languages became the center of software engineering, and programmers were seen as the translators between human intention and machines.
+For decades, programming was equated with writing code. Programming languages became the center of software engineering, and developers were cast as the translators between human intention and machines.
 
 But code was always an intermediary.
 
-The real substrate of computation was never syntax. It was meaning.
+The deepest substrate of computation is not syntax. It is meaning.
 
-When humans speak, they structure conditions, goals, states, and transformations. Human language already carries logic, structure, and computation.
+Whenever humans speak, they structure conditions, goals, states, and transformations. Human language already carries logic, structure, and computation.
 
-At a deep level, language is programming.
+At its deepest level, language is programming.
 
-Classical programming languages were restrictive meta-languages designed to remove natural ambiguity so machines could execute deterministically.
+Classical programming languages were restrictive meta-languages. They were designed to reduce ambiguity and guarantee deterministic execution while machines could only operate on rigid symbolic systems.
 
-That restriction was necessary while computers could only operate on rigid symbolic systems.
-
-Artificial intelligence changed this relationship.
+Artificial intelligence changes that relationship.
 
 For the first time, machines can operate directly on meaning.
 
-This opens a new form of engineering.
-
-An engineering discipline that starts not from code, but from the architecture of meaning.
-
-In this discipline:
+This inaugurates a new form of engineering:
 - language becomes an engineering interface
 - intention becomes architecture
 - artificial intelligence becomes the implementation mechanism
 
-Programming stops being only code writing.
+Programming no longer means only writing code.
 
-Programming becomes the design of structures of meaning that generate computational behavior.
+Programming now means designing structures of meaning that generate computational behavior.
 
-This is the role of the Semantic Systems Architect.
+That is the role of the Semantic Systems Architect.
 
-The Semantic Systems Architect designs systems in terms of knowledge, goals, agents, and processes, creating conceptual architectures that intelligent systems can interpret and implement.
+The Semantic Systems Architect designs systems in terms of knowledge, goals, agents, and processes, producing conceptual architectures that intelligent systems can interpret and implement.
 
 As machines begin to operate on meaning, a new layer emerges in the evolution of computing.
 

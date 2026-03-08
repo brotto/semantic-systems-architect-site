@@ -5,37 +5,41 @@ title: SSA Manifesto
 
 # Manifesto of Semantic Systems Architecture
 
-## Why this manifesto exists
+## A historical rupture
 
-Semantic Systems Architecture is emerging as a distinct discipline. This manifesto defines its philosophical and engineering foundation.
+Programming was treated for decades as a syntactic craft. That framing was useful, but incomplete.
 
-## Core claim
+Code was always an intermediary between intention and execution.
 
-Programming was never only syntax. Its deepest layer is meaning.
+The deepest substrate of computation is meaning.
 
-## Historical shift
+## Why now
 
-Classical software engineering relied on formal restrictive languages because machines could only execute rigid symbolic systems.
+Classical software required restrictive formal languages because machines could only execute rigid symbolic systems.
 
-AI systems introduce a semantic interface where intention can be interpreted and transformed into executable behavior.
+AI introduces a new interface layer where intention can be interpreted and transformed into computational behavior.
 
-## New role
+This is a structural transition in engineering, not a tooling trend.
 
-The Semantic Systems Architect designs structures of meaning in terms of:
+## The new role
+
+The Semantic Systems Architect designs systems in terms of:
 - knowledge
 - goals
 - agents
 - processes
 - reasoning flows
 
-## New discipline
+The implementation can then be generated, orchestrated, and executed by intelligent systems.
 
-Semantic Systems Architecture is a meaning-centered engineering practice where:
+## The discipline
+
+Semantic Systems Architecture is the discipline where:
 - language becomes engineering interface
-- conceptual architecture becomes system core
+- intention becomes architecture
 - AI becomes implementation mechanism
 
-## Full foundational version
+## Read the canonical long form
 
-For the canonical long-form manifesto used by the repository, see:
+The full foundational manifesto lives in:
 - `/manifesto/ssa-manifesto.md`

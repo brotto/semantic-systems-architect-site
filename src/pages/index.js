@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <p className={styles.kicker}>A new technology category</p>
+        <p className={styles.kicker}>brotto.io presents</p>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
@@ -22,7 +22,7 @@ function HomepageHeader() {
             Explore course
           </Link>
           <Link className="button button--secondary button--lg" to="/docs/manifesto/declaration">
-            Read declaration
+            Read manifesto
           </Link>
         </div>
       </div>

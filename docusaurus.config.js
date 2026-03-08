@@ -5,8 +5,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Semantic Systems Architect',
-  tagline: 'Open course for designing systems through semantics and AI',
-  favicon: 'img/favicon.ico',
+  tagline: 'Computing beyond syntax, toward the architecture of meaning',
+  favicon: 'img/brotto-logo-256.png',
 
   future: {
     v4: true,
@@ -47,15 +47,17 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: false,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'SSA Academy',
+        title: 'brotto.io | SSA',
         logo: {
-          alt: 'SSA Academy',
-          src: 'img/logo.svg',
+          alt: 'brotto.io',
+          src: 'img/brotto-logo-256.png',
+          width: 32,
+          height: 32,
         },
         items: [
           {

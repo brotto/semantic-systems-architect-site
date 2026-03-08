@@ -5,25 +5,16 @@ title: Declaration
 
 # The Semantic Systems Architect Declaration
 
-A fundamental shift is happening in computing.
+A structural shift is unfolding in computing.
 
-For decades, programming was treated as code writing. But code has always been an intermediary.
+Code was never the final substrate. It was an intermediary.
 
-The true substrate of computation is meaning.
+The deepest layer of computation is meaning.
 
-When humans speak, they structure goals, conditions, states, and transformations. Human language already contains logic and computation.
+With AI, machines can increasingly operate on structured meaning, not only rigid syntax. This opens a new engineering discipline where language is an interface, intention is architecture, and AI is the implementation mechanism.
 
-AI changes the interface between humans and machines.
+That discipline is Semantic Systems Architecture.
 
-Machines can now operate directly on meaning.
+Its architect is the Semantic Systems Architect.
 
-This creates a new engineering discipline:
-- language as engineering interface
-- intention as architecture
-- AI as implementation mechanism
-
-Programming expands from writing instructions to designing structures of meaning that generate computational behavior.
-
-That is the role of the Semantic Systems Architect.
-
-Read the full text in [The SSA Manifesto](./ssa-manifesto).
+Read the long-form foundational text in [SSA Manifesto](./ssa-manifesto).

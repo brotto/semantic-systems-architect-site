@@ -3,31 +3,39 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 15% 20%, #e9fff6 0%, transparent 36%),
-    radial-gradient(circle at 82% 18%, #fff1db 0%, transparent 38%),
-    linear-gradient(140deg, #0b2628 0%, #103538 42%, #145059 100%);
+  background:
+    radial-gradient(circle at 18% 20%, rgba(217, 119, 87, 0.25) 0%, transparent 36%),
+    radial-gradient(circle at 80% 22%, rgba(106, 155, 204, 0.22) 0%, transparent 34%),
+    radial-gradient(circle at 55% 80%, rgba(120, 140, 93, 0.22) 0%, transparent 38%),
+    #141413;
 }
 
 .kicker {
   text-transform: uppercase;
-  letter-spacing: 0.16rem;
-  font-weight: 700;
-  color: #ffe9ba;
-  margin-bottom: 0.6rem;
+  letter-spacing: 0.14rem;
+  font-weight: 400;
+  color: #b0aea5;
+  margin-bottom: 0.7rem;
+  font-family: 'Cabinet Grotesk', sans-serif;
 }
 
 .heroTitle {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(2.4rem, 6vw, 4.4rem);
-  color: #f4fffb;
-  margin-bottom: 0.75rem;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: clamp(3rem, 5vw, 4rem);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #faf9f5;
+  margin-bottom: 0.9rem;
 }
 
 .heroSubtitle {
-  color: #d7fff5;
-  font-size: 1.2rem;
-  max-width: 760px;
+  color: #e8e6dc;
+  font-size: 1rem;
+  max-width: 800px;
   margin: 0 auto 2rem;
+  font-family: 'Lora', serif;
+  line-height: 1.75;
 }
 
 .buttons {
@@ -39,16 +47,17 @@
 }
 
 .buttons :global(.button) {
-  background: #ffd68d;
-  border: 1px solid #ffe2ac;
-  color: #0b2628;
-  font-weight: 700;
+  background: #d97757;
+  border: 1px solid #d97757;
+  color: #faf9f5;
+  font-weight: 400;
+  font-family: 'Cabinet Grotesk', sans-serif;
 }
 
 .buttons :global(.button.button--secondary) {
   background: transparent;
-  color: #f4fffb;
-  border: 1px solid #b8ece1;
+  color: #faf9f5;
+  border: 1px solid #e8e6dc;
 }
 
 @media screen and (max-width: 996px) {
@@ -57,6 +66,6 @@
   }
 
   .heroSubtitle {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
   }
 }

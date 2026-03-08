@@ -1,44 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
-  --ifm-color-primary: #11605d;
-  --ifm-color-primary-dark: #0f5552;
-  --ifm-color-primary-darker: #0e4f4d;
-  --ifm-color-primary-darkest: #0c413f;
-  --ifm-color-primary-light: #13706d;
-  --ifm-color-primary-lighter: #157674;
-  --ifm-color-primary-lightest: #1a8a86;
-  --ifm-background-color: #f7fcfb;
-  --ifm-font-family-base: 'Manrope', sans-serif;
-  --ifm-heading-font-family: 'Space Grotesk', sans-serif;
+  --brotto-dark: #141413;
+  --brotto-light: #faf9f5;
+  --brotto-mid-gray: #b0aea5;
+  --brotto-light-gray: #e8e6dc;
+  --brotto-orange: #d97757;
+  --brotto-blue: #6a9bcc;
+  --brotto-green: #788c5d;
+
+  --ifm-color-primary: #d97757;
+  --ifm-color-primary-dark: #c56b4e;
+  --ifm-color-primary-darker: #bb6548;
+  --ifm-color-primary-darkest: #9b533b;
+  --ifm-color-primary-light: #dd8568;
+  --ifm-color-primary-lighter: #e08b71;
+  --ifm-color-primary-lightest: #e8a089;
+
+  --ifm-background-color: #faf9f5;
+  --ifm-background-surface-color: #faf9f5;
+  --ifm-font-color-base: #141413;
+  --ifm-font-color-secondary: #b0aea5;
+
+  --ifm-font-family-base: 'Lora', serif;
+  --ifm-heading-font-family: 'Cabinet Grotesk', sans-serif;
   --ifm-code-font-size: 94%;
-  --ifm-navbar-background-color: rgba(250, 255, 253, 0.94);
-  --ifm-footer-background-color: #102f32;
-  --ifm-link-color: #0d5754;
-  --ifm-link-hover-color: #0a4644;
-  --docusaurus-highlighted-code-line-bg: rgba(7, 58, 50, 0.1);
+
+  --ifm-navbar-background-color: rgba(250, 249, 245, 0.92);
+  --ifm-footer-background-color: #141413;
+
+  --ifm-link-color: #d97757;
+  --ifm-link-hover-color: #c56b4e;
+
+  --ifm-color-content-secondary: #b0aea5;
+  --ifm-toc-border-color: #e8e6dc;
+
+  --docusaurus-highlighted-code-line-bg: rgba(217, 119, 87, 0.12);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #53c3ba;
-  --ifm-color-primary-dark: #3fb5ac;
-  --ifm-color-primary-darker: #33ada4;
-  --ifm-color-primary-darkest: #2a8d85;
-  --ifm-color-primary-light: #67d0c8;
-  --ifm-color-primary-lighter: #74d5cd;
-  --ifm-color-primary-lightest: #93e0da;
-  --ifm-background-color: #0c1d20;
-  --ifm-navbar-background-color: rgba(8, 19, 20, 0.92);
-  --ifm-footer-background-color: #081516;
-  --docusaurus-highlighted-code-line-bg: rgba(130, 223, 214, 0.2);
+  --ifm-color-primary: #d97757;
+  --ifm-color-primary-dark: #c56b4e;
+  --ifm-color-primary-darker: #bb6548;
+  --ifm-color-primary-darkest: #9b533b;
+  --ifm-color-primary-light: #dd8568;
+  --ifm-color-primary-lighter: #e08b71;
+  --ifm-color-primary-lightest: #e8a089;
+
+  --ifm-background-color: #141413;
+  --ifm-background-surface-color: #1c1c1b;
+  --ifm-font-color-base: #faf9f5;
+  --ifm-font-color-secondary: #b0aea5;
+
+  --ifm-navbar-background-color: rgba(20, 20, 19, 0.9);
+  --ifm-footer-background-color: #141413;
+
+  --ifm-link-color: #d97757;
+  --ifm-link-hover-color: #e8a089;
+
+  --ifm-color-content-secondary: #b0aea5;
+  --ifm-toc-border-color: #2a2926;
+
+  --docusaurus-highlighted-code-line-bg: rgba(217, 119, 87, 0.2);
+}
+
+html,
+body {
+  font-family: 'Lora', serif;
 }
 
 .navbar {
   backdrop-filter: blur(8px);
+  border-bottom: 1px solid #e8e6dc;
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid #2a2926;
 }
 
 .markdown > h1,
 .markdown > h2,
-.markdown > h3 {
-  letter-spacing: -0.01em;
+.theme-doc-markdown header h1 {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.markdown > h1,
+.theme-doc-markdown header h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+}
+
+.markdown > h2 {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.markdown > h3,
+h3 {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.35;
+}
+
+.markdown p,
+.markdown li,
+.markdown blockquote {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75;
 }
