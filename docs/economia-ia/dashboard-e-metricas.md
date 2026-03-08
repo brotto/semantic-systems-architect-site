@@ -1,33 +1,33 @@
 ---
 sidebar_position: 6
-title: Dashboard e Metricas
+title: Dashboard and Metrics
 ---
 
-# Dashboard economico de IA
+# AI economic dashboard
 
-## Blocos do dashboard
+## Dashboard tiles
 
-1. Consumo
-- tokens por fluxo
-- custo diario e mensal
+1. Consumption
+- tokens per flow
+- daily and monthly cost
 
-2. Eficiência
-- custo por tarefa concluida
-- custo por tarefa correta
+2. Efficiency
+- cost per task completed
+- cost per correct task
 
-3. Qualidade economica
-- custo por falha evitada
-- custo de escalonamento humano
+3. Economic quality
+- cost per failure avoided
+- human scaling cost
 
-4. Previsibilidade
-- variacao semanal de custo
-- desvio vs orcamento
+4. Predictability
+- weekly cost variation
+- deviation vs budget
 
-## Alertas de operacao
+## Operation alerts
 
-- Crescimento de custo acima do limite semanal.
-- Queda de eficiencia sem melhoria de qualidade.
-- Aumento de taxa de falha com custo estavel.
+- Cost growth above the weekly limit.
+- Drop in efficiency without improvement in quality.
+- Increased failure rate with stable cost.
 
 ## Template
 

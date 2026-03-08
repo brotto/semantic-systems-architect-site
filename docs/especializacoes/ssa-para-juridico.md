@@ -1,50 +1,50 @@
 ---
 sidebar_position: 4
-title: SSA para Juridico
+title: SSA for Legal
 ---
 
-# SSA para Juridico
+# SSA for Legal
 
-## Objetivo
+## Objective
 
-Projetar sistemas para analise juridica assistida com foco em coerencia normativa, explicabilidade e controle de risco regulatorio.
+Design systems for assisted legal analysis with a focus on regulatory coherence, explainability and regulatory risk control.
 
-## Casos de uso prioritarios
+## Priority use cases
 
-1. Classificacao de documentos e clausulas.
-2. Analise preliminar de risco contratual.
-3. Geração de minutas com politicas institucionais.
+1. Classification of documents and clauses.
+2. Preliminary contractual risk analysis.
+3. Generation of minutes with institutional policies.
 
-## Ontologia minima recomendada
+## Minimum recommended ontology
 
-- Documento
-- Clausula
-- Obrigacao
-- Risco
-- Jurisdicao
-- Precedente
-- Politica interna
-- Parecer preliminar
+- Document
+- Clause
+- Obligation
+- Risk
+- Jurisdiction
+- Precedent
+- internal policy
+- Preliminary opinion
 
-## Riscos criticos
+## Critical risks
 
-- Interpretacao normativa sem base documental.
-- Uso de jurisdicao incorreta.
-- Saida assertiva sem nivel de confianca.
+- Normative interpretation without documentary basis.
+- Use of incorrect jurisdiction.
+- Assertive output without a level of trust.
 
-## Arquitetura de referencia
+## Reference architecture
 
-- Agente `doc-parser`: extrai estrutura juridica.
-- Agente `legal-reasoner`: compara com normas e politicas.
-- Agente `risk-critic`: pontua risco e lacunas.
-- Agente `compliance-guard`: valida aderencia de output.
+- Agent `doc-parser`: extracts legal structure.
+- Agent `legal-reasoner`: compares with standards and policies.
+- Agent `risk-critic`: scores risks and gaps.
+- Agent `compliance-guard`: validates output adherence.
 
-## Evals essenciais
+## Essential Evals
 
-- Precisao na classificacao de clausulas.
-- Cobertura de riscos contratuais criticos.
-- Qualidade do rationale juridico.
+- Precision in the classification of clauses.
+- Coverage of critical contractual risks.
+- Quality of the legal rationale.
 
-## Proximo passo
+## Next step
 
-Executar [Lab Juridico](./lab-juridico)
+Run [Legal Lab](./lab-juridico)

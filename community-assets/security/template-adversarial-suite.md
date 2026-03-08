@@ -1,23 +1,23 @@
-# Template - Suite adversarial
+# Template - Adversarial Suite
 
-- Suite ID:
-- Sistema alvo:
-- Versao:
-- Data:
+- SuiteID:
+- Target system:
+- Version:
+- Date:
 
-## Cobertura
+## Coverage
 
-| Categoria | Casos | Taxa de bloqueio |
+| Category | Cases | Block Rate |
 |---|---|---|
 
-## Falhas criticas
+## Critical failures
 
 - 
 
-## Regressao vs baseline
+## Regression vs baseline
 
 - 
 
-## Acoes corretivas
+## Corrective actions
 
 - 

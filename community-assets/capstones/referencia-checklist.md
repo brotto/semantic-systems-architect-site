@@ -1,9 +1,9 @@
-# Checklist - Capstone de referencia
+# Checklist - Benchmark Capstone
 
-- [ ] Problema e objetivos claros
-- [ ] Ontologia consistente
-- [ ] Arquitetura com responsabilidades explicitas
-- [ ] Evals reproduziveis
-- [ ] Riscos e mitigacoes documentados
-- [ ] Plano operacional realista
-- [ ] Aprendizados e proximo ciclo
+- [ ] Clear problem and objectives
+- [ ] Consistent ontology
+- [ ] Architecture with explicit responsibilities
+- [ ] Reproducible evals
+- [ ] Documented risks and mitigations
+- [ ] Realistic operational plan
+- [ ] Learnings and next cycle

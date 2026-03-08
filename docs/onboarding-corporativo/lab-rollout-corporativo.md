@@ -1,25 +1,25 @@
 ---
 sidebar_position: 7
-title: Lab Rollout Corporativo
+title: Lab Corporate Rollout
 ---
 
-# Lab - Rollout corporativo SSA
+# Lab - SSA corporate rollout
 
-## Desafio
+## Challenge
 
-Planejar rollout SSA para três squads com níveis diferentes de maturidade.
+Plan SSA rollout for three squads with different maturity levels.
 
-## Entregas obrigatórias
+## Mandatory deliveries
 
-1. Plano 30-60-90 por squad.
-2. Mapa de stakeholders e papéis.
-3. Backlog de capacitação e arquitetura.
-4. Conjunto mínimo de métricas e rituais.
-5. Estratégia de expansão para próximo trimestre.
+1. Plan 30-60-90 per squad.
+2. Map of stakeholders and roles.
+3. Training and architecture backlog.
+4. Minimum set of metrics and rituals.
+5. Expansion strategy for the next quarter.
 
-## Critérios de aprovação
+## Approval criteria
 
-- Clareza de implantação.
-- Viabilidade organizacional.
-- Controle de risco e governança.
-- Potencial de impacto mensurável.
+- Deployment clarity.
+- Organizational viability.
+- Risk control and governance.
+- Potential for measurable impact.

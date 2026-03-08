@@ -1,49 +1,49 @@
-# Módulo 8 - Produto, Operação e Escala
+# Module 8 - Product, Operation and Scale
 
-## Objetivo
+## Aim
 
-Conectar arquitetura semântica à entrega de valor real com operação contínua, gestão de custo e evolução de produto.
+Connect semantic architecture to deliver real value with continuous operation, cost management and product evolution.
 
-## Competências
+## Skills
 
-- Priorizar roadmap SSA por impacto e risco.
-- Definir modelo operacional de squads com IA.
-- Escalar sistemas com controle de custo e qualidade.
+- Prioritize SSA roadmap by impact and risk.
+- Defines operational model for squads with AI.
+- Scale systems with cost and quality control.
 
-## Conteúdo
+## Content
 
-1. Product thinking para SSA
-- JTBD e casos de alto valor
-- Sequenciamento de capacidades
-- Métricas norte (valor + qualidade + risco)
+1. Product thinking for SSA
+- JTBD and high-value cases
+- Capacity Sequencing
+- North metrics (value + quality + risk)
 
-2. Operação contínua
-- SLOs de serviço cognitivo
-- On-call semântico
-- Gestão de incidentes de comportamento
+2. Continuous operations
+- Cognitive Service SLOs
+- On-call semantics
+- Behavior incident management
 
-3. Economia de sistemas de IA
-- Orçamento de tokens
-- Custo por tarefa concluída
-- Estratégias de roteamento por modelo
+3. Economics of AI systems
+- Token budget
+- Cost per completed task
+- Routing Strategies Template
 
-4. Evolução e escala
-- Arquitetura modular
-- Biblioteca de padrões SSA
-- Programa interno de capacitação
+4. Evolution and scale
+- Modular architecture
+- SSA Standards Library
+- Internal training program
 
-## Exercícios
+## Exercises
 
-1. Criar roadmap SSA de 2 trimestres.
-2. Definir SLOs e alarmes para operação.
-3. Planejar estratégia de scale-up com governança.
+1. Create 2-quarter SSA roadmap.
+2. Set SLOs and alarms for operations.
+3. Plan scale-up strategy with governance.
 
-## Entregável
+## Deliverable
 
-"Plano de Escala SSA" com metas trimestrais.
+"SSA Scale Plan" with quarterly goals.
 
-## Checklist de conclusão
+## Completion checklist
 
-- Existe alinhamento explícito entre arquitetura e valor de negócio.
-- Operação está preparada para falhas reais.
-- Estratégia de crescimento preserva segurança e qualidade.
+- There is explicit alignment between architecture and business value.
+- Operation is prepared for real failures.
+- Growth strategy preserves safety and quality.

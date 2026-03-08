@@ -1,23 +1,23 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Plataforma de pratica SSA
+# SSA practice platform
 
-A Plataforma de pratica organiza contribuicoes da comunidade para acelerar aprendizado aplicado e validacao de arquiteturas.
+The Practice Platform organizes community contributions to accelerate applied learning and architecture validation.
 
-## Objetivos
+## Objectives
 
-- Compartilhar casos reais e sinteticos com estrutura padronizada.
-- Executar evals comparaveis entre abordagens.
-- Publicar capstones de referencia reutilizaveis.
-- Medir maturidade SSA de equipes e organizacoes.
+- Share real and synthetic cases with a standardized structure.
+- Perform comparable evals between approaches.
+- Publish reusable reference capstones.
+- Measure SSA maturity of teams and organizations.
 
-## Componentes
+## Components
 
-- [Banco de casos](./banco-de-casos)
-- [Evals comunitarias](./evals-comunitarias)
-- [Capstones de referencia](./capstones-referencia)
-- [Matriz de maturidade SSA](./matriz-maturidade-ssa)
-- [Como submeter](./como-submeter)
+- [Case Bank](./banco-de-casos)
+- [Community Evals](./evals-comunitarias)
+- [Reference Capstones](./capstones-referencia)
+- [SSA Maturity Matrix](./matriz-maturidade-ssa)
+- [How to submit](./como-submeter)

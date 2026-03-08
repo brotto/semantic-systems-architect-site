@@ -1,8 +1,8 @@
-# Checklist - Release com impacto de custo
+# Checklist - Release with cost impact
 
-- [ ] Estimativa de custo pre e pos mudanca
-- [ ] Validacao de qualidade e seguranca
-- [ ] Avaliacao de impacto em latencia
-- [ ] Definicao de criterio de rollback
-- [ ] Alertas financeiros ajustados
-- [ ] Aprovacao de owner tecnico e product
+- [ ] Pre and post change cost estimate
+- [ ] Quality and safety validation
+- [ ] Latency impact assessment
+- [ ] Rollback criteria definition
+- [ ] Adjusted financial alerts
+- [ ] Approval of technical and product owner

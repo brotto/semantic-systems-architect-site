@@ -1,19 +1,19 @@
 # Community assets
 
-Repositorio de artefatos submetidos pela comunidade para pratica SSA.
+Repository of artifacts submitted by the community for SSA practice.
 
-## Estrutura
+## Structure
 
-- `case-bank/`: casos padronizados
-- `evals/`: suites e relatorios de avaliacao
-- `capstones/`: templates e referencias
-- `rag/`: templates e checklists para arquitetura RAG em producao
-- `economia/`: templates para modelagem de custos e operacao FinOps
-- `security/`: casos adversariais, suites e checklist de release segura
-- `onboarding/`: templates para implantação corporativa SSA
+- `case-bank/`: standardized cases
+- `evals/`: suites and evaluation reports
+- `capstones/`: templates and references
+- `rag/`: templates and checklists for RAG architecture in production
+- `economia/`: templates for cost modeling and FinOps operations
+- `security/`: adversarial cases, suites and safe release checklist
+- `onboarding/`: templates for SSA corporate deployment
 
-## Regras
+## Rules
 
-- Nao incluir dados pessoais ou sensiveis.
-- Manter schema consistente com templates.
-- Versionar mudancas relevantes em PR dedicada.
+- Do not include personal or sensitive data.
+- Maintain consistent schema with templates.
+- Version relevant changes in dedicated PR.

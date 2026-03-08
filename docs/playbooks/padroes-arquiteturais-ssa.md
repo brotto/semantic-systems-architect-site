@@ -1,60 +1,60 @@
-# Playbook - Padrões Arquiteturais SSA
+# Playbook - SSA Architectural Standards
 
-## Padrão 1: Supervisor + Especialistas
+## Pattern 1: Supervisor + Experts
 
-Quando usar:
-- Problemas com múltiplas competências.
-- Necessidade de coordenação explícita.
+When to use:
+- Problems with multiple skills.
+- Need for explicit coordination.
 
-Vantagens:
-- Controle central.
-- Boa auditabilidade.
+Advantages:
+- Central control.
+- Good auditability.
 
-Riscos:
-- Gargalo no supervisor.
+Risks:
+- Bottleneck at the supervisor.
 
-## Padrão 2: Pipeline por estágio
+## Pattern 2: Pipeline by stage
 
-Quando usar:
-- Processos sequenciais previsíveis.
-- Requisitos de rastreabilidade por etapa.
+When to use:
+- Predictable sequential processes.
+- Stage traceability requirements.
 
-Vantagens:
-- Simplicidade operacional.
-- Fácil medição de performance por fase.
+Advantages:
+- Operational simplicity.
+- Easy performance measurement per phase.
 
-Riscos:
-- Menos adaptável a casos inesperados.
+Risks:
+- Less adaptable to unexpected cases.
 
-## Padrão 3: Critic Loop
+## Pattern 3: Critical Loop
 
-Quando usar:
-- Saídas de alto impacto exigem revisão interna.
+When to use:
+- High-impact departures require internal review.
 
-Vantagens:
-- Reduz erro sem elevar intervenção humana em todos os casos.
+Advantages:
+- Reduces error without requiring human intervention in all cases.
 
-Riscos:
-- Pode aumentar latência e custo.
+Risks:
+- May increase latency and cost.
 
-## Padrão 4: Human-in-the-loop seletivo
+## Pattern 4: Selective Human-in-the-loop
 
-Quando usar:
-- Decisões sensíveis, reguladas ou irreversíveis.
+When to use:
+- Sensitive, regulated or irreversible decisions.
 
-Vantagens:
-- Controle de risco.
+Advantages:
+- Risk control.
 
-Riscos:
-- Pode reduzir escala se mal calibrado.
+Risks:
+- May reduce scale if poorly calibrated.
 
-## Padrão 5: Roteamento por complexidade
+## Pattern 5: Complexity Routing
 
-Quando usar:
-- Carga heterogênea de tarefas com diferentes custos ideais.
+When to use:
+- Heterogeneous task load with different optimal costs.
 
-Vantagens:
-- Otimiza custo/qualidade.
+Advantages:
+- Optimizes cost/quality.
 
-Riscos:
-- Classificação ruim degrada resultado.
+Risks:
+- Bad classification degrades results.

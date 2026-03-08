@@ -4,24 +4,24 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Base conceitual',
+    title: 'Conceptual foundations',
     description:
-      'Fundamentos de semantica computacional, ontologias e design de decisao para IA.',
+      'Foundations of computational semantics, ontologies, and decision design for AI.',
   },
   {
-    title: 'Arquitetura aplicada',
+    title: 'Applied architecture',
     description:
-      'Projeto de agentes, workflows, contratos semanticos e engenharia de contexto.',
+      'Design of agents, workflows, semantic contracts, and context engineering.',
   },
   {
-    title: 'Pratica e certificacao',
+    title: 'Practice and certification',
     description:
-      'Labs, templates, rubricas e capstone para formar um SSA pronto para producao.',
+      'Labs, templates, rubrics, and capstone to form a production-ready SSA.',
   },
   {
-    title: 'Comunidade open source',
+    title: 'Open-source community',
     description:
-      'Roadmap aberto, governanca e contribuicoes por issue/PR para evolucao continua.',
+      'Open roadmap, governance, and issue/PR contributions for continuous evolution.',
   },
 ];
 

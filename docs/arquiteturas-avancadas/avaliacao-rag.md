@@ -1,34 +1,34 @@
 ---
 sidebar_position: 5
-title: Avaliacao de RAG
+title: RAG assessment
 ---
 
-# Avaliacao de sistemas RAG
+# RAG systems assessment
 
-## Camadas de avaliacao
+## Assessment layers
 
-1. Avaliacao de retrieval.
-2. Avaliacao de geracao.
-3. Avaliacao end-to-end de tarefa.
-4. Avaliacao de seguranca e compliance.
+1. Retrieval evaluation.
+2. Generation assessment.
+3. End-to-end task evaluation.
+4. Security and compliance assessment.
 
-## Dataset minimo
+## Minimum dataset
 
-- 30 casos de rotina.
-- 10 casos de borda.
-- 10 casos adversariais.
-- 10 casos sem evidencia suficiente.
+- 30 routine cases.
+- 10 edge cases.
+- 10 adversarial cases.
+- 10 cases without sufficient evidence.
 
-## Rubrica minima
+## Minimum item
 
-- Aderencia a evidencia.
-- Corretude da resposta.
-- Completude para decisao.
-- Transparencia de incerteza.
-- Conformidade com politicas.
+- Adherence to evidence.
+- Correctness of the answer.
+- Completeness for decision.
+- Transparency of uncertainty.
+- Compliance with policies.
 
-## Gates de release sugeridos
+## Suggested release gates
 
-- Faithfulness maior ou igual a 0.90
-- Falhas criticas = 0
-- Regressao de recall menor ou igual a 2%
+- Faithfulness greater than or equal to 0.90
+- Critical failures = 0
+- Recall regression less than or equal to 2%

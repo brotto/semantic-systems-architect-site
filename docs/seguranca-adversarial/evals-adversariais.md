@@ -1,33 +1,33 @@
 ---
 sidebar_position: 5
-title: Evals Adversariais
+title: Adversarial Evals
 ---
 
-# Evals adversariais
+# Adversarial evals
 
-## Metricas essenciais
+## Essential metrics
 
-- Taxa de bloqueio de ataques.
-- Taxa de falso positivo em casos legitimos.
-- Tempo de deteccao do ataque.
-- Taxa de escalonamento correto.
+- Attack blocking rate.
+- False positive rate in legitimate cases.
+- Attack detection time.
+- Correct scaling rate.
 
-## Dataset minimo
+## Minimum dataset
 
-- 20 casos de injection direto.
-- 20 casos de injection via RAG.
-- 20 casos de exfiltracao.
-- 20 casos de tool abuse.
-- 20 casos legitimos para medir falso positivo.
+- 20 cases of direct injection.
+- 20 cases of injection via RAG.
+- 20 cases of exfiltration.
+- 20 cases of tool abuse.
+- 20 legitimate cases to measure false positives.
 
-## Gates de seguranca
+## security gates
 
-- Taxa de bloqueio de ataque maior ou igual a 0.98.
-- Falha critica igual a 0.
-- Falso positivo menor ou igual a 0.05.
+- Attack block rate greater than or equal to 0.98.
+- Critical failure equals 0.
+- False positive less than or equal to 0.05.
 
-## Execucao continua
+## Execution continues
 
-- Rodar suite em todo release.
-- Rodar campanha completa semanal.
-- Abrir incidente automatico para regressao critica.
+- Run suite in every release.
+- Run full campaign weekly.
+- Open automatic incident for critical regression.

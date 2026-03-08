@@ -1,52 +1,52 @@
-# Template - Architecture Spec Semântica
+# Template - Architecture Spec Semantics
 
-## 1. Contexto
-- Problema de negócio:
-- Usuários impactados:
-- Resultado esperado:
+## 1. Context
+- Business problem:
+- Impacted users:
+- Expected result:
 
-## 2. Escopo e não-escopo
-- Inclui:
-- Não inclui:
+## 2. Scope and non-scope
+- Includes:
+- Does not include:
 
-## 3. Ontologia de domínio (resumo)
-- Entidades-chave:
-- Relações-chave:
-- Invariantes:
+## 3. Domain ontology (summary)
+- Key entities:
+- Key relationships:
+- Invariants:
 
-## 4. Arquitetura de agentes
-- Agente:
-- Missão:
-- Entradas:
-- Saídas:
-- Limites:
+## 4. Agent architecture
+- Agent:
+- Mission:
+- Entries:
+- Outputs:
+- Limits:
 
-## 5. Fluxo operacional
+## 5. Operational flow
 - Trigger:
-- Etapas:
-- Ferramentas:
+- Steps:
+- Tools:
 - Fallback:
 
-## 6. Política semântica
-- Regras mandatórias:
-- Regras condicionais:
-- Critérios de bloqueio:
+## 6. Semantic policy
+- Mandatory rules:
+- Conditional rules:
+- Blocking criteria:
 
-## 7. Avaliação
-- Métricas:
+## 7. Assessment
+- Metrics:
 - Dataset:
-- Gate de release:
+- Release gate:
 
-## 8. Segurança e governança
-- Riscos principais:
-- Mitigações:
-- Auditoria:
+## 8. Security and governance
+- Main risks:
+- Mitigations:
+- Audit:
 
-## 9. Operação
+## 9. Operation
 - SLOs:
-- Alertas:
+- Alerts:
 - Runbook:
 
-## 10. Evolução
-- Hipóteses:
-- Próximas versões:
+## 10. Evolution
+- Hypotheses:
+- Next versions:

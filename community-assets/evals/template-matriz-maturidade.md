@@ -1,10 +1,10 @@
-# Template - Matriz de maturidade SSA
+# Template - SSA Maturity Matrix
 
-| Dimensao | Nivel atual (M0-M4) | Evidencia | Gap principal | Proxima acao |
+| Dimension | Current level (M0-M4) | Evidence | Main Gap | Next action |
 |---|---|---|---|---|
-| Modelagem semantica |  |  |  |  |
-| Arquitetura de agentes |  |  |  |  |
-| Engenharia de contexto |  |  |  |  |
-| Avaliacao e observabilidade |  |  |  |  |
-| Seguranca e governanca |  |  |  |  |
-| Operacao e escala |  |  |  |  |
+| Semantic modeling |  |  |  |  |
+| Agent architecture |  |  |  |  |
+| Context engineering |  |  |  |  |
+| Assessment and observability |  |  |  |  |
+| Security and governance |  |  |  |  |
+| Operation and scale |  |  |  |  |

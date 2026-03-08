@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Discussao geral
+  - name: General discussion
     url: https://github.com/brotto/semantic-systems-architect-site/discussions
-    about: Use discussions para ideias abertas e perguntas gerais.
+    about: Use discussions for open ideas and general questions.

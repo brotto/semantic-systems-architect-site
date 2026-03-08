@@ -1,48 +1,48 @@
-# Módulo 6 - Avaliação, Qualidade e Observabilidade
+# Module 6 - Assessment, Quality and Observability
 
-## Objetivo
+## Aim
 
-Transformar qualidade de IA em disciplina de engenharia mensurável com evals contínuas.
+Transform AI quality into a measurable engineering discipline with continuous evals.
 
-## Competências
+## Skills
 
-- Definir métricas de qualidade por tipo de tarefa.
-- Construir suíte de avaliação offline e online.
-- Instrumentar traços semânticos para depuração e melhoria contínua.
+- Defines quality metrics by task type.
+- Build offline and online assessment suite.
+- Instrument semantic traits for debugging and continuous improvement.
 
-## Conteúdo
+## Content
 
-1. Fundamentos de avaliação
-- Métricas objetivas (acurácia, cobertura, latência, custo)
-- Métricas semânticas (coerência, aderência a políticas, utilidade)
+1. Assessment fundamentals
+- Objective metrics (accuracy, coverage, latency, cost)
+- Semantic metrics (coherence, policy adherence, usefulness)
 
-2. Evals estruturadas
-- Dataset de casos críticos
-- Rubricas de julgamento
-- Testes de regressão semântica
+2. Structured evals
+- Critical cases dataset
+- Judging rubrics
+- Semantic Regression Testing
 
-3. Observabilidade
-- Traces por etapa
-- Eventos de decisão
-- Alertas de drift
+3. Observability
+- Traces per stage
+- Decision events
+- Operation alerts
 
-4. Governança de qualidade
-- Gates para deploy
-- Critérios de rollback
-- Ciclo de melhoria orientado a evidência
+4. Quality governance
+- Gates for deployment
+- Rollback criteria
+- Evidence-driven improvement cycle
 
-## Exercícios
+## Exercises
 
-1. Criar suíte inicial com 50 casos (happy path, edge, adversarial).
-2. Definir gate mínimo para release.
-3. Simular regressão e executar resposta operacional.
+1. Create initial suite with 50 cases (happy path, edge, adversarial).
+2. Defines minimum gate for release.
+3. Simulate regression and perform operational response.
 
-## Entregável
+## Deliverable
 
-"Suite de Qualidade SSA" + dashboard mínimo.
+"SSA Quality Suite" + minimal dashboard.
 
-## Checklist de conclusão
+## Completion checklist
 
-- Existe baseline de qualidade.
-- Mudanças têm comparação antes/depois.
-- Time decide com dados, não percepção.
+- There is a quality baseline.
+- Changes have a before/after comparison.
+- Team decides with data, not perception.

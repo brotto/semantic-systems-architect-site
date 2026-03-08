@@ -1,30 +1,30 @@
 name: Capstone submission
-description: Submissao de capstone para colecao de referencia
+description: Submit a capstone to the reference collection
 labels: [content, capstone]
 body:
   - type: input
-    id: titulo
+    id: title
     attributes:
-      label: Titulo do capstone
+      label: Capstone title
     validations:
       required: true
   - type: textarea
-    id: problema
+    id: problem
     attributes:
-      label: Problema resolvido
+      label: Problem solved
     validations:
       required: true
   - type: textarea
-    id: arquitetura
+    id: architecture
     attributes:
-      label: Resumo da arquitetura
+      label: Architecture summary
     validations:
       required: true
   - type: textarea
     id: evals
     attributes:
-      label: Evidencias de evals
-      description: Inclua scores e principais aprendizados.
+      label: Evaluation evidence
+      description: Include scores and key learnings.
     validations:
       required: true
   - type: checkboxes
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: Anexei ou linkei artefatos reproduziveis.
+        - label: I attached or linked reproducible artifacts.
           required: true
-        - label: Revisei riscos e mitigacoes.
+        - label: I reviewed risks and mitigations.
           required: true

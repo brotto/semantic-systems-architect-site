@@ -1,11 +1,11 @@
-# Checklist - RAG em producao
+# Checklist - RAG in production
 
-- [ ] Fontes de dados validadas e versionadas
-- [ ] Metadados obrigatorios aplicados
-- [ ] Politica de sensibilidade implementada
-- [ ] Retrieval com filtros de dominio e tempo
-- [ ] Reranking habilitado e avaliado
-- [ ] Output com citacoes obrigatorias
-- [ ] Evals automatizadas em CI
-- [ ] SLOs e alertas configurados
-- [ ] Runbook de incidente aprovado
+- [ ] Validated and versioned data sources
+- [ ] Mandatory metadata applied
+- [ ] Sensitivity policy implemented
+- [ ] Retrieval with domain and time filters
+- [ ] Reranking enabled and evaluated
+- [ ] Output with mandatory citations
+- [ ] Automated CI evals
+- [ ] Configured SLOs and alerts
+- [ ] Approved incident runbook

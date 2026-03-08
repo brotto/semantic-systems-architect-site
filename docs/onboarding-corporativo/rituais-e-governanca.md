@@ -1,25 +1,25 @@
 ---
 sidebar_position: 5
-title: Rituais e Governanca
+title: Rituals and Governance
 ---
 
-# Rituais e governança de adoção
+# Adoption rituals and governance
 
-## Rituais semanais
+## Weekly rituals
 
-- Clinic de arquitetura SSA.
-- Revisão de evals e regressões.
-- Priorização de melhorias de padrões.
+- SSA Architecture Clinic.
+- Review of evals and regressions.
+- Prioritization of standards improvements.
 
-## Rituais mensais
+## Monthly rituals
 
-- Comitê de risco e compliance IA.
-- Revisão de unit economics dos fluxos.
-- Atualização da matriz de maturidade.
+- IA risk and compliance committee.
+- Review of unit economics of flows.
+- Update of the maturity matrix.
 
-## Artefatos obrigatórios
+## Mandatory artifacts
 
-- Architecture spec por iniciativa.
-- Suite de evals com baseline e regressão.
-- Checklist de release segura.
-- Post-mortem de incidentes relevantes.
+- Architecture spec by initiative.
+- Suite of evals with baseline and regression.
+- Safe release checklist.
+- Post-mortem of relevant incidents.

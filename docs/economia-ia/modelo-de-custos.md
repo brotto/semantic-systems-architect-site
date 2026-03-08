@@ -1,35 +1,35 @@
 ---
 sidebar_position: 2
-title: Modelo de Custos
+title: Cost Model
 ---
 
-# Modelo de custos de sistemas de IA
+# AI Systems Cost Model
 
-## Componentes de custo
+## Cost Components
 
-1. Inferencia (tokens de entrada e saida).
-2. Embeddings e indexacao.
-3. Retrieval e infra de armazenamento.
-4. Ferramentas externas e APIs de terceiros.
-5. Observabilidade, evals e operacao.
+1. Inference (input and output tokens).
+2. Embeddings and indexing.
+3. Retrieval and storage infrastructure.
+4. External tools and third-party APIs.
+5. Observability, evals and operation.
 
-## Formula base
+## Base formula
 
-Custo total mensal = custo de inferencia + custo de dados + custo de operacao + custo de falhas.
+Total monthly cost = inference cost + data cost + operation cost + failure cost.
 
-## Custos ocultos
+## Hidden costs
 
-- Reprocessamento por respostas inadequadas.
-- Escalonamento humano por baixa confianca.
-- Custo de incidentes e rollback.
-- Retrabalho em suporte e engenharia.
+- Reprocessing for inappropriate responses.
+- Human escalation due to low confidence.
+- Cost of incidents and rollback.
+- Rework in support and engineering.
 
-## Modelo por jornada
+## Model per journey
 
-Mapeie cada fluxo com:
-- volume mensal
-- custo por execucao
-- taxa de erro
-- taxa de escalonamento
+Map each flow with:
+- monthly volume
+- cost per execution
+- error rate
+- escalation rate
 
-Use o template: `community-assets/economia/template-cost-model.csv`.
+Use the template: `community-assets/economia/template-cost-model.csv`.

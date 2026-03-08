@@ -6,7 +6,7 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: 'Trilha Principal',
+      label: 'Core Track',
       items: [
         'trilha/fundamentos-ssa',
         'trilha/modelagem-semantica-e-ontologias',
@@ -20,7 +20,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Laboratorios',
+      label: 'Labs',
       items: [
         'labs/lab-01-modelagem-dominio-contrato-semantico',
         'labs/lab-02-sistema-multiagente-com-ferramentas',
@@ -39,7 +39,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Certificacao',
+      label: 'Certification',
       items: [
         'certificacao/rubricas-de-avaliacao',
         'certificacao/capstone-ssa',
@@ -55,7 +55,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Carreira',
+      label: 'Career',
       items: [
         'carreira/plano-90-dias-ssa',
         'carreira/trilha-de-carreira-ssa',
@@ -63,7 +63,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Especializacoes',
+      label: 'Specializations',
       items: [
         'especializacoes/visao-geral',
         'especializacoes/ssa-para-saude',
@@ -76,7 +76,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Plataforma de Pratica',
+      label: 'Practice Platform',
       items: [
         'plataforma-pratica/visao-geral',
         'plataforma-pratica/banco-de-casos',
@@ -88,7 +88,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Arquiteturas Avancadas',
+      label: 'Advanced Architectures',
       items: [
         'arquiteturas-avancadas/visao-geral',
         'arquiteturas-avancadas/rag-em-producao',
@@ -101,7 +101,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Economia de IA',
+      label: 'AI Economics',
       items: [
         'economia-ia/visao-geral',
         'economia-ia/modelo-de-custos',
@@ -114,7 +114,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Seguranca Adversarial',
+      label: 'Adversarial Security',
       items: [
         'seguranca-adversarial/visao-geral',
         'seguranca-adversarial/modelo-de-ameacas',
@@ -127,7 +127,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Onboarding Corporativo',
+      label: 'Corporate Onboarding',
       items: [
         'onboarding-corporativo/visao-geral',
         'onboarding-corporativo/modelo-de-adocao',
@@ -140,7 +140,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Referencias',
+      label: 'References',
       items: [
         'referencias/mapa-de-competencias-ssa',
         'referencias/glossario-ssa',
@@ -149,7 +149,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Comunidade',
+      label: 'Community',
       items: [
         'comunidade/como-contribuir',
         'comunidade/governanca',

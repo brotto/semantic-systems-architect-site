@@ -1,24 +1,24 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Economia de IA para SSA
+# AI Economics for SSA
 
-Este modulo ensina como projetar sistemas de IA sustentaveis financeiramente sem perder qualidade e seguranca.
+This module teaches you how to design financially sustainable AI systems without compromising quality and safety.
 
-## Objetivos
+## Objectives
 
-- Modelar custo por tarefa, fluxo e produto.
-- Definir unit economics para sistemas cognitivos.
-- Implementar estrategias de otimizacao tecnica com impacto financeiro.
-- Operar FinOps de IA com governanca e previsibilidade.
+- Model cost per task, flow and product.
+- Define unit economics for cognitive systems.
+- Implement technical optimization strategies with financial impact.
+- Operate AI FinOps with governance and predictability.
 
-## Trilha
+## Trail
 
-- [Modelo de custos](./modelo-de-custos)
-- [Unit economics de IA](./unit-economics)
-- [Otimizacao tecnica e financeira](./otimizacao-tecnica)
-- [Governanca FinOps](./governanca-finops)
-- [Dashboard e metricas](./dashboard-e-metricas)
-- [Lab de otimizacao de custos](./lab-otimizacao-custos)
+- [Cost model](./modelo-de-custos)
+- [AI economics unit](./unit-economics)
+- [Technical and financial optimization](./otimizacao-tecnica)
+- [FinOps Governance](./governanca-finops)
+- [Dashboard and metrics](./dashboard-e-metricas)
+- [Cost optimization lab](./lab-otimizacao-custos)

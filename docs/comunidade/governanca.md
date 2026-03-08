@@ -1,30 +1,30 @@
 ---
 sidebar_position: 2
-title: Governanca
+title: Governance
 ---
 
-# Governanca de conteudo
+# Content governance
 
-## Papeis
+## Papers
 
-- **Maintainers**: definem direcao, aprovam mudancas estruturais e zelam pela qualidade.
-- **Contributors**: propõem e implementam melhorias.
-- **Reviewers**: validam coerencia tecnica, didatica e navegacao.
+- **Maintainers**: define direction, approve structural changes and ensure quality.
+- **Contributors**: propose and implement improvements.
+- **Reviewers**: validate technical, didactic and navigational coherence.
 
-## Regras de decisao
+## Decision rules
 
-1. Mudancas pequenas: aprovacao de 1 maintainer.
-2. Mudancas estruturais: aprovacao de 2 maintainers.
-3. Mudancas de taxonomia SSA: issue de discussao obrigatoria.
+1. Small changes: approval from 1 maintainer.
+2. Structural changes: approval from 2 maintainers.
+3. SSA taxonomy changes: mandatory discussion issue.
 
-## Pilares de qualidade
+## Quality pillars
 
-- Precisao conceitual.
-- Aplicabilidade pratica.
-- Evolucao orientada por evidencias.
-- Clareza pedagogica.
+- Conceptual precision.
+- Practical applicability.
+- Evidence-driven evolution.
+- Pedagogical clarity.
 
-## Versionamento de conteudo
+## Content versioning
 
-- Mudancas maiores devem atualizar o `roadmap-publico`.
-- Alteracoes que quebram navegacao precisam de migracao.
+- Larger changes must update `roadmap-publico`.
+- Changes that break navigation require migration.

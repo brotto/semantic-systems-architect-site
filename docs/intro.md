@@ -1,88 +1,88 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Curso Completo: Semantic Systems Architect (SSA)
+# Complete Course: Semantic Systems Architect (SSA)
 
-Este site organiza uma formacao completa para a categoria **Semantic Systems Architect**: profissional que projeta sistemas computacionais por meio de modelagem semantica, linguagem estruturada e orquestracao de IA.
+This site organizes complete training for the **Semantic Systems Architect** category: professional who designs computer systems through semantic modeling, structured language and AI orchestration.
 
-## Objetivo
+## Objective
 
-Formar um SSA capaz de:
+Form an SSA capable of:
 
-- Transformar objetivos de negocio em arquiteturas semanticas executaveis por IA.
-- Definir ontologias, contratos de contexto, protocolos de agentes e criterios de avaliacao.
-- Projetar workflows e sistemas multiagente com governanca, seguranca e observabilidade.
-- Operar o ciclo completo: descoberta, modelagem, implementacao assistida, validacao e producao.
+- Transform business objectives into AI-executable semantic architectures.
+- Define ontologies, context contracts, agent protocols and evaluation criteria.
+- Design workflows and multi-agent systems with governance, security and observability.
+- Operate the complete cycle: discovery, modeling, assisted implementation, validation and production.
 
-## Estrutura do programa
+## Program structure
 
-1. [Modulo 1 - Fundamentos SSA](./trilha/fundamentos-ssa)
-2. [Modulo 2 - Modelagem Semantica e Ontologias](./trilha/modelagem-semantica-e-ontologias)
-3. [Modulo 3 - Arquitetura de Agentes](./trilha/arquitetura-de-agentes)
-4. [Modulo 4 - Workflows, Ferramentas e Pipelines](./trilha/workflows-ferramentas-e-pipelines)
-5. [Modulo 5 - Context Engineering e Prompting Estrutural](./trilha/context-engineering-e-prompting-estrutural)
-6. [Modulo 6 - Avaliacao, Qualidade e Observabilidade](./trilha/avaliacao-qualidade-observabilidade)
-7. [Modulo 7 - Seguranca, Governanca e Etica](./trilha/seguranca-governanca-etica)
-8. [Modulo 8 - Produto, Operacao e Escala](./trilha/produto-operacao-escala)
+1. [Module 1 - SSA Fundamentals](./trilha/fundamentos-ssa)
+2. [Module 2 - Semantic Modeling and Ontologies](./trilha/modelagem-semantica-e-ontologias)
+3. [Module 3 - Agent Architecture](./trilha/arquitetura-de-agentes)
+4. [Module 4 - Workflows, Tools and Pipelines](./trilha/workflows-ferramentas-e-pipelines)
+5. [Module 5 - Context Engineering and Structural Prompting](./trilha/context-engineering-e-prompting-estrutural)
+6. [Module 6 - Assessment, Quality and Observability](./trilha/avaliacao-qualidade-observabilidade)
+7. [Module 7 - Security, Governance and Ethics](./trilha/seguranca-governanca-etica)
+8. [Module 8 - Product, Operation and Scale](./trilha/produto-operacao-escala)
 
-## Carga horaria sugerida
+## Suggested workload
 
-- Trilha teorica: 32h
-- Labs e projeto: 28h
+- Theoretical trail: 32h
+- Labs and project: 28h
 - Total: 60h
 
-## Criterios de conclusao
+## Completion criteria
 
-1. Entregar os 3 labs com evidencias.
-2. Atingir media >= 7,5 nas rubricas.
-3. Apresentar capstone com arquitetura, metricas e plano de evolucao.
+1. Deliver the 3 labs with evidence.
+2. Reach average >= 7.5 in the rubrics.
+3. Present capstone with architecture, metrics and evolution plan.
 
-## Especializacoes por dominio
+## Specializations by domain
 
-- [Visao geral](./especializacoes/visao-geral)
-- [SSA para Saude](./especializacoes/ssa-para-saude)
-- [SSA para Juridico](./especializacoes/ssa-para-juridico)
-- [SSA para Suporte B2B](./especializacoes/ssa-para-suporte-b2b)
+- [Overview](./especializacoes/visao-geral)
+- [SSA for Health](./especializacoes/ssa-para-saude)
+- [SSA for Legal](./especializacoes/ssa-para-juridico)
+- [SSA for B2B Support](./especializacoes/ssa-para-suporte-b2b)
 
-## Plataforma de pratica
+## Practice platform
 
-- [Visao geral](./plataforma-pratica/visao-geral)
-- [Banco de casos](./plataforma-pratica/banco-de-casos)
-- [Evals comunitarias](./plataforma-pratica/evals-comunitarias)
-- [Capstones de referencia](./plataforma-pratica/capstones-referencia)
-- [Matriz de maturidade SSA](./plataforma-pratica/matriz-maturidade-ssa)
+- [Overview](./plataforma-pratica/visao-geral)
+- [Case Bank](./plataforma-pratica/banco-de-casos)
+- [Community Evals](./plataforma-pratica/evals-comunitarias)
+- [Reference Capstones](./plataforma-pratica/capstones-referencia)
+- [SSA Maturity Matrix](./plataforma-pratica/matriz-maturidade-ssa)
 
-## Arquiteturas avancadas
+## Advanced architectures
 
-- [Visao geral](./arquiteturas-avancadas/visao-geral)
-- [RAG em producao](./arquiteturas-avancadas/rag-em-producao)
-- [Lab RAG de producao](./arquiteturas-avancadas/lab-rag-producao)
+- [Overview](./arquiteturas-avancadas/visao-geral)
+- [RAG in production](./arquiteturas-avancadas/rag-em-producao)
+- [Lab RAG production](./arquiteturas-avancadas/lab-rag-producao)
 
-## Economia de IA
+## AI Economy
 
-- [Visao geral](./economia-ia/visao-geral)
-- [Modelo de custos](./economia-ia/modelo-de-custos)
+- [Overview](./economia-ia/visao-geral)
+- [Cost model](./economia-ia/modelo-de-custos)
 - [Unit economics](./economia-ia/unit-economics)
-- [Lab otimizacao de custos](./economia-ia/lab-otimizacao-custos)
+- [Lab cost optimization](./economia-ia/lab-otimizacao-custos)
 
-## Seguranca adversarial
+## Adversarial security
 
-- [Visao geral](./seguranca-adversarial/visao-geral)
-- [Catalogo de ataques](./seguranca-adversarial/catalogo-de-ataques)
-- [Evals adversariais](./seguranca-adversarial/evals-adversariais)
-- [Lab de seguranca adversarial](./seguranca-adversarial/lab-seguranca-adversarial)
+- [Overview](./seguranca-adversarial/visao-geral)
+- [Attack Catalog](./seguranca-adversarial/catalogo-de-ataques)
+- [Adversarial Evals](./seguranca-adversarial/evals-adversariais)
+- [Adversarial Security Lab](./seguranca-adversarial/lab-seguranca-adversarial)
 
-## Onboarding corporativo
+## Corporate onboarding
 
-- [Visao geral](./onboarding-corporativo/visao-geral)
-- [Plano 30-60-90](./onboarding-corporativo/plano-30-60-90)
-- [Academia interna SSA](./onboarding-corporativo/academia-interna)
-- [Lab de rollout corporativo](./onboarding-corporativo/lab-rollout-corporativo)
+- [Overview](./onboarding-corporativo/visao-geral)
+- [Plan 30-60-90](./onboarding-corporativo/plano-30-60-90)
+- [SSA Indoor Gym](./onboarding-corporativo/academia-interna)
+- [Corporate Rollout Lab](./onboarding-corporativo/lab-rollout-corporativo)
 
-## Comunidade e evolucao
+## Community and evolution
 
-- [Como contribuir](./comunidade/como-contribuir)
-- [Governanca](./comunidade/governanca)
-- [Roadmap publico](./comunidade/roadmap-publico)
+- [How to contribute](./comunidade/como-contribuir)
+- [Governance](./comunidade/governanca)
+- [Public roadmap](./comunidade/roadmap-publico)

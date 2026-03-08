@@ -1,38 +1,38 @@
-# Mapa de Competências SSA
+# SSA Competency Map
 
-## Núcleo conceitual
+## Conceptual core
 
-- Modelagem semântica
-- Teoria de sistemas
-- Design de decisão
-- Linguística aplicada a IA
+- Semantic modeling
+- Systems theory
+- Decision design
+- Linguistics applied to AI
 
-## Núcleo técnico
+## Technical core
 
-- Arquitetura de agentes
-- Workflows e tool orchestration
+- Agent architecture
+- Workflows and tool orchestration
 - Context engineering
-- Avaliação e observabilidade
+- Assessment and observability
 
-## Núcleo de risco
+## Risk Core
 
-- Segurança de IA
-- Governança e compliance
-- Ética aplicada
-- Gestão de incidentes
+- AI Security
+- Governance and compliance
+- Applied ethics
+- Incident management
 
-## Núcleo de negócio
+## Business core
 
-- Product strategy para IA
-- Economia de modelos
-- Operação em escala
-- Gestão de stakeholders
+- Product strategy for AI
+- Model Economy
+- Operation at scale
+- Stakeholder management
 
-## Matriz de progressão
+## Progression Matrix
 
-| Nível | Perfil | Capacidade dominante |
+| Level | Profile | Dominant ability |
 |---|---|---|
-| L1 | SSA Foundations | Modela casos simples com supervisão |
-| L2 | SSA Practitioner | Entrega sistemas semânticos ponta a ponta |
-| L3 | SSA Senior | Escala arquitetura e governança multi-times |
-| L4 | SSA Principal | Define padrões organizacionais e estratégia |
+| L1 | SSA Foundations | Model simple cases with supervision |
+| L2 | SSA Practitioner | Delivers end-to-end semantic systems |
+| L3 | SSA Senior | Scales multi-team architecture and governance |
+| L4 | SSA Main | Defines organizational standards and strategy |

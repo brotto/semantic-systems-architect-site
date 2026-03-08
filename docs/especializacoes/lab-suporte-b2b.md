@@ -1,24 +1,24 @@
 ---
 sidebar_position: 7
-title: Lab Suporte B2B
+title: Lab B2B Support
 ---
 
-# Lab SSA - Suporte B2B
+# Lab SSA - B2B Support
 
-## Desafio
+## Challenge
 
-Construir fluxo que trate tickets de clientes enterprise, definindo diagnostico inicial, plano de acao e escalonamento.
+Build a flow that handles tickets from enterprise customers, defining initial diagnosis, action plan and escalation.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Modelo de prioridade (impacto x urgencia x risco de churn).
-2. Protocolo de handoff entre agentes e times humanos.
-3. Suite de evals com 50 tickets simulados.
-4. Definicao de SLOs (tempo de resposta, tempo de encaminhamento, taxa de reabertura).
+1. Priority model (impact x urgency x churn risk).
+2. Handoff protocol between agents and human teams.
+3. Evals suite with 50 simulated tickets.
+4. Definition of SLOs (response time, routing time, reopening rate).
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Qualidade da priorizacao
-- Consistencia de recomendacao
-- Rastreabilidade operacional
-- Alinhamento com SLA
+- Quality of prioritization
+- Recommendation consistency
+- Operational traceability
+- Alignment with SLA

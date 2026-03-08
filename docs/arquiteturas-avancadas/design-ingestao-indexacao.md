@@ -1,34 +1,34 @@
 ---
 sidebar_position: 3
-title: Ingestao e Indexacao
+title: Ingestion and Indexation
 ---
 
-# Design de ingestao e indexacao
+# Ingestion and indexing design
 
-## Pipeline recomendado
+## Recommended pipeline
 
-1. Coleta de fontes confiaveis.
-2. Normalizacao (encoding, limpeza, estrutura).
-3. Chunking semantico orientado a tarefa.
-4. Enriquecimento de metadados.
-5. Embeddings e indexacao.
+1. Collection from reliable sources.
+2. Normalization (encoding, cleaning, structure).
+3. Task-oriented semantic chunking.
+4. Metadata enrichment.
+5. Embeddings and indexing.
 
-## Regras de chunking
+## Chunking rules
 
-- Chunk por unidade de sentido, nao por tamanho fixo cego.
-- Preservar fronteira de secoes importantes.
-- Registrar `source_id`, `section_id`, `version` e `timestamp`.
+- Chunk by sense unit, not by blind fixed size.
+- Preserve the boundaries of important sections.
+- Register `source_id`, `section_id`, `version` and `timestamp`.
 
-## Metadados obrigatorios
+## Mandatory metadata
 
-- dominio
-- classificacao de sensibilidade
-- versao da fonte
-- confiabilidade
-- validade temporal
+- domain
+- sensitivity rating
+- source version
+- reliability
+- temporal validity
 
-## Estrategia de atualizacao
+## Update strategy
 
-- Reindex incremental diario para mudancas frequentes.
-- Rebuild completo quando schema de metadados mudar.
-- Tombstone para documentos descontinuados.
+- Daily incremental reindex for frequent changes.
+- Full rebuild when metadata schema changes.
+- Tombstone for discontinued documents.

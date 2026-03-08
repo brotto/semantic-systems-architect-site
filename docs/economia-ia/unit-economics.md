@@ -3,34 +3,34 @@ sidebar_position: 3
 title: Unit Economics
 ---
 
-# Unit economics para IA
+# Unit economics for AI
 
-## Unidade de valor
+## Unit of value
 
-Defina a unidade principal do sistema:
-- ticket resolvido
-- contrato analisado
-- triagem concluida
-- tarefa automatizada com qualidade
+Set the main system drive:
+- ticket resolved
+- contract analyzed
+- screening completed
+- automated task with quality
 
-## KPIs economicos principais
+## Main economic KPIs
 
-- Custo por unidade resolvida.
-- Margem por unidade.
-- Custo por decisao correta.
-- Retorno por automacao (tempo poupado x custo IA).
+- Cost per unit resolved.
+- Margin per unit.
+- Cost per correct decision.
+- Return via automation (time saved x AI cost).
 
-## Indicadores de sustentabilidade
+## Sustainability indicators
 
-- Tempo para payback da implementacao.
-- Sensibilidade a variacao de volume.
-- Limite de custo aceitavel por segmento.
+- Time for implementation payback.
+- Sensitivity to volume variation.
+- Acceptable cost limit per segment.
 
-## Analise de cenarios
+## Scenario analysis
 
-Crie tres cenarios:
-1. Conservador.
+Create three scenarios:
+1. Conservative.
 2. Base.
-3. Escala.
+3. Scale.
 
-Compare impacto em custo, qualidade e capacidade operacional.
+Compare impact on cost, quality and operational capacity.

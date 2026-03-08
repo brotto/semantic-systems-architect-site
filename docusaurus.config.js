@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Semantic Systems Architect',
-  tagline: 'Curso aberto para modelar sistemas via semantica e IA',
+  tagline: 'Open course for designing systems through semantics and AI',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -21,8 +21,8 @@ const config = {
   onBrokenLinks: 'throw',
 
   i18n: {
-    defaultLocale: 'pt-BR',
-    locales: ['pt-BR'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -62,12 +62,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Curso',
+            label: 'Course',
           },
           {
             to: '/docs/intro',
             position: 'left',
-            label: 'Guia',
+            label: 'Guide',
           },
           {
             to: '/docs/comunidade/roadmap-publico',
@@ -77,27 +77,27 @@ const config = {
           {
             to: '/docs/especializacoes/visao-geral',
             position: 'left',
-            label: 'Especializacoes',
+            label: 'Specializations',
           },
           {
             to: '/docs/plataforma-pratica/visao-geral',
             position: 'left',
-            label: 'Pratica',
+            label: 'Practice',
           },
           {
             to: '/docs/arquiteturas-avancadas/visao-geral',
             position: 'left',
-            label: 'Avancadas',
+            label: 'Advanced',
           },
           {
             to: '/docs/economia-ia/visao-geral',
             position: 'left',
-            label: 'Economia',
+            label: 'Economics',
           },
           {
             to: '/docs/seguranca-adversarial/visao-geral',
             position: 'left',
-            label: 'Seguranca',
+            label: 'Security',
           },
           {
             to: '/docs/onboarding-corporativo/visao-geral',
@@ -115,20 +115,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Curso',
+            title: 'Course',
             items: [
               {
-                label: 'Visao Geral',
+                label: 'Overview',
                 to: '/docs/intro',
               },
               {
-                label: 'Trilha Principal',
+                label: 'Core Track',
                 to: '/docs/trilha/fundamentos-ssa',
               },
             ],
           },
           {
-            title: 'Projeto',
+            title: 'Project',
             items: [
               {
                 label: 'Templates',
@@ -141,14 +141,14 @@ const config = {
             ],
           },
           {
-            title: 'Comunidade',
+            title: 'Community',
             items: [
               {
-                label: 'Como contribuir',
+                label: 'How to contribute',
                 to: '/docs/comunidade/como-contribuir',
               },
               {
-                label: 'Repositorio',
+                label: 'Repository',
                 href: 'https://github.com/brotto/semantic-systems-architect-site',
               },
             ],

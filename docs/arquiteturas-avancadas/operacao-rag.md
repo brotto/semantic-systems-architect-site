@@ -1,34 +1,34 @@
 ---
 sidebar_position: 6
-title: Operacao e Runbook
+title: Operation and Runbook
 ---
 
-# Operacao de RAG em producao
+# RAG operation in production
 
-## SLOs recomendados
+## Recommended SLOs
 
-- Latencia P95 da resposta final.
-- Taxa de sucesso de retrieval.
-- Taxa de respostas com citacao valida.
-- Taxa de escalonamento humano.
+- P95 latency of the final response.
+- Retrieval success rate.
+- Response rate with valid citation.
+- Human scaling rate.
 
-## Alertas criticos
+## Critical alerts
 
-1. Queda abrupta de recall.
-2. Aumento de respostas sem citacao.
-3. Crescimento anormal de custo por consulta.
-4. Falhas de indexacao recorrentes.
+1. Abrupt drop in recall.
+2. Increase in responses without citations.
+3. Abnormal growth in cost per consultation.
+4. Recurrent indexing failures.
 
-## Runbook de incidente
+## Incident Runbook
 
-1. Classificar incidente (dados, retrieval, geracao, seguranca).
-2. Congelar release em progresso.
-3. Executar suite de regressao RAG.
-4. Aplicar rollback de index/config se necessario.
-5. Registrar causa raiz e acao preventiva.
+1. Classify incident (data, retrieval, generation, security).
+2. Freeze release in progress.
+3. Run RAG regression suite.
+4. Apply index/config rollback if necessary.
+5. Record root cause and preventive action.
 
-## Operacao economica
+## Economical operation
 
-- Cache de consultas frequentes.
-- Roteamento por complexidade (modelo leve vs pesado).
-- Budget de tokens por tipo de pergunta.
+- Cache of frequent queries.
+- Routing by complexity (light vs heavy model).
+- Token budget by question type.

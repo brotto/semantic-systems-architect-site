@@ -1,35 +1,35 @@
 ---
 sidebar_position: 5
-title: Matriz de Maturidade
+title: Maturity Matrix
 ---
 
-# Matriz de maturidade SSA
+# SSA Maturity Matrix
 
-## Dimensoes
+## Dimensions
 
-1. Modelagem semantica
-2. Arquitetura de agentes
-3. Engenharia de contexto
-4. Avaliacao e observabilidade
-5. Seguranca e governanca
-6. Operacao e escala
+1. Semantic modeling
+2. Agent architecture
+3. Context engineering
+4. Assessment and observability
+5. Security and governance
+6. Operation and scale
 
-## Niveis
+## Levels
 
-| Nivel | Descricao |
+| Level | Description |
 |---|---|
-| M0 | Experimentacao sem padrao |
-| M1 | Praticas basicas definidas |
-| M2 | Processo padronizado e replicavel |
-| M3 | Operacao orientada por metricas |
-| M4 | Otimizacao continua em escala |
+| M0 | Experimentation without standards |
+| M1 | Basic practices defined |
+| M2 | Standardized and replicable process |
+| M3 | Metrics-driven operation |
+| M4 | Optimization continues at scale |
 
-## Uso pratico
+## Practical use
 
-- Diagnostico trimestral.
-- Priorizacao de roadmap.
-- Benchmark entre squads.
+- Quarterly diagnosis.
+- Roadmap prioritization.
+- Benchmark between squads.
 
-## Template de avaliacao
+## Evaluation template
 
-Use `community-assets/evals/template-matriz-maturidade.md` para registrar o diagnostico.
+Use `community-assets/evals/template-matriz-maturidade.md` to record the diagnosis.

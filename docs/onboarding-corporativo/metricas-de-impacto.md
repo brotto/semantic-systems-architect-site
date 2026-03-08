@@ -1,28 +1,28 @@
 ---
 sidebar_position: 6
-title: Metricas de Impacto
+title: Impact Metrics
 ---
 
-# Métricas de capacitação e impacto
+# Empowerment and impact metrics
 
-## Métricas de aprendizado
+## Learning metrics
 
-- Taxa de conclusão das trilhas.
-- Tempo médio para primeira entrega SSA.
-- Qualidade média nas rubricas internas.
+- Trail completion rate.
+- Average time to first SSA delivery.
+- Average quality in internal items.
 
-## Métricas de performance técnica
+## Technical performance metrics
 
-- Estabilidade de qualidade em evals.
-- Redução de incidentes comportamentais.
-- Tempo de ciclo para evolução de fluxos.
+- Quality stability in evals.
+- Reduction of behavioral incidents.
+- Cycle time for flow evolution.
 
-## Métricas de negócio
+## Business metrics
 
-- Custo por tarefa resolvida.
-- Ganho de produtividade por squad.
-- Valor entregue por caso priorizado.
+- Cost per task solved.
+- Gain in productivity per squad.
+- Value delivered per prioritized case.
 
-## Recomendação
+## Recommendation
 
-Consolidar painel trimestral com visão de adoção por squad e domínio.
+Consolidate quarterly dashboard with a vision of adoption by squad and domain.

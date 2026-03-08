@@ -1,26 +1,26 @@
 ---
 sidebar_position: 2
-title: Modelo de Adocao
+title: Adoption Model
 ---
 
-# Modelo de adoção organizacional SSA
+# SSA Organizational Adoption Model
 
-## Pilares
+## Pillars
 
-1. Estratégia: priorização de casos com alto impacto.
-2. Pessoas: papéis e trilhas de desenvolvimento.
-3. Processo: padrão de arquitetura e avaliação.
-4. Plataforma: ferramentas e assets compartilhados.
+1. Strategy: prioritization of high-impact cases.
+2. People: roles and development paths.
+3. Process: architecture and evaluation standard.
+4. Platform: shared tools and assets.
 
-## Arquitetura de times
+## Team architecture
 
-- SSA Lead: define padrões e direção técnica.
-- SSA Practitioner: implementa arquiteturas por domínio.
-- Engineering Partner: integra com produto e sistemas.
-- Risk/Compliance Partner: valida controles e políticas.
+- SSA Lead: sets standards and technical direction.
+- SSA Practitioner: implements architectures per domain.
+- Engineering Partner: integrates with product and systems.
+- Risk/Compliance Partner: validates controls and policies.
 
-## Sequenciamento recomendado
+## Recommended sequencing
 
-1. Piloto com 1 ou 2 squads.
-2. Expansão para domínios críticos.
-3. Escala com biblioteca de padrões internos.
+1. Pilot with 1 or 2 squads.
+2. Expansion into critical domains.
+3. Scale with built-in pattern library.

@@ -1,24 +1,24 @@
 ---
 sidebar_position: 4
-title: Academia Interna
+title: Indoor Academy
 ---
 
-# Academia interna SSA
+# SSA Indoor Academy
 
-## Formato sugerido
+## Suggested format
 
-- Trilha foundations (obrigatória para todos os squads).
-- Trilha practitioner (arquitetura e operação).
-- Trilha lead (governança e escala).
+- Foundations trail (mandatory for all squads).
+- Practitioner track (architecture and operation).
+- Lead trail (governance and scale).
 
-## Mecanismos de aprendizagem
+## Learning mechanisms
 
-- Aulas curtas + labs semanais.
-- Revisão por pares de architecture specs.
-- Comunidade de prática com office hours.
+- Short classes + weekly labs.
+- Peer review of architecture specs.
+- Community of practice with office hours.
 
-## Critérios de certificação interna
+## Internal certification criteria
 
-- Aprovação em rubricas técnicas.
-- Evidência de projeto aplicado.
-- Aderência a padrões de segurança e qualidade.
+- Approval in technical rubrics.
+- Evidence of applied design.
+- Adherence to safety and quality standards.

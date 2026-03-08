@@ -1,19 +1,19 @@
-# Template de resultados de eval
+# eval results template
 
 - Suite:
-- Versao:
-- Data:
-- Score global:
+- Version:
+- Date:
+- Overall score:
 
-## Metricas
+## Metrics
 
-| Metrica | Resultado | Meta | Status |
+| Metric | Result | Goal | Status |
 |---|---|---|---|
 
-## Falhas criticas
+## Critical failures
 
 - 
 
-## Acoes corretivas
+## Corrective actions
 
 - 

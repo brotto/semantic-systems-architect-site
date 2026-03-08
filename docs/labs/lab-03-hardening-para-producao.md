@@ -1,27 +1,27 @@
-# Lab 3 - Hardening para Produção
+# Lab 3 - Hardening for Production
 
-## Desafio
+## Challenge
 
-Pegar o sistema do Lab 2 e preparar para ambiente produtivo com avaliação contínua, segurança e plano de operação.
+Take the Lab 2 system and prepare it for a production environment with continuous assessment, safety and operation plan.
 
-## Objetivos do lab
+## Lab objectives
 
-- Implementar suíte de evals.
-- Definir controles de segurança e governança.
-- Estabelecer runbook de operação.
+- Implement evals suite.
+- Define security and governance controls.
+- Establish operation runbook.
 
-## Entregas obrigatórias
+## Mandatory deliveries
 
-1. Evals com no mínimo 50 casos.
-2. Matriz de risco + mitigação.
-3. SLOs, alertas e runbook de incidente.
-4. Critérios de deploy/rollback.
+1. Evals with at least 50 cases.
+2. Risk + mitigation matrix.
+3. SLOs, alerts and incident runbook.
+4. Deploy/rollback criteria.
 
-## Critérios de aprovação
+## Approval criteria
 
-- Maturidade de qualidade (0-10)
-- Cobertura de risco (0-10)
-- Prontidão operacional (0-10)
-- Viabilidade de escala (0-10)
+- Quality Maturity (0-10)
+- Risk coverage (0-10)
+- Operational readiness (0-10)
+- Feasibility to scale (0-10)
 
-Nota mínima: 32/40.
+Minimum grade: 32/40.

@@ -1,53 +1,53 @@
-# Módulo 1 - Fundamentos SSA
+# Module 1 - SSA Fundamentals
 
-## Objetivo
+## Aim
 
-Estabelecer a base conceitual da profissão **Semantic Systems Architect** e a mudança de paradigma: de sintaxe para semântica.
+Establish the conceptual basis of the **Semantic Systems Architect** profession and the paradigm shift: from syntax to semantics.
 
-## Competências
+## Skills
 
-- Diferenciar programação clássica, engenharia de software e arquitetura semântica.
-- Explicar o papel do SSA no ciclo de desenvolvimento com IA.
-- Traduzir problemas vagos em estruturas de intenção.
+- Differentiate classical programming, software engineering and semantic architecture.
+- Explain the role of SSA in the AI ​​development cycle.
+- Translate vague problems into intention structures.
 
-## Conteúdo
+## Content
 
-1. Transição histórica
-- Humano -> código -> máquina
-- Humano -> modelo conceitual -> IA -> código -> máquina
+1. Historical transition
+- Human -> code -> machine
+- Human -> conceptual model -> AI -> code -> machine
 
-2. Ontologia do trabalho do SSA
-- O que é modelo semântico
-- O que é contrato de comportamento
-- O que é interface semântica
+2. SSA Work Ontology
+- What is a semantic model
+- What is a behavioral contract
+- What is semantic interface
 
-3. Camadas de atuação
-- SSA (modela sistemas)
-- AI Assisted Dev (implementa)
-- Infra Dev (opera infraestrutura)
+3. Layers of action
+- SSA (model systems)
+- AI Assisted Dev (implementation)
+- Infra Dev (operations infrastructure)
 
-4. Competências nucleares
-- Pensamento sistêmico
-- Linguística aplicada para IA
-- Projeto de decisão
-- Avaliação empírica
+4. Core competencies
+- Systems thinking
+- Applied linguistics for AI
+- Decision project
+- Empirical assessment
 
-## Exercícios
+## Exercises
 
-1. Escrever um manifesto SSA em 1 página para um domínio escolhido.
-2. Mapear um sistema atual da empresa nas 3 camadas (SSA, implementação, infra).
-3. Definir 10 decisões arquiteturais que hoje ficam implícitas e devem virar contratos explícitos.
+1. Write a 1-page SSA manifesto for a chosen domain.
+2. Map a company's current system in the 3 layers (SSA, implementation, infra).
+3. Defines 10 architectural decisions that are now implicit and must become explicit contracts.
 
-## Entregável
+## Deliverable
 
-Documento: "Fundamentos SSA no meu contexto" com:
-- problema
-- hipóteses
-- riscos
-- primeiros princípios
+Document: "SSA Fundamentals in my context" with:
+- problem
+- hypotheses
+- risks
+- first principles
 
-## Checklist de conclusão
+## Completion checklist
 
-- Consegue explicar por que prompting isolado não é arquitetura.
-- Consegue separar intenção, política e execução.
-- Consegue identificar ambiguidades semânticas críticas.
+- Can you explain why prompting alone is not architecture.
+- It can separate intention, policy and execution.
+- Can identify critical semantic ambiguities.

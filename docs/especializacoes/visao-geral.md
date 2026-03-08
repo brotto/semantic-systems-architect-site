@@ -1,29 +1,29 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Especializacoes SSA por dominio
+# SSA specializations by domain
 
-A trilha base SSA cobre fundamentos universais. As especializacoes convertem esses fundamentos em arquiteturas e praticas de alto impacto por setor.
+The SSA base track covers universal fundamentals. Specializations convert these fundamentals into high-impact architectures and practices by sector.
 
-## Como usar
+## How to use
 
-1. Concluir trilha principal.
-2. Escolher um dominio alvo.
-3. Executar o lab especifico do dominio.
-4. Adaptar capstone para contexto real da organizacao.
+1. Complete main trail.
+2. Choose a target domain.
+3. Run the domain-specific lab.
+4. Adapt capstone to the organization's real context.
 
-## Dominios disponiveis
+## Available domains
 
-- [SSA para Saude](./ssa-para-saude)
-- [SSA para Juridico](./ssa-para-juridico)
-- [SSA para Suporte B2B](./ssa-para-suporte-b2b)
+- [SSA for Health](./ssa-para-saude)
+- [SSA for Legal](./ssa-para-juridico)
+- [SSA for B2B Support](./ssa-para-suporte-b2b)
 
-## Estrutura comum das especializacoes
+## Common structure of specializations
 
-- Mapa de casos de uso prioritarios
-- Ontologia e riscos do dominio
-- Arquitetura de referencia
-- Evals e criterios de qualidade
-- Lab aplicado
+- Priority use case map
+- Domain ontology and risks
+- Reference architecture
+- Evals and quality criteria
+- Applied Lab

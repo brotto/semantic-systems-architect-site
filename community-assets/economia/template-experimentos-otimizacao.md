@@ -1,25 +1,25 @@
-# Template - Experimentos de otimizacao economica
+# Template - Economic optimization experiments
 
-## Experimento
+## Experiment
 
 - ID:
-- Hipotese:
-- Fluxo afetado:
-- Mudanca tecnica:
+- Hypothesis:
+- Affected flow:
+- Technical changes:
 
-## Medicao
+## Measurement
 
-- Baseline de custo:
-- Baseline de qualidade:
-- Resultado de custo:
-- Resultado de qualidade:
+- Cost baseline:
+- Quality baseline:
+- Cost result:
+- Quality result:
 
-## Decisao
+## Decision
 
-- [ ] Escalar
-- [ ] Iterar
-- [ ] Reverter
+- [ ] Climbing
+- [ ] It will repeat
+- [ ] Revert
 
-## Aprendizados
+## Learnings
 
 - 

@@ -1,41 +1,41 @@
 name: Case bank submission
-description: Submissao de novo caso para banco comunitario
+description: Submit a new case to the community case bank
 labels: [content, case-bank]
 body:
   - type: input
     id: case_id
     attributes:
       label: Case ID
-      placeholder: dominio-assunto-001
+      placeholder: domain-topic-001
     validations:
       required: true
   - type: dropdown
-    id: dominio
+    id: domain
     attributes:
-      label: Dominio
+      label: Domain
       options:
-        - Saude
-        - Juridico
-        - Suporte B2B
-        - Outro
+        - Health
+        - Legal
+        - B2B Support
+        - Other
     validations:
       required: true
   - type: textarea
-    id: contexto
+    id: context
     attributes:
-      label: Contexto do caso
+      label: Case context
     validations:
       required: true
   - type: textarea
-    id: resultado
+    id: expected_result
     attributes:
-      label: Resultado esperado
+      label: Expected result
     validations:
       required: true
   - type: checkboxes
-    id: privacidade
+    id: privacy
     attributes:
       label: Compliance
       options:
-        - label: Confirmo que nao inclui dados pessoais ou sensiveis.
+        - label: I confirm this submission contains no personal or sensitive data.
           required: true

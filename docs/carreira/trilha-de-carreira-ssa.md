@@ -1,41 +1,41 @@
-# Trilha de Carreira - Semantic Systems Architect
+# Career Track - Semantic Systems Architect
 
-## SSA Júnior
+## SSA Junior
 
-Foco:
-- Modelagem semântica básica
-- Execução guiada de labs
+Focus:
+- Basic semantic modeling
+- Guided lab execution
 
-Responsabilidades:
-- Manter contratos de contexto
-- Apoiar construção de evals
+Responsibilities:
+- Maintain context contracts
+- Support construction of evals
 
-## SSA Pleno
+## Full SSA
 
-Foco:
-- Arquitetura ponta a ponta
-- Orquestração multiagente
+Focus:
+- End-to-end architecture
+- Multi-agent orchestration
 
-Responsabilidades:
-- Liderar projetos de médio porte
-- Definir padrões de qualidade
+Responsibilities:
+- Lead medium-sized projects
+- Set quality standards
 
-## SSA Sênior
+## Senior SSA
 
-Foco:
-- Governança e escala
-- Eficiência econômica e operacional
+Focus:
+- Governance and scale
+- Economic and operational efficiency
 
-Responsabilidades:
-- Definir blueprint institucional
-- Mentorar SSA plenos e juniores
+Responsibilities:
+- Define institutional blueprint
+- Mentor full and junior SSAs
 
-## SSA Principal
+## Main SSA
 
-Foco:
-- Estratégia organizacional de sistemas cognitivos
-- Portfólio de capacidades IA
+Focus:
+- Cognitive Systems Organizational Strategy
+- AI capabilities portfolio
 
-Responsabilidades:
-- Direcionar investimento tecnológico
-- Definir arquitetura de referência da empresa
+Responsibilities:
+- Direct technological investment
+- Define enterprise reference architecture

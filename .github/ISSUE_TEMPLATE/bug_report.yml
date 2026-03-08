@@ -1,26 +1,26 @@
 name: Bug report
-description: Reporte problemas no site ou conteudo
+description: Report issues in site behavior or content
 labels: [bug]
 body:
   - type: textarea
-    id: problema
+    id: issue
     attributes:
-      label: Problema
-      description: O que aconteceu?
+      label: What happened?
+      description: Describe the observed problem.
     validations:
       required: true
   - type: textarea
-    id: esperado
+    id: expected
     attributes:
-      label: Comportamento esperado
+      label: Expected behavior
     validations:
       required: true
   - type: input
-    id: pagina
+    id: page
     attributes:
-      label: Pagina/arquivo
+      label: Page/file
       placeholder: docs/trilha/...
   - type: textarea
-    id: contexto
+    id: context
     attributes:
-      label: Contexto adicional
+      label: Additional context

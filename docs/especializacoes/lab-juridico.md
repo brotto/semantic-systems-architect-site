@@ -1,24 +1,24 @@
 ---
 sidebar_position: 5
-title: Lab Juridico
+title: Legal Lab
 ---
 
-# Lab SSA - Juridico
+# Lab SSA - Legal
 
-## Desafio
+## Challenge
 
-Desenhar sistema que analise um contrato e gere mapa de risco com recomendacoes de revisao humana.
+Design a system that analyzes a contract and generates a risk map with recommendations for human review.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Taxonomia de clausulas e riscos.
-2. Protocolo de evidencias obrigatorias por recomendacao.
-3. Evals com 30 contratos sinteticos.
-4. Gate de bloqueio para saidas sem base legal explicita.
+1. Taxonomy of clauses and risks.
+2. Mandatory evidence protocol by recommendation.
+3. Evals with 30 synthetic contracts.
+4. Blocking gate for exits without explicit legal basis.
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Precisao conceitual
-- Explicabilidade
-- Controle de alucinacao
-- Utilidade para time juridico
+- Conceptual precision
+- Explainability
+- hallucination control
+- Utility for legal team

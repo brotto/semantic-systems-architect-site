@@ -1,24 +1,24 @@
-# Template - FinOps dashboard de IA
+# Template - FinOps AI dashboard
 
-## 1. Consumo
+## 1. Consumption
 
-| Fluxo | Tokens entrada | Tokens saida | Custo mensal |
+| Flow | Entry Tokens | Exit Tokens | Monthly cost |
 |---|---|---|---|
 
 ## 2. Unit economics
 
-| Fluxo | Custo por tarefa | Custo por tarefa correta | Margem |
+| Flow | Cost per task | Cost per correct task | Margin |
 |---|---|---|---|
 
-## 3. Qualidade economica
+## 3.Economic quality
 
-| Indicador | Valor atual | Meta | Status |
+| Indicator | Current value | Goal | Status |
 |---|---|---|---|
 
-## 4. Alertas
+## 4. Alerts
 
 - 
 
-## 5. Acoes da semana
+## 5. Actions of the week
 
 - 

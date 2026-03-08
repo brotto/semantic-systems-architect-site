@@ -1,30 +1,30 @@
 ---
 sidebar_position: 2
-title: Modelo de Ameacas
+title: Threat Model
 ---
 
-# Modelo de ameacas para sistemas SSA
+# Threat model for SSA systems
 
-## Superficies de ataque
+## Attack surfaces
 
-1. Entrada do usuario (prompt injection).
-2. Conteudo recuperado em RAG (document injection).
-3. Integracoes com tools (tool abuse).
-4. Memoria e estado de sessao.
-5. Camada de output e acao automatizada.
+1. User input (prompt injection).
+2. Content retrieved in RAG (document injection).
+3. Integrations with tools (tool abuse).
+4. Memory and session state.
+5. Output layer and automated action.
 
-## Ativos criticos
+## Critical assets
 
-- Politicas internas.
-- Dados sensiveis.
-- Fluxos com impacto legal/financeiro.
-- Credenciais e acessos de ferramentas.
+- Internal policies.
+- Sensitive data.
+- Flows with legal/financial impact.
+- Credentials and tool access.
 
-## Matriz de risco
+## Risk matrix
 
-Classifique cada cenario por:
-- probabilidade
-- impacto
-- detectabilidade
+Sort each scenario by:
+- probability
+- impact
+- detectability
 
-Priorize mitigacoes para cenarios de alto impacto e baixa detectabilidade.
+Prioritize mitigations for high-impact, low-detectability scenarios.

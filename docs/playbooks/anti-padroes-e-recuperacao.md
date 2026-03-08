@@ -1,43 +1,43 @@
-# Playbook - Anti-padrões e Recuperação
+# Playbook - Anti-patterns and Recovery
 
-## Anti-padrão 1: Prompt monolítico sem contrato
+## Anti-pattern 1: Monolithic prompt without contract
 
-Sintoma:
-- Resultado inconsistente entre execuções.
+Symptom:
+- Inconsistent result between runs.
 
-Correção:
-- Separar identidade, política, objetivo e formato.
-- Introduzir contrato semântico e validação de output.
+Correction:
+- Separate identity, politics, objective and format.
+- Introduce semantic contract and output validation.
 
-## Anti-padrão 2: Agentes com escopo sobreposto
+## Anti-pattern 2: Agents with overlapping scope
 
-Sintoma:
-- Conflito de decisões e respostas redundantes.
+Symptom:
+- Conflict of decisions and redundant responses.
 
-Correção:
-- Reespecificar missão e fronteira de cada agente.
-- Definir protocolo de handoff.
+Correction:
+- Respecify each agent's mission and boundary.
+- Define handoff protocol.
 
-## Anti-padrão 3: Qualidade sem métricas
+## Anti-pattern 3: Quality without metrics
 
-Sintoma:
-- Discussão subjetiva sobre "parece melhor".
+Symptom:
+- Subjective discussion about "it looks better."
 
-Correção:
-- Criar baseline + suite de evals + gate de release.
+Correction:
+- Create baseline + evals suite + release gate.
 
-## Anti-padrão 4: Falta de governança de risco
+## Anti-pattern 4: Lack of risk governance
 
-Sintoma:
-- Incidentes de segurança sem trilha de causa.
+Symptom:
+- Security incidents without a cause trail.
 
-Correção:
-- Implementar matriz de risco, controles de acesso e auditoria.
+Correction:
+- Implement risk matrix, access controls and auditing.
 
-## Anti-padrão 5: Escala sem operação
+## Anti-pattern 5: Scale without operation
 
-Sintoma:
-- Sistema quebra em volume real.
+Symptom:
+- System crashes in real volume.
 
-Correção:
-- Definir SLOs, runbook, alertas e processo de incident response.
+Correction:
+- Define SLOs, runbook, alerts and incident response process.

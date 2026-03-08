@@ -1,25 +1,25 @@
 ---
 sidebar_position: 7
-title: Lab Seguranca Adversarial
+title: Adversarial Security Lab
 ---
 
-# Lab - Seguranca adversarial
+# Lab - Adversarial security
 
-## Desafio
+## Challenge
 
-Projetar e validar uma suite adversarial para um sistema SSA ja existente, elevando resiliencia sem degradar experiencia legitima.
+Design and validate an adversarial suite for an existing SSA system, increasing resilience without degrading legitimate experience.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Threat model do sistema.
-2. Catalogo de pelo menos 30 casos adversariais.
-3. Execucao de evals com baseline e resultado apos mitigacao.
-4. Runbook de incidente e plano de monitoramento.
-5. Checklist de release segura.
+1. Threat model of the system.
+2. Catalog of at least 30 adversarial cases.
+3. Execution of evals with baseline and results after mitigation.
+4. Incident runbook and monitoring plan.
+5. Safe release checklist.
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Cobertura de vetores criticos.
-- Qualidade das mitigacoes.
-- Evidencias de melhora mensuravel.
-- Viabilidade operacional.
+- Coverage of critical vectors.
+- Quality of mitigations.
+- Evidence of measurable improvement.
+- Operational viability.

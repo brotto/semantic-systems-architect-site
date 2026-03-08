@@ -1,24 +1,24 @@
 ---
 sidebar_position: 3
-title: Lab Saude
+title: Lab Health
 ---
 
-# Lab SSA - Saude
+# Lab SSA - Health
 
-## Desafio
+## Challenge
 
-Construir um fluxo de triagem assistida que classifique risco inicial e direcione para nivel de atendimento apropriado.
+Build an assisted triage flow that classifies initial risk and directs you to the appropriate level of care.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Ontologia clinica reduzida (minimo 10 entidades).
-2. Protocolo de escalonamento para sinais de alerta.
-3. Suite de evals com 40 casos (20 comuns, 10 edge, 10 criticos).
-4. Politica de bloqueio para incerteza clinica elevada.
+1. Reduced clinical ontology (minimum 10 entities).
+2. Escalation protocol for warning signals.
+3. Suite of evals with 40 cases (20 common, 10 edge, 10 critical).
+4. Blocking policy for high clinical uncertainty.
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Seguranca operacional
-- Clareza de justificativa
-- Rastreabilidade de decisao
-- Cobertura de casos criticos
+- Operational security
+- Clarity of justification
+- Decision traceability
+- Coverage of critical cases

@@ -1,53 +1,53 @@
-# Módulo 2 - Modelagem Semântica e Ontologias
+# Module 2 - Semantic Modeling and Ontologies
 
-## Objetivo
+## Aim
 
-Capacitar o SSA a criar modelos de domínio robustos para guiar LLMs com consistência e previsibilidade.
+Enable SSA to create robust domain models to drive LLMs with consistency and predictability.
 
-## Competências
+## Skills
 
-- Construir ontologias de domínio aplicadas a sistemas de IA.
-- Definir entidades, relações, invariantes e estados.
-- Especificar contratos semânticos para entrada, transformação e saída.
+- Build domain ontologies applied to AI systems.
+- Defines entities, relations, invariants and states.
+- Specify semantic contracts for input, transformation, and output.
 
-## Conteúdo
+## Content
 
-1. Modelagem de domínio para IA
-- Entidades e atributos essenciais
-- Relações e cardinalidade
-- Taxonomias e níveis de abstração
+1. Domain Modeling for AI
+- Essential entities and attributes
+- Relations and cardinality
+- Taxonomies and levels of abstraction
 
-2. Invariantes e políticas
-- Regras invioláveis
-- Regras contextuais
-- Critérios de exceção
+2. Invariants and policies
+- Inviolable rules
+- Contextual rules
+- Exception criteria
 
-3. Contratos semânticos
-- Contrato de input
-- Contrato de decisão
-- Contrato de output
+3. Semantic contracts
+- Input contract
+- Decision contract
+- Output contract
 
-4. Anti-padrões
-- Ontologia vaga
-- Campos sobrepostos
-- Semântica implícita
+4. Anti-patterns
+- Vague ontology
+- Overlapping fields
+- Implicit semantics
 
-## Exercícios
+## Exercises
 
-1. Criar ontologia v1 de um domínio real com no mínimo 12 entidades.
-2. Definir 15 invariantes (hard e soft constraints).
-3. Mapear ambiguidades linguísticas e resolver com definições operacionais.
+1. Create v1 ontology of a real domain with at least 12 entities.
+2. Defines 15 invariants (hard and soft constraints).
+3. Map linguistic ambiguities and resolve them with operational definitions.
 
-## Entregável
+## Deliverable
 
-"Especificação Ontológica SSA" contendo:
-- dicionário de entidades
-- grafo de relações
-- invariantes
-- exemplos válidos e inválidos
+"SSA Ontological Specification" containing:
+- entity dictionary
+- relationship graph
+- invariants
+- valid and invalid examples
 
-## Checklist de conclusão
+## Completion checklist
 
-- Modelo reduz ambiguidade de forma mensurável.
-- Qualquer novo membro entende o domínio sem conversa adicional.
-- LLM gera respostas mais estáveis ao usar a ontologia.
+- Model reduces ambiguity in a measurable way.
+- Any new member understands the domain without additional conversation.
+- LLM generates more stable answers when using ontology.

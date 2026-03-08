@@ -1,51 +1,51 @@
-# Módulo 5 - Context Engineering e Prompting Estrutural
+# Module 5 - Context Engineering and Structural Prompting
 
-## Objetivo
+## Aim
 
-Ensinar desenho de contexto como disciplina arquitetural, não como tentativa ad-hoc de prompt.
+Teach context drawing as an architectural discipline, not as an ad-hoc attempt at a prompt.
 
-## Competências
+## Skills
 
-- Construir pacotes de contexto orientados à tarefa.
-- Definir camadas de instrução (identidade, política, objetivo, formato).
-- Implementar estratégias de redução de ambiguidade e alucinação.
+- Build task-oriented context packages.
+- Defines instruction layers (identity, policy, objective, format).
+- Implement strategies to reduce ambiguity and hallucination.
 
-## Conteúdo
+## Content
 
-1. Arquitetura de contexto
-- Contexto estático
-- Contexto dinâmico
-- Contexto recuperado
+1. Context architecture
+- static context
+- Dynamic context
+- Recovered context
 
-2. Hierarquia de instrução
-- Missão global
-- Regras mandatórias
-- Heurísticas operacionais
-- Estilo de output
+2. Instruction hierarchy
+- global mission
+- Mandatory rules
+- Operational heuristics
+- Output style
 
-3. Estratégias avançadas
-- Few-shot semântico
-- Delimitação de escopo
+3. Advanced Strategies
+- Semantic few-shot
+- Scope delimitation
 - Prompt decomposition
-- Self-critique guiada
+- Guided self-critique
 
-4. Anti-padrões
-- Prompts monolíticos
-- Objetivos conflitantes
-- Formato sem validação
+4. Anti-patterns
+- Monolithic prompts
+- Conflicting goals
+- Format without validation
 
-## Exercícios
+## Exercises
 
-1. Refatorar um prompt ruim em arquitetura de contexto modular.
-2. Criar variações por persona/risco sem quebrar invariantes.
-3. Medir ganho de consistência em lote de casos.
+1. Refactor a bad prompt into modular context architecture.
+2. Create variations per persona/risk without breaking invariants.
+3. Measure consistency gain in batch of cases.
 
-## Entregável
+## Deliverable
 
-"Pacote de Contexto SSA" versionado com rationale.
+"SSA Context Package" versioned with rationale.
 
-## Checklist de conclusão
+## Completion checklist
 
-- Prompt deixa de ser texto único e vira sistema.
-- Mudanças são rastreáveis por versão.
-- Resultado melhora em estabilidade sem aumento descontrolado de custo.
+- Prompt stops being a single text and becomes a system.
+- Changes are trackable by version.
+- Result improves stability without uncontrolled increase in cost.

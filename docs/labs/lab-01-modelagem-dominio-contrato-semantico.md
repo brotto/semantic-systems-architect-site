@@ -1,27 +1,27 @@
-# Lab 1 - Modelagem de Domínio e Contrato Semântico
+# Lab 1 - Domain Modeling and Semantic Contract
 
-## Desafio
+## Challenge
 
-Escolha um domínio real (saúde, jurídico, suporte técnico, financeiro, educação etc.) e produza uma especificação semântica pronta para uso por IA.
+Choose a real domain (healthcare, legal, technical support, finance, education, etc.) and produce an AI-ready semantic specification.
 
-## Objetivos do lab
+## Lab objectives
 
-- Construir ontologia funcional.
-- Definir contratos de entrada/decisão/saída.
-- Reduzir ambiguidade operacional.
+- Build functional ontology.
+- Define input/decision/output contracts.
+- Reduce operational ambiguity.
 
-## Entregas obrigatórias
+## Mandatory deliveries
 
-1. Ontologia com no mínimo 12 entidades.
-2. Mapa de relações com invariantes.
-3. 20 exemplos rotulados (válido/inválido).
-4. Documento de ambiguidades e decisões de design.
+1. Ontology with at least 12 entities.
+2. Map of relations with invariants.
+3. 20 labeled examples (valid/invalid).
+4. Design ambiguities and decisions document.
 
-## Critérios de aprovação
+## Approval criteria
 
-- Clareza semântica (0-10)
-- Cobertura de casos críticos (0-10)
-- Consistência de invariantes (0-10)
-- Testabilidade do modelo (0-10)
+- Semantic clarity (0-10)
+- Coverage of critical cases (0-10)
+- Consistency of invariants (0-10)
+- Model testability (0-10)
 
-Nota mínima: 30/40.
+Minimum grade: 30/40.

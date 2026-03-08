@@ -1,33 +1,33 @@
 ---
 sidebar_position: 2
-title: Banco de Casos
+title: Case Bank
 ---
 
-# Banco de casos
+# Case bank
 
-## O que e um caso
+## What is an affair
 
-Unidade padrao para treino, validacao ou benchmark de comportamento semantico.
+Standard unit for training, validating or benchmarking semantic behavior.
 
-## Estrutura minima
+## Minimum structure
 
-- `id`: identificador unico.
-- `dominio`: saude, juridico, suporte-b2b etc.
-- `contexto`: descricao objetiva.
-- `entrada`: dados fornecidos ao sistema.
-- `resultado_esperado`: comportamento esperado.
-- `rubrica`: criterios de avaliacao.
-- `risco`: baixo, medio ou alto.
+- `id`: unique identifier.
+- `dominio`: healthcare, legal, support-b2b, etc.
+- `contexto`: objective description.
+- `entrada`: data provided to the system.
+- `resultado_esperado`: expected behavior.
+- `rubrica`: evaluation criteria.
+- `risco`: low, medium or high.
 
-## Curadoria
+## Curation
 
-1. Revisao de formato.
-2. Revisao conceitual.
-3. Revisao de seguranca e privacidade.
-4. Publicacao no lote mensal.
+1. Format review.
+2. Conceptual review.
+3. Security and privacy review.
+4. Publication in monthly batch.
 
 ## Assets
 
-Templates e amostras em:
+Templates and samples at:
 - `community-assets/case-bank/template-case.json`
 - `community-assets/case-bank/samples/`

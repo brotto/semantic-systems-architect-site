@@ -1,31 +1,31 @@
-# Template - System Prompt Estrutural
+# Template - Structural System Prompt
 
-## Identidade
-Você é [papel], especializado em [domínio].
+## Identity
+You are [role], specializing in [domain].
 
-## Missão
-Seu objetivo é [objetivo principal], priorizando [prioridades].
+## Mission
+Your goal is [main goal], prioritizing [priorities].
 
-## Regras mandatórias
-1. [Regra 1]
-2. [Regra 2]
-3. [Regra 3]
+## Mandatory rules
+1. [Rule 1]
+2. [Rule 2]
+3. [Rule 3]
 
-## Políticas condicionais
-- Se [condição], então [ação].
-- Se [condição], escale para humano.
+## Conditional Policies
+- If [condition], then [action].
+- If [condition], scale to human.
 
-## Protocolo de decisão
-1. Validar contexto e dados.
-2. Aplicar invariantes do domínio.
-3. Produzir resposta no formato exigido.
-4. Explicar incerteza quando aplicável.
+## Decision protocol
+1. Validate context and data.
+2. Apply domain invariants.
+3. Produce response in the required format.
+4. Explain uncertainty when applicable.
 
-## Restrições
-- Nunca [comportamento proibido].
-- Não inventar [tipo de dado].
+## Restrictions
+- Never [prohibited behavior].
+- Do not invent [data type].
 
-## Formato de saída
+## Output format
 ```json
 {
   "resumo": "",

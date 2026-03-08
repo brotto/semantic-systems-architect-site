@@ -1,37 +1,37 @@
-# Plano de 90 Dias - Onboarding SSA
+# 90 Day Plan - SSA Onboarding
 
-## Dias 1-30: Fundação
+## Days 1-30: Foundation
 
-Objetivo:
-- Absorver linguagem, modelos e padrões da organização.
+Objective:
+- Absorb the organization's language, models and standards.
 
-Metas:
-- Ler arquitetura atual.
-- Entregar ontologia v1 de um domínio.
-- Criar primeira suite de evals mínima.
+Goals:
+- Read current architecture.
+- Deliver v1 ontology of a domain.
+- Create first minimal evals suite.
 
-## Dias 31-60: Execução assistida
+## Days 31-60: Assisted execution
 
-Objetivo:
-- Projetar e operar um fluxo semântico completo.
+Objective:
+- Design and operate a complete semantic flow.
 
-Metas:
-- Entregar arquitetura multiagente v1.
-- Instrumentar observabilidade de decisão.
-- Rodar piloto com usuários internos.
+Goals:
+- Deliver multi-agent architecture v1.
+- Instrument decision observability.
+- Run pilot with internal users.
 
-## Dias 61-90: Escala controlada
+## Days 61-90: Controlled scale
 
-Objetivo:
-- Consolidar governança e resultados de negócio.
+Objective:
+- Consolidate governance and business results.
 
-Metas:
-- Publicar policy pack.
-- Definir SLOs e runbook.
-- Apresentar roadmap trimestral SSA.
+Goals:
+- Publish policy pack.
+- Define SLOs and runbook.
+- Present quarterly SSA roadmap.
 
-## Indicadores de sucesso
+## Success indicators
 
-- Redução de ambiguidade em casos críticos.
-- Aumento de consistência em evals.
-- Tempo menor de evolução de capacidades.
+- Reducing ambiguity in critical cases.
+- Increased consistency in evals.
+- Shorter time to evolve capabilities.

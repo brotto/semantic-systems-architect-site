@@ -1,22 +1,22 @@
 ---
 sidebar_position: 3
-title: Evals Comunitarias
+title: Community Evals
 ---
 
-# Evals comunitarias
+# Community evals
 
-## Finalidade
+## Purpose
 
-Permitir comparacao transparente entre versoes, prompts, agentes e politicas.
+Allow transparent comparison between versions, prompts, agents and policies.
 
-## Protocolo minimo
+## Minimum protocol
 
-1. Definir objetivo da suite.
-2. Selecionar casos por dominio e nivel de risco.
-3. Definir rubrica e gate.
-4. Publicar resultados com versao e data.
+1. Define the objective of the suite.
+2. Select cases by domain and risk level.
+3. Define rubric and gate.
+4. Publish results with version and date.
 
-## Formato de resultado
+## Result format
 
 - `suite_id`
 - `versao`

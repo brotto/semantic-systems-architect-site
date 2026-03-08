@@ -1,51 +1,51 @@
-# Módulo 7 - Segurança, Governança e Ética
+# Module 7 - Security, Governance and Ethics
 
-## Objetivo
+## Aim
 
-Garantir que sistemas arquitetados semanticamente sejam seguros, auditáveis e alinhados a requisitos regulatórios e éticos.
+Ensure that semantically architected systems are secure, auditable and aligned with regulatory and ethical requirements.
 
-## Competências
+## Skills
 
-- Identificar vetores de risco em sistemas com LLM.
-- Definir políticas de acesso, uso e retenção de dados.
-- Projetar guardrails técnicos e processuais.
+- Identify risk vectors in systems with LLM.
+- Defines data access, use and retention policies.
+- Design technical and procedural guardrails.
 
-## Conteúdo
+## Content
 
-1. Ameaças principais
+1. Main threats
 - Prompt injection
 - Data leakage
 - Tool abuse
 - Decision spoofing
 
-2. Arquitetura de controles
-- Validação de input
-- Sandboxing de tools
-- Políticas de acesso por escopo
-- Revisão humana para decisões críticas
+2. Control architecture
+- Input validation
+- Tool sandboxing
+- Scoped access policies
+- Human review for critical decisions
 
-3. Compliance e auditoria
-- Trilhas de decisão
-- Justificabilidade de resposta
-- Classificação de dados e retenção
+3. Compliance and audit
+- Decision paths
+- Justifiability of response
+- Data classification and retention
 
-4. Ética aplicada
-- Viés e fairness
-- Transparência proporcional
-- Limites de automação
+4. Applied ethics
+- Life and fairness
+- Proportional transparency
+- Automation Limits
 
-## Exercícios
+## Exercises
 
-1. Fazer threat model de um sistema multiagente.
-2. Definir matriz de risco (probabilidade x impacto x detectabilidade).
-3. Implementar policy pack com critérios de bloqueio.
+1. Make threat model of a multi-agent system.
+2. Defines risk matrix (probability x impact x detectability).
+3. Implement policy pack with blocking criteria.
 
-## Entregável
+## Deliverable
 
-"Plano de Segurança e Governança SSA".
+"SSA Security and Governance Plan".
 
-## Checklist de conclusão
+## Completion checklist
 
-- Riscos críticos têm mitigação prática.
-- Existe processo de incidente e pós-mortem.
-- As decisões automatizadas têm critérios de auditabilidade.
+- Critical risks have practical mitigation.
+- There is an incident and post-mortem process.
+- Automated decisions have auditability criteria.

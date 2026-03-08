@@ -1,28 +1,28 @@
 ---
 sidebar_position: 6
-title: Como Submeter
+title: How to Submit
 ---
 
-# Como submeter contribuicoes praticas
+# How to submit practical contributions
 
-## Tipos de submissao
+## Types of submission
 
-1. Novo caso para banco de casos.
-2. Nova suite de evals.
-3. Capstone de referencia.
-4. Atualizacao da matriz de maturidade.
+1. New case for case bank.
+2. New evals suite.
+3. Reference capstone.
+4. Update of the maturity matrix.
 
-## Passos
+## Steps
 
-1. Abrir issue com contexto e objetivo.
-2. Criar branch `community/<tipo>-<slug>`.
-3. Incluir artefatos em `community-assets/`.
-4. Atualizar docs relacionadas.
-5. Abrir PR com evidencias e checklist.
+1. Open issue with context and objective.
+2. Create branch `community/<tipo>-<slug>`.
+3. Add artifacts to `community-assets/`.
+4. Update related docs.
+5. Open PR with evidence and checklist.
 
-## Boas praticas
+## Good practices
 
-- Remover dados sensiveis.
-- Explicitar limites e premissas.
-- Fornecer exemplos validos e invalidos.
-- Registrar riscos residuais.
+- Remove sensitive data.
+- Explain limits and assumptions.
+- Provide valid and invalid examples.
+- Record residual risks.

@@ -1,30 +1,30 @@
 ---
 sidebar_position: 4
-title: Metodologia Red Teaming
+title: Red Teaming Methodology
 ---
 
-# Metodologia de red teaming
+# Red teaming methodology
 
-## Ciclo recomendado
+## Recommended cycle
 
-1. Definir escopo de ataque por fluxo critico.
-2. Selecionar taticas adversariais por categoria.
-3. Executar campanha controlada de testes.
-4. Medir taxa de bypass de guardrails.
-5. Corrigir, reavaliar e versionar resultados.
+1. Define attack scope per critical flow.
+2. Select adversarial tactics by category.
+3. Run controlled test campaign.
+4. Measure bypass rate of guardrails.
+5. Correct, reevaluate and version results.
 
-## Estrutura de campanha
+## Campaign structure
 
-- Objetivo do teste
-- Vetor de ataque
+- Test objective
+- Attack Vector
 - Payload
-- Resultado observado
-- Controle que falhou
-- Correcao aplicada
+- Observed result
+- Failed control
+- Correction applied
 
-## Regras de execucao
+## Execution rules
 
-- Ambiente isolado.
-- Sem dados reais sensiveis.
-- Log completo por teste.
-- Revisao de seguranca antes de release.
+- Isolated environment.
+- No sensitive real data.
+- Full log per test.
+- Security review before release.

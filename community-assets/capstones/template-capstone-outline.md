@@ -1,17 +1,17 @@
 # Template - Capstone SSA
 
-## 1. Contexto e problema
+## 1. Context and problem
 
-## 2. Ontologia e contratos
+## 2. Ontology and contracts
 
-## 3. Arquitetura de agentes
+## 3. Agent architecture
 
-## 4. Workflows e tools
+## 4. Workflows and tools
 
-## 5. Evals e resultados
+## 5. Evals and results
 
-## 6. Seguranca e governanca
+## 6. Security and governance
 
-## 7. Operacao e escala
+## 7. Operation and scale
 
-## 8. Roadmap de evolucao
+## 8. Evolution roadmap

@@ -1,24 +1,24 @@
-# Template - Calendario da academia interna SSA
+# Template - SSA internal academy calendar
 
-## Semana 1
-- Aula: fundamentos SSA
-- Lab: modelagem semantica
+## Week 1
+- Class: SSA fundamentals
+- Lab: semantic modeling
 
-## Semana 2
-- Aula: arquitetura de agentes
-- Lab: workflow e tool orchestration
+## Week 2
+- Class: agent architecture
+- Lab: workflow and orchestration tool
 
-## Semana 3
-- Aula: avaliação e observabilidade
-- Lab: suite de evals
+## Week 3
+- Lesson: evaluation and observability
+- Lab: evals suite
 
-## Semana 4
-- Aula: segurança e governança
-- Lab: hardening e release segura
+## Week 4
+- Class: security and governance
+- Lab: hardening and safe release
 
-## Semana 5
-- Aula: economia de IA
-- Lab: otimização de custos
+## Week 5
+- Class: AI economics
+- Lab: cost optimization
 
-## Semana 6
-- Capstone sprint e apresentação
+## Week 6
+- Capstone sprint and presentation

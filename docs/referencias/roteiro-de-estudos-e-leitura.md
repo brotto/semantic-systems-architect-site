@@ -1,40 +1,40 @@
-# Roteiro de Estudos e Leitura - SSA
+# Study and Reading Guide - SSA
 
-## Trilha de 6 semanas
+## 6 week trail
 
-1. Semana 1
-- Módulo 1 + Módulo 2
-- Entrega parcial da ontologia
+1. Week 1
+- Module 1 + Module 2
+- Partial delivery of the ontology
 
-2. Semana 2
-- Módulo 3
-- Definição da arquitetura de agentes
+2. Week 2
+- Module 3
+- Definition of agent architecture
 
-3. Semana 3
-- Módulo 4 + Módulo 5
-- Construção do pacote de contexto
+3. Week 3
+- Module 4 + Module 5
+- Context package construction
 
-4. Semana 4
-- Módulo 6
-- Primeira suite de evals
+4. Week 4
+- Module 6
+- First evals suite
 
-5. Semana 5
-- Módulo 7
-- Threat model e policy pack
+5. Week 5
+- Module 7
+- Threat model and policy pack
 
-6. Semana 6
-- Módulo 8
-- Capstone e apresentação final
+6. Week 6
+- Module 8
+- Capstone and final presentation
 
-## Rotina recomendada
+## Recommended routine
 
-- 60 min: teoria
-- 90 min: prática guiada
-- 30 min: revisão de artefatos
+- 60 min: theory
+- 90 min: guided practice
+- 30 min: artifact review
 
-## Checklist semanal
+## Weekly checklist
 
-- O que aprendi sobre modelagem?
-- O que medi com evidência?
-- Que risco novo identifiquei?
-- Que decisão arquitetural precisa versionar?
+- What did I learn about modeling?
+- What do I measure with evidence?
+- What new risk have I identified?
+- What architectural decision needs to be versioned?

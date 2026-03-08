@@ -1,13 +1,13 @@
-# Template - Scorecard de adocao SSA
+# Template - SSA Adoption Scorecard
 
-| Squad | Nivel maturidade | Conclusao trilha | Evals estaveis | Incidentes | Custo por tarefa | Status |
+| Squad | Maturity level | Trail completion | Stable evals | Incidents | Cost per task | Status |
 |---|---|---|---|---|---|---|
 
-## Resumo executivo
+## Executive summary
 
 - 
 
-## Ações prioritárias
+## Priority actions
 
 1. 
 2. 

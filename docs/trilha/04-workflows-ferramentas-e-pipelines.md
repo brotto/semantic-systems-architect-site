@@ -1,52 +1,52 @@
-# Módulo 4 - Workflows, Ferramentas e Pipelines
+# Module 4 - Workflows, Tools and Pipelines
 
-## Objetivo
+## Aim
 
-Estruturar fluxos ponta a ponta que integrem LLMs, ferramentas externas, dados e ações com rastreabilidade.
+Structure end-to-end flows that integrate LLMs, external tools, data and actions with traceability.
 
-## Competências
+## Skills
 
-- Projetar workflows determinísticos + etapas adaptativas.
-- Definir contratos de tool use e validação de chamadas.
-- Separar pipeline de raciocínio, pipeline de dados e pipeline de execução.
+- Design deterministic workflows + adaptive steps.
+- Defines tool use contracts and call validation.
+- Separate reasoning pipeline, data pipeline and execution pipeline.
 
-## Conteúdo
+## Content
 
-1. Anatomia de um workflow SSA
+1. Anatomy of an SSA workflow
 - Trigger
 - Context build
-- Deliberação
-- Execução
-- Verificação
-- Auditoria
+- Deliberation
+- execution
+- Verification
+- Audit
 
-2. Integração com ferramentas
-- Catálogo de tools
-- Schema de argumentos
-- Política de retries e timeout
+2. Integration with tools
+- Tools catalog
+- Argument scheme
+- Retries and timeout policy
 
-3. Gestão de estado
-- Estado efêmero
-- Estado de sessão
-- Estado persistente
+3. State management
+- ephemeral state
+- session state
+- persistent state
 
-4. Resiliência operacional
-- Idempotência
-- Compensação
-- Circuit breaker semântico
+4. Operational resilience
+- Idempotence
+- Compensation
+- Semantic circuit breaker
 
-## Exercícios
+## Exercises
 
-1. Construir um workflow de 8 etapas com 3 integrações externas.
-2. Definir política de erro para cada etapa.
-3. Criar diagrama de observabilidade do fluxo.
+1. Build an 8-step workflow with 3 external integrations.
+2. Set error policy for each step.
+3. Create flow observability diagram.
 
-## Entregável
+## Deliverable
 
-"Pipeline Operacional SSA" com mapa de execução e SLAs.
+"SSA Operational Pipeline" with execution map and SLAs.
 
-## Checklist de conclusão
+## Completion checklist
 
-- Fluxo reproduzível com logs auditáveis.
-- Erros previstos têm fallback explícito.
-- Dependências externas têm isolamento de falhas.
+- Reproducible flow with auditable logs.
+- Predicted errors have explicit fallback.
+- External dependencies are fault isolated.

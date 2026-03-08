@@ -1,24 +1,24 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Onboarding corporativo SSA
+# Corporate SSA Onboarding
 
-Esta trilha orienta empresas a estruturar adoção de **Semantic Systems Architect** com governança, capacitação e entrega de valor.
+This path guides companies to structure the adoption of **Semantic Systems Architect** with governance, training and value delivery.
 
-## Objetivos
+## Goals
 
-- Formar SSA internos em ciclos de 90 dias.
-- Padronizar prática arquitetural entre squads.
-- Reduzir risco de adoção improvisada de IA.
-- Conectar capacitação com resultado de negócio.
+- Train internal SSAs in 90-day cycles.
+- Standardize architectural practice between squads.
+- Reduce risk from impromptu AI adoption.
+- Connect training with business results.
 
-## Trilha
+## Track
 
-- [Modelo de adoção organizacional](./modelo-de-adocao)
-- [Plano 30-60-90](./plano-30-60-90)
-- [Academia interna SSA](./academia-interna)
-- [Rituais e governança](./rituais-e-governanca)
-- [Métricas de capacitação e impacto](./metricas-de-impacto)
-- [Lab de rollout corporativo](./lab-rollout-corporativo)
+- [Organizational Adoption Model](./modelo-de-adocao)
+- [Plan 30-60-90](./plano-30-60-90)
+- [Internal SSA Academy](./academia-interna)
+- [Rituals and governance](./rituais-e-governanca)
+- [Capability and impact metrics](./metricas-de-impacto)
+- [Corporate Rollout Lab](./lab-rollout-corporativo)

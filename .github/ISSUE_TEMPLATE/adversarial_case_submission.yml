@@ -1,42 +1,42 @@
 name: Adversarial case submission
-description: Submissao de caso adversarial para suite de seguranca
+description: Submit a new adversarial case for the security suite
 labels: [security, content]
 body:
   - type: input
     id: case_id
     attributes:
       label: Case ID
-      placeholder: adv-dominio-001
+      placeholder: adv-domain-001
     validations:
       required: true
   - type: dropdown
-    id: categoria
+    id: category
     attributes:
-      label: Categoria de ataque
+      label: Attack category
       options:
         - Prompt injection
         - Document injection (RAG)
-        - Exfiltracao de dados
+        - Data exfiltration
         - Tool abuse
-        - Manipulacao de decisao
+        - Decision manipulation
     validations:
       required: true
   - type: textarea
     id: payload
     attributes:
-      label: Payload adversarial
+      label: Adversarial payload
     validations:
       required: true
   - type: textarea
-    id: comportamento_esperado
+    id: expected_behavior
     attributes:
-      label: Comportamento seguro esperado
+      label: Expected secure behavior
     validations:
       required: true
   - type: checkboxes
     id: compliance
     attributes:
-      label: Checklist
+      label: Compliance checklist
       options:
-        - label: Confirmo que nao inclui dados sensiveis.
+        - label: I confirm this submission contains no sensitive data.
           required: true

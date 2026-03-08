@@ -1,36 +1,36 @@
-# Capstone SSA - Projeto Final
+# Capstone SSA - Final Project
 
-## Objetivo
+## Objective
 
-Entregar uma arquitetura semântica completa para um problema real, com demonstração prática e plano de operação.
+Deliver a complete semantic architecture for a real problem, with practical demonstration and operation plan.
 
-## Escopo mínimo
+## Minimum scope
 
-1. Definição do problema e KPIs.
-2. Ontologia de domínio aplicada.
-3. Arquitetura multiagente + workflows.
-4. Suite de evals e evidências de qualidade.
-5. Plano de segurança e governança.
-6. Plano operacional (SLOs + runbook).
-7. Roadmap de evolução trimestral.
+1. Problem definition and KPIs.
+2. Applied domain ontology.
+3. Multi-agent architecture + workflows.
+4. Suite of evals and quality evidence.
+5. Security and governance plan.
+6. Operational plan (SLOs + runbook).
+7. Quarterly evolution roadmap.
 
-## Formato de entrega
+## Delivery format
 
-- Documento técnico (10-20 páginas).
-- Repositório com artefatos (prompts, configs, evals, logs).
-- Apresentação executiva (15 minutos).
-- Defesa técnica (15 minutos).
+- Technical document (10-20 pages).
+- Repository with artifacts (prompts, configs, evals, logs).
+- Executive presentation (15 minutes).
+- Technical defense (15 minutes).
 
-## Critérios da banca
+## Banking criteria
 
-- Solidez conceitual.
-- Viabilidade técnica.
-- Qualidade de evidências.
-- Maturidade operacional.
-- Potencial de impacto de negócio.
+- Conceptual solidity.
+- Technical feasibility.
+- Quality of evidence.
+- Operational maturity.
+- Business impact potential.
 
-## Resultado
+## Result
 
-- Aprovado com distinção: media >= 8,5
-- Aprovado: media >= 7,5
-- Revisão necessária: media < 7,5
+- Approved with distinction: average >= 8.5
+- Approved: average >= 7.5
+- Required revision: average < 7.5

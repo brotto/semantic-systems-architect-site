@@ -1,36 +1,36 @@
 # Template - RAG Architecture Spec
 
-## 1. Escopo
-- Dominio:
-- Usuarios:
-- Perguntas-alvo:
+## 1. Scope
+- Domain:
+- Users:
+- Target questions:
 
-## 2. Fontes de conhecimento
-| Fonte | Frequencia de atualizacao | Sensibilidade | Dono |
+## 2. Sources of knowledge
+| Source | Update frequency | Sensitivity | Owner |
 |---|---|---|---|
 
-## 3. Ingestao e indexacao
-- Estrategia de chunking:
-- Metadados:
-- Politica de atualizacao:
+## 3. Ingestion and indexing
+- Chunking strategy:
+- Metadata:
+- Update policy:
 
 ## 4. Retrieval
-- Busca (vetorial/lexical/hibrida):
-- Filtros:
-- Reranker:
-- k dinamico:
+- Search (vector/lexical/hybrid):
+- Filters:
+- Rerank:
+- k dynamic:
 
-## 5. Geracao
-- Prompt de citacao:
-- Politicas de incerteza:
-- Formato de output:
+## 5. Generation
+- Quote prompt:
+- Uncertainty policies:
+- Output format:
 
-## 6. Avaliacao
-- Metricas:
+## 6. Assessment
+- Metrics:
 - Dataset:
 - Gates:
 
-## 7. Operacao
+## 7. Operation
 - SLOs:
-- Alertas:
+- Alerts:
 - Runbook:

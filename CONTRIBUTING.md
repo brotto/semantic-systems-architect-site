@@ -1,36 +1,36 @@
 # Contributing to SSA Academy
 
-Obrigado por contribuir com o projeto do curso Semantic Systems Architect.
+Thank you for contributing to the Semantic Systems Architect course project.
 
-## Fluxo rapido
+## Quick flow
 
-1. Faça fork do repositorio.
-2. Crie uma branch descritiva: `feat/...`, `fix/...`, `docs/...`.
-3. Rode localmente:
+1. Fork the repository.
+2. Create a descriptive branch: `feat/...`, `fix/...`, `docs/...`.
+3. Run locally:
    - `npm install`
-   - `npm start` (desenvolvimento)
-   - `npm run build` (validacao)
-4. Atualize ou crie conteudo em `docs/`.
-5. Abra Pull Request usando o template.
+   - `npm start` (development)
+   - `npm run build` (validation)
+4. Update or create content in `docs/`.
+5. Open a Pull Request using the template.
 
-## Padrao editorial
+## Editorial standard
 
-- Linguagem direta, objetiva e didatica.
-- Evite jargao sem definicao.
-- Quando adicionar conceitos novos, atualizar `docs/referencias/glossario-ssa.md`.
-- Sempre incluir exemplos praticos quando possivel.
+- Use direct, objective, didactic language.
+- Avoid undefined jargon.
+- When adding new concepts, update `docs/referencias/glossario-ssa.md`.
+- Include practical examples whenever possible.
 
-## Padrao tecnico
+## Technical standard
 
-- Nao editar arquivos gerados (`build/`, `.docusaurus/`).
-- Links internos devem usar caminhos do Docusaurus.
-- Se alterar navegacao, atualizar `sidebars.js`.
-- Para contribuicoes praticas, usar `community-assets/` com os templates oficiais.
-- Casos e capstones devem remover qualquer dado sensivel.
+- Do not edit generated files (`build/`, `.docusaurus/`).
+- Internal links must use Docusaurus paths.
+- If you change navigation, update `sidebars.js`.
+- For practical contributions, use official templates in `community-assets/`.
+- Cases and capstones must remove any sensitive data.
 
-## Checklist do PR
+## PR checklist
 
-- Conteudo coerente com a taxonomia SSA.
-- Navegacao atualizada.
-- `npm run build` executa sem erro.
-- Escopo e impacto descritos na PR.
+- Content is consistent with SSA taxonomy.
+- Navigation is updated when needed.
+- `npm run build` runs without errors.
+- Scope and impact are clearly described.

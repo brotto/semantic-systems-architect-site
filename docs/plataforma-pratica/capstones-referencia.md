@@ -1,29 +1,29 @@
 ---
 sidebar_position: 4
-title: Capstones de Referencia
+title: Reference Capstones
 ---
 
-# Capstones de referencia
+# Reference Capstones
 
-## Objetivo
+## Objective
 
-Criar um acervo de projetos finais de alta qualidade para orientar novos SSA.
+Create a collection of high-quality final projects to guide new SSA.
 
-## Criterios para entrar no acervo
+## Criteria for entering the collection
 
-- Clareza arquitetural ponta a ponta.
-- Evals com evidencias reproduziveis.
-- Riscos e mitigacoes documentados.
-- Viabilidade operacional demonstrada.
+- End-to-end architectural clarity.
+- Evals with reproducible evidence.
+- Documented risks and mitigations.
+- Demonstrated operational viability.
 
-## Estrutura recomendada
+## Recommended structure
 
-1. Problema e contexto.
-2. Ontologia e contratos.
-3. Arquitetura de agentes e workflow.
-4. Evals e resultados.
-5. Operacao, seguranca e governanca.
-6. Evolucao planejada.
+1. Problem and context.
+2. Ontology and contracts.
+3. Agent and workflow architecture.
+4. Evals and results.
+5. Operation, security and governance.
+6. Planned evolution.
 
 ## Assets
 

@@ -1,25 +1,25 @@
-# Template - Ontologia de Domínio
+# Template - Domain Ontology
 
-## Definição do domínio
-- Fronteira do sistema:
-- Linguagem do domínio:
+## Domain definition
+- System boundary:
+- Domain language:
 
-## Entidades
-| Entidade | Definição operacional | Atributos | Estados |
+## Entities
+| Entity | Operational definition | Attributes | States |
 |---|---|---|---|
 
-## Relações
-| Origem | Relação | Destino | Cardinalidade | Regra |
+## Relations
+| Origin | Relationship | Destination | Cardinality | Rule |
 |---|---|---|---|---|
 
-## Invariantes
-| ID | Tipo (hard/soft) | Regra | Consequência |
+## Invariants
+| ID | Type (hard/soft) | Rule | Consequence |
 |---|---|---|---|
 
-## Ambiguidades resolvidas
-| Termo ambíguo | Risco | Definição adotada |
+## Ambiguities resolved
+| Ambiguous term | Risk | Definition adopted |
 |---|---|---|
 
-## Exemplos canônicos
-- Caso válido 1:
-- Caso inválido 1:
+## Canonical examples
+- Valid case 1:
+- Invalid case 1:

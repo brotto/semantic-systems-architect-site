@@ -1,53 +1,53 @@
 ---
 sidebar_position: 3
-title: Catalogo de Ataques
+title: Attack Catalog
 ---
 
-# Catalogo de ataques adversariais
+# Catalog of adversarial attacks
 
-## Categoria 1: Prompt injection direto
+## Category 1: Direct prompt injection
 
-Exemplo:
-- usuario tenta sobrescrever instrucoes mandatórias do sistema.
+Example:
+- user tries to overwrite mandatory system instructions.
 
-Defesa:
-- separacao estrita de instrucoes de sistema e entrada do usuario.
-- classificador de intencao maliciosa.
+Defense:
+- Strict separation of system instructions and user input.
+- malicious intent classifier.
 
-## Categoria 2: Injeção via contexto recuperado
+## Category 2: Injection via recovered context
 
-Exemplo:
-- documento indexado contem instrucoes maliciosas ocultas.
+Example:
+- indexed document contains hidden malicious instructions.
 
-Defesa:
-- sanitizacao de fontes.
-- politica de confianca por fonte.
-- isolamento entre conteudo e politicas do sistema.
+Defense:
+- fountain sanitization.
+- trust policy by source.
+- isolation between content and system policies.
 
-## Categoria 3: Exfiltracao de dados
+## Category 3: Data exfiltration
 
-Exemplo:
-- tentativa de extrair dados sensiveis por perguntas indiretas.
+Example:
+- attempt to extract sensitive data through indirect questions.
 
-Defesa:
-- mascaramento e controle de acesso por escopo.
-- filtros de output por classificacao de sensibilidade.
+Defense:
+- masking and access control by scope.
+- output filters by sensitivity classification.
 
-## Categoria 4: Tool abuse
+## Category 4: Tool abuse
 
-Exemplo:
-- ataque para executar acao externa nao autorizada.
+Example:
+- attack to perform unauthorized external action.
 
-Defesa:
-- allowlist de ferramentas.
-- validacao rigorosa de argumentos.
-- aprovacao humana para acoes de alto impacto.
+Defense:
+- allowlist of tools.
+- rigorous validation of arguments.
+- human approval for high-impact actions.
 
-## Categoria 5: Manipulacao de decisao
+## Category 5: Decision manipulation
 
-Exemplo:
-- usuario induz sistema a priorizacao indevida.
+Example:
+- user induces system to undue prioritization.
 
-Defesa:
-- regras de decisao explicitas.
-- validacao cruzada com agente critico.
+Defense:
+- explicit decision rules.
+- cross validation with critical agent.

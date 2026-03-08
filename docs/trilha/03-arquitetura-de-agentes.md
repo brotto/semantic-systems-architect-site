@@ -1,52 +1,52 @@
-# Módulo 3 - Arquitetura de Agentes
+# Module 3 - Agent Architecture
 
-## Objetivo
+## Aim
 
-Projetar sistemas multiagente com papéis claros, protocolos de cooperação e limites de autonomia.
+Design multi-agent systems with clear roles, cooperation protocols and autonomy limits.
 
-## Competências
+## Skills
 
-- Definir papéis de agentes por especialização cognitiva.
-- Escolher topologia de orquestração (centralizada, federada, hierárquica).
-- Criar protocolos de handoff e validação entre agentes.
+- Defines agent roles by cognitive specialization.
+- Choose orchestration topology (centralized, federated, hierarchical).
+- Create handoff and validation protocols between agents.
 
-## Conteúdo
+## Content
 
-1. Taxonomia de agentes
-- Planner
+1. Agent taxonomy
+- planner
 - Retriever
 - Reasoner
 - Critic
 - Executor
 - Guardrail
 
-2. Topologias
-- Supervisor + especialistas
-- Pipeline por estágio
-- Swarm com arbitragem
+2. Topologies
+- Supervisor + specialists
+- Pipeline by stage
+- Swarm with arbitration
 
-3. Protocolos de cooperação
-- Esquema de mensagens
-- Contratos de handoff
-- Controle de versão semântica
+3. Cooperation protocols
+- Message scheme
+- Handoff contracts
+- Semantic Versioning
 
-4. Controle de autonomia
-- Níveis de confiança
-- Alçadas de decisão
-- Escalonamento para humano
+4. Autonomy control
+- Trust Levels
+- Decision powers
+- Scaling to human
 
-## Exercícios
+## Exercises
 
-1. Projetar arquitetura multiagente para atendimento B2B complexo.
-2. Definir protocolo de handoff em formato estruturado.
-3. Simular falhas de coordenação e desenhar recovery.
+1. Design multi-agent architecture for complex B2B service.
+2. Defines handoff protocol in structured format.
+3. Simulate coordination failures and design recovery.
 
-## Entregável
+## Deliverable
 
-Diagrama + documento: "Arquitetura de Agentes SSA v1".
+Diagram + document: "SSA Agent Architecture v1".
 
-## Checklist de conclusão
+## Completion checklist
 
-- Cada agente tem missão, escopo e limites explícitos.
-- Existe estratégia de fallback segura.
-- A cooperação reduz custo e aumenta qualidade.
+- Each agent has an explicit mission, scope, and limits.
+- There is a safe fallback strategy.
+- Cooperation reduces cost and increases quality.

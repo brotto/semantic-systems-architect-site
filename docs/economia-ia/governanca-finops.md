@@ -1,33 +1,33 @@
 ---
 sidebar_position: 5
-title: Governanca FinOps
+title: FinOps Governance
 ---
 
-# Governanca FinOps para IA
+# FinOps Governance for AI
 
-## Politicas essenciais
+## Essential policies
 
-1. Orcamento mensal por produto.
-2. Limites por tipo de workflow.
-3. Alertas por desvio de custo.
-4. Processo de aprovacao para mudancas de alto impacto financeiro.
+1. Monthly budget per product.
+2. Limits by workflow type.
+3. Alerts for cost deviation.
+4. Approval process for changes with high financial impact.
 
-## Ritmo operacional
+## Operating rhythm
 
-- Diario: monitoramento de anomalias.
-- Semanal: revisao de custo por fluxo.
-- Mensal: revisao de ROI e repriorizacao.
-- Trimestral: revisao de arquitetura economica.
+- Diary: anomaly monitoring.
+- Weekly: review of cost per flow.
+- Monthly: ROI review and reprioritization.
+- Quarterly: review of economic architecture.
 
-## Papeis
+## Papers
 
-- Product: define valor minimo por unidade.
-- SSA: define arquitetura economicamente eficiente.
-- Engineering: implementa alavancas tecnicas.
-- Finance/FinOps: controla previsibilidade e governanca.
+- Product: defines minimum value per unit.
+- SSA: defines economically efficient architecture.
+- Engineering: implements technical levers.
+- Finance/FinOps: controls predictability and governance.
 
-## Controles recomendados
+## Recommended controls
 
-- Checklist de release com impacto financeiro.
-- Revisao de regressao economica no CI.
-- Matriz de risco custo x qualidade.
+- Release checklist with financial impact.
+- Review of economic regression in CI.
+- Cost x quality risk matrix.

@@ -1,50 +1,50 @@
 ---
 sidebar_position: 6
-title: SSA para Suporte B2B
+title: SSA for B2B Support
 ---
 
-# SSA para Suporte B2B
+# SSA for B2B Support
 
-## Objetivo
+## Objective
 
-Projetar sistemas de suporte tecnico B2B com foco em resolucao orientada por contexto, SLA e escalonamento inteligente.
+Design B2B technical support systems with a focus on context-driven resolution, SLA and intelligent scaling.
 
-## Casos de uso prioritarios
+## Priority use cases
 
-1. Classificacao de tickets por impacto e urgencia.
-2. Diagnostico assistido por logs e base de conhecimento.
-3. Orquestracao de handoff entre suporte, engenharia e sucesso do cliente.
+1. Classification of tickets by impact and urgency.
+2. Diagnosis assisted by logs and knowledge base.
+3. Handoff orchestration between support, engineering and customer success.
 
-## Ontologia minima recomendada
+## Minimum recommended ontology
 
-- Conta
+- Account
 - Ticket
-- Incidente
-- Severidade
-- Dependencia tecnica
-- Solucao proposta
-- Escalonamento
+- Incident
+- Severity
+- Technical dependence
+- Proposed solution
+- Escalation
 - SLA
 
-## Riscos criticos
+## Critical risks
 
-- Priorizacao incorreta de severidade.
-- Solucao nao reproduzivel.
-- Escalonamento tardio em incidentes de alto impacto.
+- Incorrect severity prioritization.
+- Non-reproducible solution.
+- Late escalation in high-impact incidents.
 
-## Arquitetura de referencia
+## Reference architecture
 
-- Agente `ticket-intake`: normaliza contexto e prioridade.
-- Agente `diagnostic-reasoner`: formula hipoteses tecnicas.
-- Agente `kb-retriever`: busca evidencias em runbooks.
-- Agente `ops-escalation`: define handoff e proxima acao.
+- `ticket-intake` Agent: normalizes context and priority.
+- Agent `diagnostic-reasoner`: formulates technical hypotheses.
+- Agent `kb-retriever`: searches for evidence in runbooks.
+- Agent `ops-escalation`: defines handoff and next action.
 
-## Evals essenciais
+## Essential Evals
 
-- Acuracia da classificacao de severidade.
-- Tempo medio para recomendacao util.
-- Taxa de resolucao sem reabertura.
+- Accuracy of severity classification.
+- Average time for useful recommendation.
+- Resolution rate without reopening.
 
-## Proximo passo
+## Next step
 
-Executar [Lab Suporte B2B](./lab-suporte-b2b)
+Run [B2B Support Lab](./lab-suporte-b2b)

@@ -1,25 +1,25 @@
 ---
 sidebar_position: 7
-title: Lab RAG de Producao
+title: RAG Production Lab
 ---
 
-# Lab - RAG de producao
+# Lab - production RAG
 
-## Desafio
+## Challenge
 
-Projetar uma arquitetura RAG para base documental de alto volume com qualidade auditavel.
+Design a RAG architecture for a high-volume document base with auditable quality.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Mapa de fontes e politica de ingestao.
-2. Estrategia de chunking e metadados.
-3. Config de retrieval + reranking.
-4. Suite de evals com 60 casos.
-5. Runbook de operacao com SLOs e alertas.
+1. Source map and intake policy.
+2. Chunking and metadata strategy.
+3. Retrieval + reranking configuration.
+4. Evals suite with 60 cases.
+5. Operation runbook with SLOs and alerts.
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Relevancia de recuperacao
-- Faithfulness com citacoes
-- Controle de risco
-- Viabilidade operacional
+- Relevance of recovery
+- Faithfulness with quotes
+- Risk control
+- Operational viability

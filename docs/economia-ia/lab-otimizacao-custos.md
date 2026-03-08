@@ -1,25 +1,25 @@
 ---
 sidebar_position: 7
-title: Lab Otimizacao de Custos
+title: Cost Optimization Lab
 ---
 
-# Lab - Otimizacao de custos de IA
+# Lab - AI cost optimization
 
-## Desafio
+## Challenge
 
-Reduzir em 25 por cento o custo por tarefa mantendo os gates de qualidade e seguranca.
+Reduce the cost per task by 25 percent while maintaining quality and safety standards.
 
-## Entregas obrigatorias
+## Mandatory deliveries
 
-1. Baseline economico atual.
-2. Mapa de alavancas com impacto estimado.
-3. Execucao de pelo menos 3 experimentos.
-4. Resultado comparativo antes e depois.
-5. Plano de governanca para manter ganhos.
+1. Current economic baseline.
+2. Map of levers with estimated impact.
+3. Execution of at least 3 experiments.
+4. Comparative result before and after.
+5. Governance plan to maintain gains.
 
-## Criterios de aprovacao
+## Approval criteria
 
-- Relevancia das alavancas escolhidas.
-- Qualidade da medicao economica.
-- Preservacao dos indicadores de qualidade.
-- Viabilidade de escala.
+- Relevance of the chosen levers.
+- Quality of economic measurement.
+- Preservation of quality indicators.
+- Feasibility of scale.

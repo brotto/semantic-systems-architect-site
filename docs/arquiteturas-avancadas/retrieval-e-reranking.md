@@ -1,27 +1,27 @@
 ---
 sidebar_position: 4
-title: Retrieval e Reranking
+title: Retrieval and Reranking
 ---
 
-# Retrieval e reranking
+# Retrieval and reranking
 
-## Fluxo recomendado
+## Recommended flow
 
-1. Query understanding com classificacao de intencao.
-2. Filtro por metadados (dominio, data, sensibilidade).
-3. Busca hibrida (vetorial + lexical).
-4. Reranking por relevancia semantica.
-5. Selecao final de contexto com budget de tokens.
+1. Query understanding with intent classification.
+2. Filter by metadata (domain, date, sensitivity).
+3. Hybrid search (vector + lexical).
+4. Reranking by semantic relevance.
+5. Final context selection with token budget.
 
-## Boas praticas
+## Good practices
 
-- Definir `k` dinamico por complexidade da pergunta.
-- Aplicar penalidade para fontes desatualizadas.
-- Bloquear trechos de alta sensibilidade sem permissao.
-- Forcar citacao de origem no output final.
+- Set dynamic `k` by question complexity.
+- Apply penalty for outdated fonts.
+- Block high sensitivity sections without permission.
+- Force source citation in final output.
 
 ## Guardrails
 
-- Se score de evidencia < limiar, responder com incerteza explicita.
-- Se fontes conflitam, sinalizar conflito e pedir revisao humana.
-- Nunca preencher lacunas com suposicao silenciosa.
+- If evidence score < threshold, respond with explicit uncertainty.
+- If sources conflict, flag conflict and ask for human review.
+- Never fill in gaps with silent guesswork.

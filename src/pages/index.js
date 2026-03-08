@@ -12,17 +12,17 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <p className={styles.kicker}>Nova categoria tecnologica</p>
+        <p className={styles.kicker}>A new technology category</p>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--lg" to="/docs/intro">
-            Explorar curso
+            Explore course
           </Link>
           <Link className="button button--secondary button--lg" to="/docs/certificacao/capstone-ssa">
-            Ver capstone
+            View capstone
           </Link>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
 
   return (
-    <Layout title={siteConfig.title} description="Plataforma aberta para formacao SSA">
+    <Layout title={siteConfig.title} description="Open platform for SSA training">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

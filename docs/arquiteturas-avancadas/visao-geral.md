@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
-title: Visao Geral
+title: Overview
 ---
 
-# Arquiteturas avancadas
+# Advanced architectures
 
-Esta secao cobre padroes tecnicos para sistemas SSA com maior complexidade operacional.
+This section covers technical standards for SSA systems with greater operational complexity.
 
-## Trilha atual
+## Current trail
 
-- [RAG em producao](./rag-em-producao)
-- [Lab RAG de producao](./lab-rag-producao)
+- [RAG in production](./rag-em-producao)
+- [Lab RAG production](./lab-rag-producao)
 
-## Objetivo
+## Objective
 
-Ajudar times a sair de POC para producao com previsibilidade, seguranca e qualidade mensuravel.
+Help teams move from POC to production with predictability, safety and measurable quality.

@@ -1,47 +1,47 @@
-# Rubricas de Avaliação - Certificação SSA
+# Assessment Rubrics - SSA Certification
 
-## Escala
+## Scale
 
-- 0-2: insuficiente
-- 3-4: básico
-- 5-6: funcional
-- 7-8: sólido
-- 9-10: excelência
+- 0-2: insufficient
+- 3-4: basic
+- 5-6: functional
+- 7-8: solid
+- 9-10: excellence
 
-## Dimensões
+## Dimensions
 
-1. Modelagem semântica
-- Clareza ontológica
-- Qualidade de invariantes
-- Consistência entre conceito e execução
+1. Semantic modeling
+- Ontological clarity
+- Quality of invariants
+- Consistency between concept and execution
 
-2. Arquitetura de sistema
-- Separação de responsabilidades
-- Qualidade dos protocolos
-- Estratégia de fallback
+2. System architecture
+- Separation of responsibilities
+- Quality of protocols
+- Fallback strategy
 
-3. Engenharia de contexto
-- Estrutura de instrução
-- Controle de ambiguidade
-- Robustez cross-scenarios
+3. Context engineering
+- Instruction Structure
+- Ambiguity control
+- Cross-scenario robustness
 
-4. Qualidade e avaliação
-- Maturidade de evals
-- Métricas e evidências
-- Gestão de regressões
+4. Quality and evaluation
+- evals maturity
+- Metrics and evidence
+- Regression management
 
-5. Segurança e governança
-- Cobertura de riscos
-- Controles técnicos
-- Auditabilidade
+5. Security and governance
+- Risk coverage
+- Technical controls
+- Auditability
 
-6. Produto e operação
-- Alinhamento com valor de negócio
-- Viabilidade operacional
-- Escalabilidade econômica
+6. Product and operation
+- Alignment with business value
+- Operational viability
+- Cost-effective scalability
 
-## Critério final
+## Final criteria
 
-- Média global >= 7,5
-- Nenhuma dimensão abaixo de 6,0
-- Capstone aprovado por banca
+- Global average >= 7.5
+- No dimensions below 6.0
+- Capstone approved by board

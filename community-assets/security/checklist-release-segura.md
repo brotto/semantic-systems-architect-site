@@ -1,8 +1,8 @@
-# Checklist - Release segura em IA
+# Checklist - Safe release in AI
 
-- [ ] Suite adversarial executada na versao candidata
-- [ ] Nenhuma falha critica aberta
-- [ ] Politicas de tool use validadas
-- [ ] Filtros de dados sensiveis validados
-- [ ] Runbook de incidente atualizado
-- [ ] Owner de seguranca aprovou o release
+- [ ] Adversarial suite executed in the candidate version
+- [ ] No critical failures open
+- [ ] Validated tool use policies
+- [ ] Validated sensitive data filters
+- [ ] Updated incident runbook
+- [ ] Security owner approved the release

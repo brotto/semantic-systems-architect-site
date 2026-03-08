@@ -1,62 +1,63 @@
 ---
 sidebar_position: 3
-title: Roadmap Publico
+title: Public Roadmap
 ---
 
-# Roadmap Publico (2026)
+# Public Roadmap (2026)
 
-## Fase 1 - Base aberta (concluida)
+## Phase 1 - Open Foundation (completed)
 
-- Site Docusaurus com trilha completa SSA.
-- Labs, templates, certificacao e carreira.
-- Publicacao em GitHub Pages.
+- Docusaurus website with complete SSA curriculum.
+- Labs, templates, certification and career.
+- Published on GitHub Pages.
 
-## Fase 2 - Comunidade e colaboracao (concluida)
+## Phase 2 - Community and collaboration (completed)
 
-- Guia de contribuicao e governanca.
-- Templates de issue e PR.
-- Backlog publico priorizado.
+- Contribution and governance guide.
+- Issue and PR templates.
+- Prioritized public backlog.
 
-## Fase 3 - Especializacoes por dominio (concluida)
+## Phase 3 - Specializations by domain (completed)
 
-- [SSA para Saude](../especializacoes/ssa-para-saude)
-- [SSA para Juridico](../especializacoes/ssa-para-juridico)
-- [SSA para Suporte B2B](../especializacoes/ssa-para-suporte-b2b)
+- [SSA for Health](../especializacoes/ssa-para-saude)
+- [SSA for Legal](../especializacoes/ssa-para-juridico)
+- [SSA for B2B Support](../especializacoes/ssa-para-suporte-b2b)
 
-## Fase 4 - Plataforma de pratica (concluida)
+## Phase 4 - Practice platform (completed)
 
-- [Banco de casos para evals comunitarias](../plataforma-pratica/banco-de-casos)
-- [Colecao de capstones referencia](../plataforma-pratica/capstones-referencia)
-- [Matriz de maturidade SSA por organizacao](../plataforma-pratica/matriz-maturidade-ssa)
+- [Case bank for community evals](../plataforma-pratica/banco-de-casos)
+- [Reference capstone collection](../plataforma-pratica/capstones-referencia)
+- [SSA maturity matrix by organization](../plataforma-pratica/matriz-maturidade-ssa)
 
-## Fase 5 - Arquiteturas avancadas (concluida)
+## Phase 5 - Advanced architectures (completed)
 
-- [Guia de arquitetura para RAG em producao](../arquiteturas-avancadas/rag-em-producao)
-- [Design de ingestao e indexacao](../arquiteturas-avancadas/design-ingestao-indexacao)
-- [Retrieval e reranking](../arquiteturas-avancadas/retrieval-e-reranking)
-- [Lab RAG de producao](../arquiteturas-avancadas/lab-rag-producao)
+- [Architecture guide for RAG in production](../arquiteturas-avancadas/rag-em-producao)
+- [Ingestion and indexing design](../arquiteturas-avancadas/design-ingestao-indexacao)
+- [Retrieval and reranking](../arquiteturas-avancadas/retrieval-e-reranking)
+- [Lab RAG production](../arquiteturas-avancadas/lab-rag-producao)
 
-## Fase 6 - Economia de IA (concluida)
+## Phase 6 - AI Economics (completed)
 
-- [Modelo de custos](../economia-ia/modelo-de-custos)
+- [Cost model](../economia-ia/modelo-de-custos)
 - [Unit economics](../economia-ia/unit-economics)
-- [Governanca FinOps](../economia-ia/governanca-finops)
-- [Lab de otimizacao de custos](../economia-ia/lab-otimizacao-custos)
+- [FinOps Governance](../economia-ia/governanca-finops)
+- [Cost optimization lab](../economia-ia/lab-otimizacao-custos)
 
-## Fase 7 - Seguranca adversarial (concluida)
+## Phase 7 - Adversarial Security (completed)
 
-- [Modelo de ameacas](../seguranca-adversarial/modelo-de-ameacas)
-- [Catalogo de ataques](../seguranca-adversarial/catalogo-de-ataques)
-- [Evals adversariais](../seguranca-adversarial/evals-adversariais)
-- [Lab de seguranca adversarial](../seguranca-adversarial/lab-seguranca-adversarial)
+- [Threat Model](../seguranca-adversarial/modelo-de-ameacas)
+- [Attack Catalog](../seguranca-adversarial/catalogo-de-ataques)
+- [Adversarial Evals](../seguranca-adversarial/evals-adversariais)
+- [Adversarial Security Lab](../seguranca-adversarial/lab-seguranca-adversarial)
 
-## Fase 8 - Onboarding corporativo (em andamento)
+## Phase 8 - Corporate Onboarding (completed)
 
-- [Modelo de adocao organizacional](../onboarding-corporativo/modelo-de-adocao)
-- [Plano 30-60-90](../onboarding-corporativo/plano-30-60-90)
-- [Academia interna SSA](../onboarding-corporativo/academia-interna)
-- [Lab de rollout corporativo](../onboarding-corporativo/lab-rollout-corporativo)
+- [Organizational adoption model](../onboarding-corporativo/modelo-de-adocao)
+- [Plan 30-60-90](../onboarding-corporativo/plano-30-60-90)
+- [Internal SSA Academy](../onboarding-corporativo/academia-interna)
+- [Corporate Rollout Lab](../onboarding-corporativo/lab-rollout-corporativo)
 
-## Backlog priorizado
+## Phase 9 - Full English Translation (completed)
 
-1. Traducao completa para ingles.
+- Full documentation and navigation translated to English.
+- Contributor workflows translated to English.

@@ -1,48 +1,48 @@
 ---
 sidebar_position: 2
-title: RAG em Producao
+title: RAG in Production
 ---
 
-# RAG em producao para SSA
+# RAG in production for SSA
 
-## Objetivo
+## Objective
 
-Construir sistemas de Retrieval-Augmented Generation com comportamento confiavel em ambiente real.
+Build Retrieval-Augmented Generation systems with reliable behavior in a real environment.
 
-## Princípios
+## Principles
 
-1. Separar claramente recuperacao, raciocinio e resposta.
-2. Tratar contexto como contrato, nao como texto livre.
-3. Medir recall, precisao de resposta e seguranca continuamente.
-4. Projetar fallback para ausencia de evidencias.
+1. Clearly separate recovery, reasoning and response.
+2. Treat context as a contract, not as free text.
+3. Measure recall, response accuracy and safety continuously.
+4. Design fallback for absence of evidence.
 
-## Arquitetura de referencia
+## Reference architecture
 
-1. Camada de ingestao e curadoria de conhecimento.
-2. Camada de indexacao vetorial + metadados estruturados.
-3. Camada de retrieval com filtros e reranking.
-4. Camada de geracao com citacoes e politicas.
-5. Camada de avaliacao, observabilidade e governanca.
+1. Knowledge ingestion and curation layer.
+2. Vector indexing layer + structured metadata.
+3. Retrieval layer with filters and reranking.
+4. Generation layer with quotes and policies.
+5. Assessment, observability and governance layer.
 
-## Modos de falha mais comuns
+## Most common failure modes
 
-- Recuperar contexto irrelevante (low recall).
-- Recuperar contexto correto mas gerar resposta errada.
-- Vazar dados sensiveis por retrieval sem controle.
-- Saturar custo/latencia por consultas sem roteamento.
+- Recover irrelevant context (low recall).
+- Retrieve correct context but generate wrong answer.
+- Leak sensitive data by uncontrolled retrieval.
+- Saturate cost/latency for queries without routing.
 
-## Metricas minimas
+## Minimum metrics
 
-- Recall@k por dominio.
-- Precision@k do retriever.
-- Faithfulness da resposta com evidencia.
-- Taxa de "nao sei" quando faltam evidencias.
-- Latencia P50/P95 por etapa.
+- Recall@k per domain.
+- Retriever Precision@k.
+- Faithfulness of the response with evidence.
+- Rate of "I don't know" when there is a lack of evidence.
+- Latency P50/P95 per stage.
 
-## Entregavel esperado
+## Expected deliverable
 
-Uma arquitetura RAG versionada com:
-- contratos de dados
-- politicas de retrieval
-- suite de evals
-- runbook de operacao
+A versioned RAG architecture with:
+- data contracts
+- retrieval policies
+- evals suite
+- operation runbook

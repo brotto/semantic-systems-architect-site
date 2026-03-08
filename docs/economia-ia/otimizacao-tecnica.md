@@ -1,32 +1,32 @@
 ---
 sidebar_position: 4
-title: Otimizacao Tecnica
+title: Technical Optimization
 ---
 
-# Otimizacao tecnica com impacto financeiro
+# Technical optimization with financial impact
 
-## Alavancas de otimizacao
+## Optimization levers
 
-1. Roteamento por complexidade para modelos diferentes.
-2. Cache semantico para consultas repetidas.
-3. Reducao de tokens com contexto mais eficiente.
-4. RAG para reduzir alucinacao e retrabalho.
-5. Budget por fluxo e bloqueio de excessos.
+1. Complexity routing for different models.
+2. Semantic cache for repeated queries.
+3. Token reduction with more efficient context.
+4. RAG to reduce hallucination and rework.
+5. Budget by flow and blocking excesses.
 
-## Estratégia em camadas
+## Layered strategy
 
-- Camada 1: ganhos rapidos (prompt/contexto).
-- Camada 2: ganhos estruturais (arquitetura de retrieval e roteamento).
-- Camada 3: ganhos sistemicos (governanca e observabilidade economica).
+- Layer 1: quick wins (prompt/context).
+- Layer 2: structural gains (retrieval and routing architecture).
+- Layer 3: systemic gains (governance and economic observability).
 
-## Regra pratica
+## Rule of thumb
 
-Nao otimizar custo isoladamente. Toda otimização deve preservar gates de qualidade e seguranca.
+Do not optimize cost in isolation. Every optimization must preserve quality and security gates.
 
-## Experimentos recomendados
+## Recommended experiments
 
-- A/B de modelos por classe de tarefa.
-- A/B de tamanho de contexto.
-- Teste de thresholds de escalonamento humano.
+- A/B of models by task class.
+- Context size A/B.
+- Human scaling thresholds test.
 
 Use `community-assets/economia/template-experimentos-otimizacao.md`.

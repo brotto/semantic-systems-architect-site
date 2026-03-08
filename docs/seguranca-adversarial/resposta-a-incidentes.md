@@ -1,29 +1,29 @@
 ---
 sidebar_position: 6
-title: Resposta a Incidentes
+title: Incident Response
 ---
 
-# Resposta a incidentes adversariais
+# Response to adversarial incidents
 
-## Classificacao de severidade
+## Severity classification
 
-- S1: exposicao de dados ou acao critica indevida.
-- S2: bypass de guardrail sem impacto irreversivel.
-- S3: tentativa bloqueada com comportamento degradado.
+- S1: exposure of data or undue critical action.
+- S2: guardrail bypass without irreversible impact.
+- S3: Attempt blocked with degraded behavior.
 
-## Runbook rapido
+## Quick runbook
 
-1. Conter vetor de ataque.
-2. Desativar fluxo vulneravel se necessario.
-3. Executar suite de regressao.
-4. Aplicar patch de guardrail/politica.
-5. Validar com red team de confirmacao.
-6. Publicar post-mortem tecnico.
+1. Contain attack vector.
+2. Disable vulnerable flow if necessary.
+3. Run regression suite.
+4. Apply guardrail/policy patch.
+5. Validate with confirmation red team.
+6. Publish technical post-mortem.
 
-## Post-mortem minimo
+## Low post-mortem
 
-- linha do tempo
-- causa raiz
-- impacto
-- acao corretiva
-- acao preventiva
+- timeline
+- root cause
+- impact
+- corrective action
+- preventive action

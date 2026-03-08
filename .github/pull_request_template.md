@@ -1,19 +1,19 @@
-## Objetivo
+## Objective
 
-Descreva o que este PR resolve.
+Describe what this PR solves.
 
-## Mudancas
+## Changes
 
 - 
 
-## Evidencias
+## Evidence
 
-- [ ] Rodei `npm run build`
-- [ ] Revisei links internos
-- [ ] Atualizei sidebar (se aplicavel)
+- [ ] I ran `npm run build`
+- [ ] I reviewed internal links
+- [ ] I updated the sidebar (if applicable)
 
 ## Checklist
 
-- [ ] Escopo claro
-- [ ] Linguagem alinhada ao padrao SSA
-- [ ] Sem arquivos gerados no commit
+- [ ] Scope is clear
+- [ ] Language is aligned with SSA standards
+- [ ] No generated files were committed

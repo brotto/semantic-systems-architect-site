@@ -1,39 +1,39 @@
 ---
 sidebar_position: 1
-title: Como Contribuir
+title: How to Contribute
 ---
 
-# Como contribuir com o projeto
+# How to contribute to the project
 
-Este curso foi desenhado para evoluir com a comunidade.
+This course was designed to evolve with the community.
 
-## Onde contribuir
+## Where to contribute
 
-- **Conteudo de aulas**: modulos em `docs/trilha`.
-- **Exercicios e labs**: `docs/labs`.
+- **Course content**: modules in `docs/trilha`.
+- **Exercises and labs**: `docs/labs`.
 - **Templates**: `docs/templates`.
 - **Playbooks**: `docs/playbooks`.
-- **Qualidade conceitual**: referencias e glossario.
+- **Conceptual quality**: references and glossary.
 
-## Tipos de contribuicao
+## Types of contribution
 
-1. Correcao de erros conceituais ou ambiguidades.
-2. Melhoria de exemplos e estudos de caso.
-3. Novos labs de dominios especificos.
-4. Evolucao de rubricas e capstone.
-5. Material para traducao e acessibilidade.
+1. Correction of conceptual errors or ambiguities.
+2. Improved examples and case studies.
+3. New domain-specific labs.
+4. Evolution of rubrics and capstone.
+5. Material for translation and accessibility.
 
-## Processo recomendado
+## Recommended process
 
-1. Abrir issue para alinhar escopo.
-2. Implementar em branch dedicada.
-3. Abrir PR com contexto, mudancas e evidencias.
-4. Resolver feedback de revisao.
-5. Merge apos aprovacao.
+1. Open issue to align scope.
+2. Implement changes on a dedicated branch.
+3. Open PR with context, changes and evidence.
+4. Resolve review feedback.
+5. Merge after approval.
 
-## Definicao de pronto para docs
+## Definition of doc ready
 
-- Objetivo claro.
-- Linguagem consistente com SSA.
-- Links internos validos.
-- Build verde.
+- Clear objective.
+- Language consistent with SSA.
+- Valid internal links.
+- Build green.

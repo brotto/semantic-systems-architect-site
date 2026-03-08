@@ -1,27 +1,27 @@
 # Code of Conduct
 
-## Nosso compromisso
+## Our commitment
 
-Este projeto existe para aprendizado aberto e colaboracao tecnica. Esperamos interacoes respeitosas, inclusivas e construtivas.
+This project exists for open learning and technical collaboration. We expect respectful, inclusive, and constructive interactions.
 
-## Comportamento esperado
+## Expected behavior
 
-- Debate tecnico com foco em ideias e evidencias.
-- Feedback claro, sem ataque pessoal.
-- Respeito a diferentes niveis de experiencia.
-- Colaboracao para elevar qualidade do material.
+- Technical debate focused on ideas and evidence.
+- Clear feedback without personal attacks.
+- Respect for different experience levels.
+- Collaboration to increase material quality.
 
-## Comportamento inaceitavel
+## Unacceptable behavior
 
-- Assedio, discriminacao ou intimidacao.
-- Exposicao de dados pessoais sem consentimento.
-- Linguagem hostil, ofensiva ou desrespeitosa.
-- Spam ou sabotagem de discussoes tecnicas.
+- Harassment, discrimination, or intimidation.
+- Exposure of personal data without consent.
+- Hostile, offensive, or disrespectful language.
+- Spam or sabotage of technical discussions.
 
-## Aplicacao
+## Enforcement
 
-Maintainers podem editar, bloquear ou remover contribuicoes que violem este codigo.
+Maintainers may edit, block, or remove contributions that violate this code.
 
-## Reporte
+## Reporting
 
-Abra uma issue com label `governanca` descrevendo o incidente de forma objetiva.
+Open an issue with label `governance` describing the incident objectively.

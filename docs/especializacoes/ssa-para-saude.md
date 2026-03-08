@@ -1,50 +1,50 @@
 ---
 sidebar_position: 2
-title: SSA para Saude
+title: SSA for Health
 ---
 
-# SSA para Saude
+# SSA for Health
 
-## Objetivo
+## Objective
 
-Projetar sistemas cognitivos para operacoes de saude com foco em seguranca clinica, rastreabilidade e suporte a decisao supervisionada.
+Design cognitive systems for healthcare operations with a focus on clinical safety, traceability and supervised decision support.
 
-## Casos de uso prioritarios
+## Priority use cases
 
-1. Triagem de sintomas para direcionamento de atendimento.
-2. Resumo estruturado de prontuario e historico.
-3. Suporte a fluxos de autorizacao e elegibilidade.
+1. Symptom screening to direct care.
+2. Structured summary of medical records and history.
+3. Support for authorization and eligibility flows.
 
-## Ontologia minima recomendada
+## Minimum recommended ontology
 
-- Paciente
-- Episodio
-- Sinal
-- Sintoma
-- Diagnostico presuntivo
-- Conduta sugerida
-- Alerta clinico
-- Escalonamento humano
+- Patient
+- Episode
+- Signal
+- Symptom
+- Presumptive diagnosis
+- Suggested conduct
+- Clinical alert
+- Human escalation
 
-## Riscos criticos
+## Critical risks
 
-- Recomendacao clinica sem contexto suficiente.
-- Alucinacao em dados de prontuario.
-- Ausencia de escalonamento em casos de alto risco.
+- Clinical recommendation without sufficient context.
+- Hallucination in medical record data.
+- Lack of escalation in high-risk cases.
 
-## Arquitetura de referencia
+## Reference architecture
 
-- Agente `triage-intake`: estrutura dados iniciais.
-- Agente `clinical-reasoner`: aplica regras clinicas aprovadas.
-- Agente `safety-guard`: bloqueia saidas fora de politica.
-- Agente `human-escalation`: aciona revisao profissional.
+- Agent `triage-intake`: structures initial data.
+- Agent `clinical-reasoner`: applies approved clinical rules.
+- Agent `safety-guard`: blocks exits outside of policy.
+- Agent `human-escalation`: triggers professional review.
 
-## Evals essenciais
+## Essential Evals
 
-- Aderencia a protocolos de triagem.
-- Taxa de escalonamento correto em casos criticos.
-- Taxa de completude do resumo clinico.
+- Adherence to screening protocols.
+- Correct escalation rate in critical cases.
+- Completeness rate of the clinical summary.
 
-## Proximo passo
+## Next step
 
-Executar [Lab Saude](./lab-saude)
+Run [Health Lab](./lab-saude)

@@ -1,66 +1,66 @@
 # SSA Academy Site
 
-Site do curso/guia **Semantic Systems Architect (SSA)** construído com Docusaurus.
+Website for the **Semantic Systems Architect (SSA)** course/guide, built with Docusaurus.
 
-## Requisitos
+## Requirements
 
 - Node.js 20+
 - npm 10+
 
-## Rodar local
+## Run locally
 
 ```bash
 npm install
 npm start
 ```
 
-O site sera servido em `http://localhost:3000`.
+The site runs at `http://localhost:3000`.
 
-## Build de producao
+## Production build
 
 ```bash
 npm run build
 npm run serve
 ```
 
-## Estrutura de conteudo
+## Content structure
 
-- `docs/trilha`: modulos centrais
-- `docs/labs`: praticas aplicadas
-- `docs/templates`: artefatos reutilizaveis
-- `docs/certificacao`: rubricas e capstone
-- `docs/playbooks`: padroes e anti-padroes
-- `docs/carreira`: progressao profissional
-- `docs/especializacoes`: trilhas por dominio (saude, juridico, suporte b2b)
-- `docs/plataforma-pratica`: banco de casos, evals, capstones e maturidade
-- `docs/arquiteturas-avancadas`: guias tecnicos (RAG em producao e labs)
-- `docs/economia-ia`: custos, unit economics, FinOps e otimização
-- `docs/seguranca-adversarial`: threat model, red teaming e resposta a incidentes
-- `docs/onboarding-corporativo`: adoção organizacional, academia interna e rollout
-- `docs/referencias`: glossario, competencias e estudos
-- `docs/comunidade`: contribuicao, governanca e roadmap
-- `community-assets`: templates e amostras para contribuicao comunitaria
-  - `community-assets/rag`: templates de arquitetura, eval dataset e checklist operacional
-  - `community-assets/economia`: templates de custo, dashboard e experimentos
-  - `community-assets/security`: casos adversariais, suites e checklist de release segura
-  - `community-assets/onboarding`: templates de rollout, stakeholders e scorecard de adocao
+- `docs/trilha`: core modules
+- `docs/labs`: applied labs
+- `docs/templates`: reusable templates
+- `docs/certificacao`: rubrics and capstone
+- `docs/playbooks`: patterns and anti-patterns
+- `docs/carreira`: career track
+- `docs/especializacoes`: domain tracks (health, legal, B2B support)
+- `docs/plataforma-pratica`: case bank, evals, capstones, maturity
+- `docs/arquiteturas-avancadas`: technical guides (production RAG and labs)
+- `docs/economia-ia`: costs, unit economics, FinOps, optimization
+- `docs/seguranca-adversarial`: threat modeling, red teaming, incident response
+- `docs/onboarding-corporativo`: enterprise adoption, internal academy, rollout
+- `docs/referencias`: glossary, competency map, study roadmap
+- `docs/comunidade`: contribution guides, governance, and roadmap
+- `community-assets`: templates and community submission assets
+  - `community-assets/rag`: architecture templates, eval dataset, operational checklist
+  - `community-assets/economia`: cost templates, dashboard, optimization experiments
+  - `community-assets/security`: adversarial cases, suites, secure-release checklist
+  - `community-assets/onboarding`: rollout, stakeholder, and adoption scorecard templates
 
-## Colaboracao
+## Collaboration
 
-- Guia: `CONTRIBUTING.md`
-- Conduta: `CODE_OF_CONDUCT.md`
+- Guide: `CONTRIBUTING.md`
+- Code of conduct: `CODE_OF_CONDUCT.md`
 - Issues: `.github/ISSUE_TEMPLATE/`
 - PR template: `.github/pull_request_template.md`
 
-## Publicar no GitHub
+## GitHub publishing
 
-Repositorio alvo: `https://github.com/brotto/semantic-systems-architect-site`
+Target repository: `https://github.com/brotto/semantic-systems-architect-site`
 
-1. Faça push da branch `main`.
-2. Habilite GitHub Pages com fonte `GitHub Actions`.
-3. O workflow `deploy.yml` publica automaticamente a cada push em `main`.
+1. Push to `main`.
+2. Enable GitHub Pages with source `GitHub Actions`.
+3. `deploy.yml` publishes automatically on each push to `main`.
 
-## Comandos uteis
+## Useful commands
 
 ```bash
 npm run clear
