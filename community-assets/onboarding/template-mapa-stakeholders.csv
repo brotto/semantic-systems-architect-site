@@ -1,0 +1,5 @@
+stakeholder,area,papel_no_programa,decisoes_que_aprova,frequencia_de_interacao
+Diretoria de Produto,Produto,Sponsor,priorizacao de casos,mensal
+Engineering Manager,Engenharia,Owner de execucao,roadmap tecnico,semanal
+SSA Lead,Arquitetura,Direcao tecnica,padroes e guardrails,semanal
+Risk Officer,Risco e Compliance,Controle,politicas e riscos,quinzenal

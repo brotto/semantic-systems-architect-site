@@ -127,6 +127,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Onboarding Corporativo',
+      items: [
+        'onboarding-corporativo/visao-geral',
+        'onboarding-corporativo/modelo-de-adocao',
+        'onboarding-corporativo/plano-30-60-90',
+        'onboarding-corporativo/academia-interna',
+        'onboarding-corporativo/rituais-e-governanca',
+        'onboarding-corporativo/metricas-de-impacto',
+        'onboarding-corporativo/lab-rollout-corporativo',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Referencias',
       items: [
         'referencias/mapa-de-competencias-ssa',

@@ -43,14 +43,20 @@ title: Roadmap Publico
 - [Governanca FinOps](../economia-ia/governanca-finops)
 - [Lab de otimizacao de custos](../economia-ia/lab-otimizacao-custos)
 
-## Fase 7 - Seguranca adversarial (em andamento)
+## Fase 7 - Seguranca adversarial (concluida)
 
 - [Modelo de ameacas](../seguranca-adversarial/modelo-de-ameacas)
 - [Catalogo de ataques](../seguranca-adversarial/catalogo-de-ataques)
 - [Evals adversariais](../seguranca-adversarial/evals-adversariais)
 - [Lab de seguranca adversarial](../seguranca-adversarial/lab-seguranca-adversarial)
 
+## Fase 8 - Onboarding corporativo (em andamento)
+
+- [Modelo de adocao organizacional](../onboarding-corporativo/modelo-de-adocao)
+- [Plano 30-60-90](../onboarding-corporativo/plano-30-60-90)
+- [Academia interna SSA](../onboarding-corporativo/academia-interna)
+- [Lab de rollout corporativo](../onboarding-corporativo/lab-rollout-corporativo)
+
 ## Backlog priorizado
 
-1. Trilha de onboarding corporativo SSA.
-2. Traducao completa para ingles.
+1. Traducao completa para ingles.

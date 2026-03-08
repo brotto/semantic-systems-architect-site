@@ -100,6 +100,11 @@ const config = {
             label: 'Seguranca',
           },
           {
+            to: '/docs/onboarding-corporativo/visao-geral',
+            position: 'left',
+            label: 'Onboarding',
+          },
+          {
             href: 'https://github.com/brotto/semantic-systems-architect-site',
             label: 'GitHub',
             position: 'right',

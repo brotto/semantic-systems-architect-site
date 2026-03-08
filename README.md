@@ -36,12 +36,14 @@ npm run serve
 - `docs/arquiteturas-avancadas`: guias tecnicos (RAG em producao e labs)
 - `docs/economia-ia`: custos, unit economics, FinOps e otimização
 - `docs/seguranca-adversarial`: threat model, red teaming e resposta a incidentes
+- `docs/onboarding-corporativo`: adoção organizacional, academia interna e rollout
 - `docs/referencias`: glossario, competencias e estudos
 - `docs/comunidade`: contribuicao, governanca e roadmap
 - `community-assets`: templates e amostras para contribuicao comunitaria
   - `community-assets/rag`: templates de arquitetura, eval dataset e checklist operacional
   - `community-assets/economia`: templates de custo, dashboard e experimentos
   - `community-assets/security`: casos adversariais, suites e checklist de release segura
+  - `community-assets/onboarding`: templates de rollout, stakeholders e scorecard de adocao
 
 ## Colaboracao
 

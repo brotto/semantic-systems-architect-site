@@ -1,0 +1,36 @@
+name: Onboarding program request
+description: Proposta de onboarding corporativo SSA para um contexto organizacional
+labels: [onboarding, enhancement]
+body:
+  - type: input
+    id: unidade
+    attributes:
+      label: Unidade/empresa
+      placeholder: Ex. Squad Platform, BU X
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto atual
+      description: Maturidade atual, desafios e objetivos.
+    validations:
+      required: true
+  - type: textarea
+    id: escopo
+    attributes:
+      label: Escopo desejado
+      description: Squads envolvidos, prazos e resultados esperados.
+    validations:
+      required: true
+  - type: textarea
+    id: riscos
+    attributes:
+      label: Riscos principais
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Tenho sponsor e owner técnico identificados.
+          required: true

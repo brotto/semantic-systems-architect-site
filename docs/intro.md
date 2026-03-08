@@ -74,6 +74,13 @@ Formar um SSA capaz de:
 - [Evals adversariais](./seguranca-adversarial/evals-adversariais)
 - [Lab de seguranca adversarial](./seguranca-adversarial/lab-seguranca-adversarial)
 
+## Onboarding corporativo
+
+- [Visao geral](./onboarding-corporativo/visao-geral)
+- [Plano 30-60-90](./onboarding-corporativo/plano-30-60-90)
+- [Academia interna SSA](./onboarding-corporativo/academia-interna)
+- [Lab de rollout corporativo](./onboarding-corporativo/lab-rollout-corporativo)
+
 ## Comunidade e evolucao
 
 - [Como contribuir](./comunidade/como-contribuir)
