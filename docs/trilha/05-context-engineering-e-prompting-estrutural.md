@@ -1,51 +1,83 @@
 # Module 5 - Context Engineering and Structural Prompting
 
-## Aim
+## Learning outcomes
 
-Teach context drawing as an architectural discipline, not as an ad-hoc attempt at a prompt.
+At the end of this module, you should be able to:
 
-## Skills
+- Design context packages as architecture artifacts.
+- Build layered instruction systems with policy consistency.
+- Reduce hallucination and ambiguity through structural prompting.
 
-- Build task-oriented context packages.
-- Defines instruction layers (identity, policy, objective, format).
-- Implement strategies to reduce ambiguity and hallucination.
+## Core concepts
 
-## Content
+### 1. Context as system
 
-1. Context architecture
-- static context
-- Dynamic context
-- Recovered context
+- Static context: foundational rules and definitions.
+- Dynamic context: runtime signals and case specifics.
+- Retrieved context: external memory and knowledge sources.
 
-2. Instruction hierarchy
-- global mission
-- Mandatory rules
-- Operational heuristics
-- Output style
+### 2. Instruction hierarchy
 
-3. Advanced Strategies
-- Semantic few-shot
-- Scope delimitation
-- Prompt decomposition
-- Guided self-critique
+- Identity and mission.
+- Non-negotiable policy.
+- Task objective.
+- Output schema and verification criteria.
 
-4. Anti-patterns
-- Monolithic prompts
-- Conflicting goals
-- Format without validation
+### 3. Structural prompting
 
-## Exercises
+- Prompt decomposition.
+- Semantic few-shot.
+- Self-critique patterns.
+- Delimitation of authority and uncertainty.
 
-1. Refactor a bad prompt into modular context architecture.
-2. Create variations per persona/risk without breaking invariants.
-3. Measure consistency gain in batch of cases.
+## Lesson sequence
 
-## Deliverable
+### Lesson 1 - Context architecture
 
-"SSA Context Package" versioned with rationale.
+- Goal: separate layers to improve control.
+- Activity: decompose a monolithic prompt into modules.
+- Output: context map v1.
 
-## Completion checklist
+### Lesson 2 - Prompt contract design
 
-- Prompt stops being a single text and becomes a system.
-- Changes are trackable by version.
-- Result improves stability without uncontrolled increase in cost.
+- Goal: enforce predictable outputs.
+- Activity: define schema + refusal + confidence sections.
+- Output: structural prompt template.
+
+### Lesson 3 - Validation loop
+
+- Goal: verify stability and drift.
+- Activity: run 20-case batch before/after refactor.
+- Output: consistency report.
+
+## Applications
+
+1. **Application A - Context package**
+- Versioned package with mission, policies, ontology references, and output schema.
+- Include change log and rationale.
+
+2. **Application B - Prompt hardening sprint**
+- Choose one unstable use case.
+- Apply decomposition + self-critique + guardrails.
+- Compare cost, latency, and quality.
+
+## Assessment rubric (0-2 each)
+
+- Context layering quality.
+- Contract completeness.
+- Measured consistency gain.
+- Risk reduction.
+- Maintainability.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] Context package published.
+- [ ] Structural templates reusable.
+- [ ] Before/after metrics attached.
+- [ ] Risk notes documented.
+
+## Bridge to next module
+
+Module 6 turns quality into a measurable discipline with eval suites and observability.

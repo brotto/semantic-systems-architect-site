@@ -1,53 +1,81 @@
 # Module 2 - Semantic Modeling and Ontologies
 
-## Aim
+## Learning outcomes
 
-Enable SSA to create robust domain models to drive LLMs with consistency and predictability.
+At the end of this module, you should be able to:
 
-## Skills
+- Build an operational domain ontology for AI systems.
+- Define entities, relationships, states, invariants, and policy constraints.
+- Create semantic contracts usable by prompts, tools, agents, and evals.
 
-- Build domain ontologies applied to AI systems.
-- Defines entities, relations, invariants and states.
-- Specify semantic contracts for input, transformation, and output.
+## Core concepts
 
-## Content
+### 1. Domain ontology as architecture
 
-1. Domain Modeling for AI
-- Essential entities and attributes
-- Relations and cardinality
-- Taxonomies and levels of abstraction
+- Ontology is the shared semantic backbone of the system.
+- It reduces ambiguity, controls drift, and improves consistency.
 
-2. Invariants and policies
-- Inviolable rules
-- Contextual rules
-- Exception criteria
+### 2. Invariants and constraints
 
-3. Semantic contracts
-- Input contract
-- Decision contract
-- Output contract
+- Hard constraints: cannot be violated.
+- Soft constraints: can be violated with explicit justification.
+- Exception policies must be explicit and auditable.
 
-4. Anti-patterns
-- Vague ontology
-- Overlapping fields
-- Implicit semantics
+### 3. Semantic contracts
 
-## Exercises
+- Input contract: what can enter and in which format/meaning.
+- Decision contract: rules, priorities, and allowed trade-offs.
+- Output contract: structure, claims, and confidence expectations.
 
-1. Create v1 ontology of a real domain with at least 12 entities.
-2. Defines 15 invariants (hard and soft constraints).
-3. Map linguistic ambiguities and resolve them with operational definitions.
+## Lesson sequence
 
-## Deliverable
+### Lesson 1 - Domain decomposition
 
-"SSA Ontological Specification" containing:
-- entity dictionary
-- relationship graph
-- invariants
-- valid and invalid examples
+- Goal: map entities and relationships.
+- Class activity: build an entity dictionary from real cases.
+- Output: v1 domain map.
 
-## Completion checklist
+### Lesson 2 - Constraint engineering
 
-- Model reduces ambiguity in a measurable way.
-- Any new member understands the domain without additional conversation.
-- LLM generates more stable answers when using ontology.
+- Goal: distinguish policy from operational heuristics.
+- Class activity: write hard/soft constraints for critical decisions.
+- Output: constraint matrix.
+
+### Lesson 3 - Contract packaging
+
+- Goal: convert ontology + constraints into executable artifacts.
+- Class activity: draft input/decision/output contracts.
+- Output: semantic contract package v1.
+
+## Applications
+
+1. **Application A - Ontology v1**
+- Build at least 12 entities.
+- Define cardinalities and lifecycle states.
+- Include positive/negative examples.
+
+2. **Application B - Ambiguity stress test**
+- Collect 20 ambiguous expressions from users/stakeholders.
+- Resolve each with operational definitions.
+- Measure before/after disagreement rate across reviewers.
+
+## Assessment rubric (0-2 each)
+
+- Completeness of ontology.
+- Quality of invariants and exception policy.
+- Reusability of semantic contracts.
+- Ambiguity reduction evidence.
+- Consistency across examples.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] Ontology document versioned.
+- [ ] Constraint matrix approved.
+- [ ] Contract package created.
+- [ ] Ambiguity test evidence attached.
+
+## Bridge to next module
+
+Module 3 uses these contracts to design multi-agent topologies and cooperation protocols.

@@ -1,48 +1,81 @@
-# Module 6 - Assessment, Quality and Observability
+# Module 6 - Evaluation, Quality and Observability
 
-## Aim
+## Learning outcomes
 
-Transform AI quality into a measurable engineering discipline with continuous evals.
+At the end of this module, you should be able to:
 
-## Skills
+- Design quality metrics aligned with system goals.
+- Build continuous eval suites (offline + online).
+- Instrument traces and alerts to support operational decisions.
 
-- Defines quality metrics by task type.
-- Build offline and online assessment suite.
-- Instrument semantic traits for debugging and continuous improvement.
+## Core concepts
 
-## Content
+### 1. Quality dimensions
 
-1. Assessment fundamentals
-- Objective metrics (accuracy, coverage, latency, cost)
-- Semantic metrics (coherence, policy adherence, usefulness)
+- Objective: accuracy, latency, cost, completion.
+- Semantic: coherence, policy adherence, usefulness, trust.
 
-2. Structured evals
-- Critical cases dataset
-- Judging rubrics
-- Semantic Regression Testing
+### 2. Evaluation strategy
 
-3. Observability
-- Traces per stage
-- Decision events
-- Operation alerts
+- Golden dataset with critical scenarios.
+- Rubric-based judging.
+- Regression detection and release gates.
 
-4. Quality governance
-- Gates for deployment
-- Rollback criteria
-- Evidence-driven improvement cycle
+### 3. Observability model
 
-## Exercises
+- Stage-level traces.
+- Decision events with context snapshots.
+- Alert thresholds and triage process.
 
-1. Create initial suite with 50 cases (happy path, edge, adversarial).
-2. Defines minimum gate for release.
-3. Simulate regression and perform operational response.
+## Lesson sequence
 
-## Deliverable
+### Lesson 1 - Metric definition
 
-"SSA Quality Suite" + minimal dashboard.
+- Goal: connect metrics to business value.
+- Activity: map KPI -> quality indicator -> technical signal.
+- Output: metric contract.
 
-## Completion checklist
+### Lesson 2 - Eval suite construction
 
-- There is a quality baseline.
-- Changes have a before/after comparison.
-- Team decides with data, not perception.
+- Goal: create repeatable quality checks.
+- Activity: assemble baseline set (happy path, edge, adversarial).
+- Output: eval suite v1.
+
+### Lesson 3 - Operational monitoring
+
+- Goal: detect and respond to quality degradation.
+- Activity: design alert rules and incident runbook.
+- Output: observability playbook.
+
+## Applications
+
+1. **Application A - SSA quality suite**
+- At least 50 test cases.
+- Explicit pass/fail criteria.
+- Automated summary for each run.
+
+2. **Application B - Regression drill**
+- Introduce controlled model/prompt change.
+- Detect regressions.
+- Execute rollback or mitigation.
+
+## Assessment rubric (0-2 each)
+
+- Metric relevance.
+- Eval suite quality.
+- Monitoring effectiveness.
+- Decision readiness.
+- Learning loop maturity.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] Metric contract defined.
+- [ ] Eval suite implemented.
+- [ ] Observability playbook ready.
+- [ ] Regression drill documented.
+
+## Bridge to next module
+
+Module 7 adds adversarial security, governance, and ethics to production SSA systems.

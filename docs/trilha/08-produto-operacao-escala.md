@@ -1,49 +1,86 @@
-# Module 8 - Product, Operation and Scale
+# Module 8 - Product, Operations and Scale
 
-## Aim
+## Learning outcomes
 
-Connect semantic architecture to deliver real value with continuous operation, cost management and product evolution.
+At the end of this module, you should be able to:
 
-## Skills
+- Translate SSA architecture decisions into product and business impact.
+- Operate AI systems with explicit SLOs, ownership, and escalation paths.
+- Scale with quality, risk, and cost control.
 
-- Prioritize SSA roadmap by impact and risk.
-- Defines operational model for squads with AI.
-- Scale systems with cost and quality control.
+## Core concepts
 
-## Content
+### 1. Product strategy for SSA
 
-1. Product thinking for SSA
-- JTBD and high-value cases
-- Capacity Sequencing
-- North metrics (value + quality + risk)
+- Job-to-be-done and high-value scenarios.
+- Prioritization by impact, risk, and readiness.
+- North-star metrics blending value, quality, and safety.
 
-2. Continuous operations
-- Cognitive Service SLOs
-- On-call semantics
-- Behavior incident management
+### 2. Operational model
 
-3. Economics of AI systems
-- Token budget
-- Cost per completed task
-- Routing Strategies Template
+- Cognitive service SLOs.
+- Ownership model and on-call semantics.
+- Incident taxonomy for behavior failures.
 
-4. Evolution and scale
-- Modular architecture
-- SSA Standards Library
-- Internal training program
+### 3. Scale economics
 
-## Exercises
+- Cost per completed outcome.
+- Routing and model-tier strategy.
+- Capacity planning with governance constraints.
 
-1. Create 2-quarter SSA roadmap.
-2. Set SLOs and alarms for operations.
-3. Plan scale-up strategy with governance.
+## Lesson sequence
 
-## Deliverable
+### Lesson 1 - Roadmap design
 
-"SSA Scale Plan" with quarterly goals.
+- Goal: align architecture backlog with business outcomes.
+- Activity: define 2-quarter SSA roadmap.
+- Output: prioritized roadmap with assumptions.
 
-## Completion checklist
+### Lesson 2 - Service operations
 
-- There is explicit alignment between architecture and business value.
-- Operation is prepared for real failures.
-- Growth strategy preserves safety and quality.
+- Goal: prepare stable day-2 operations.
+- Activity: define SLOs, alerts, and handoff routines.
+- Output: operational scorecard.
+
+### Lesson 3 - Scale decision framework
+
+- Goal: scale without quality collapse.
+- Activity: simulate traffic growth and policy pressure.
+- Output: scale playbook.
+
+## Applications
+
+1. **Application A - SSA scale plan**
+- Quarterly objectives.
+- SLO and incident policy.
+- Cost envelope and optimization strategy.
+
+2. **Application B - Executive review pack**
+- Value evidence.
+- Risk posture summary.
+- Next-stage investment options.
+
+## Assessment rubric (0-2 each)
+
+- Product alignment.
+- Operational readiness.
+- Cost discipline.
+- Scalability realism.
+- Governance continuity.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] 2-quarter roadmap completed.
+- [ ] Operational scorecard defined.
+- [ ] Scale playbook delivered.
+- [ ] Executive review pack prepared.
+
+## Course completion gate
+
+To complete the full core track, the learner must:
+
+- Deliver all module applications.
+- Pass average rubric >= 8.0.
+- Present a capstone with measurable evidence of value, safety, and quality.

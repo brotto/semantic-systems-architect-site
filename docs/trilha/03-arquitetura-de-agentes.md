@@ -1,52 +1,92 @@
 # Module 3 - Agent Architecture
 
-## Aim
+## Learning outcomes
 
-Design multi-agent systems with clear roles, cooperation protocols and autonomy limits.
+At the end of this module, you should be able to:
 
-## Skills
+- Design multi-agent systems with explicit role boundaries.
+- Choose orchestration topologies based on risk, cost, and latency.
+- Define handoff protocols and failure recovery patterns.
 
-- Defines agent roles by cognitive specialization.
-- Choose orchestration topology (centralized, federated, hierarchical).
-- Create handoff and validation protocols between agents.
+## Core concepts
 
-## Content
+### 1. Cognitive role specialization
 
-1. Agent taxonomy
-- planner
+Common roles:
+
+- Planner
 - Retriever
 - Reasoner
 - Critic
 - Executor
 - Guardrail
 
-2. Topologies
-- Supervisor + specialists
-- Pipeline by stage
-- Swarm with arbitration
+Each role must have scope, authority, and forbidden actions.
 
-3. Cooperation protocols
-- Message scheme
-- Handoff contracts
-- Semantic Versioning
+### 2. Orchestration topology
 
-4. Autonomy control
-- Trust Levels
-- Decision powers
-- Scaling to human
+- Supervisor + specialists.
+- Stage pipeline.
+- Federated/swarm with arbitration.
 
-## Exercises
+Topology selection depends on criticality, explainability, and throughput.
 
-1. Design multi-agent architecture for complex B2B service.
-2. Defines handoff protocol in structured format.
-3. Simulate coordination failures and design recovery.
+### 3. Handoff contract
 
-## Deliverable
+- Required context fields.
+- Confidence signal.
+- Escalation criteria.
+- Retry/abort policy.
 
-Diagram + document: "SSA Agent Architecture v1".
+## Lesson sequence
 
-## Completion checklist
+### Lesson 1 - Role design
 
-- Each agent has an explicit mission, scope, and limits.
-- There is a safe fallback strategy.
-- Cooperation reduces cost and increases quality.
+- Goal: avoid role overlap and decision confusion.
+- Activity: define responsibilities for a support automation scenario.
+- Output: role matrix with boundaries.
+
+### Lesson 2 - Topology selection
+
+- Goal: evaluate architecture trade-offs.
+- Activity: compare 3 topologies against one use case.
+- Output: topology decision memo.
+
+### Lesson 3 - Protocol and safety
+
+- Goal: formalize message schemas and escalation.
+- Activity: simulate handoff failures and repair flows.
+- Output: protocol specification v1.
+
+## Applications
+
+1. **Application A - Multi-agent design package**
+- Architecture diagram.
+- Agent contracts.
+- Shared memory strategy.
+- Escalation map.
+
+2. **Application B - Failure drills**
+- Simulate at least 5 failures (missing context, conflicting goals, low confidence, tool timeout, unsafe request).
+- Document detection and recovery.
+
+## Assessment rubric (0-2 each)
+
+- Role clarity.
+- Topology justification.
+- Protocol robustness.
+- Failure handling quality.
+- Safety alignment.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] Agent matrix completed.
+- [ ] Topology memo approved.
+- [ ] Handoff protocol versioned.
+- [ ] Failure drill report attached.
+
+## Bridge to next module
+
+Module 4 expands agent architecture into end-to-end workflows, tools, and pipelines.

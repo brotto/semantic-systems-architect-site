@@ -33,6 +33,13 @@ Form an SSA capable of:
 7. [Module 7 - Security, Governance and Ethics](./trilha/seguranca-governanca-etica)
 8. [Module 8 - Product, Operation and Scale](./trilha/produto-operacao-escala)
 
+Each module now follows the same instructional pattern:
+
+- Core concepts (theory and architecture framing)
+- Lesson sequence (guided progression)
+- Applications (hands-on implementation)
+- Rubric and completion checklist (evidence-based assessment)
+
 ## Suggested workload
 
 - Core track theory: 32h

@@ -1,52 +1,85 @@
 # Module 4 - Workflows, Tools and Pipelines
 
-## Aim
+## Learning outcomes
 
-Structure end-to-end flows that integrate LLMs, external tools, data and actions with traceability.
+At the end of this module, you should be able to:
 
-## Skills
+- Build end-to-end AI workflows with deterministic and adaptive steps.
+- Define tool invocation contracts and operational safeguards.
+- Separate reasoning, data, and execution pipelines for observability.
 
-- Design deterministic workflows + adaptive steps.
-- Defines tool use contracts and call validation.
-- Separate reasoning pipeline, data pipeline and execution pipeline.
+## Core concepts
 
-## Content
+### 1. Workflow anatomy
 
-1. Anatomy of an SSA workflow
 - Trigger
 - Context build
 - Deliberation
-- execution
+- Execution
 - Verification
 - Audit
 
-2. Integration with tools
-- Tools catalog
-- Argument scheme
-- Retries and timeout policy
+### 2. Tooling contracts
 
-3. State management
-- ephemeral state
-- session state
-- persistent state
+- Argument schema validation.
+- Permission and scope rules.
+- Retry, timeout, idempotency, and compensation.
 
-4. Operational resilience
-- Idempotence
-- Compensation
-- Semantic circuit breaker
+### 3. State strategy
 
-## Exercises
+- Ephemeral state for local reasoning.
+- Session state for conversational continuity.
+- Persistent state for long-term memory and reporting.
 
-1. Build an 8-step workflow with 3 external integrations.
-2. Set error policy for each step.
-3. Create flow observability diagram.
+## Lesson sequence
 
-## Deliverable
+### Lesson 1 - Workflow design
 
-"SSA Operational Pipeline" with execution map and SLAs.
+- Goal: model a complete business flow.
+- Activity: map process stages and decision points.
+- Output: workflow blueprint.
 
-## Completion checklist
+### Lesson 2 - Tool integration
 
-- Reproducible flow with auditable logs.
-- Predicted errors have explicit fallback.
-- External dependencies are fault isolated.
+- Goal: make tool usage reliable and secure.
+- Activity: define a tool registry with validation contracts.
+- Output: tool integration spec.
+
+### Lesson 3 - Operational resilience
+
+- Goal: handle runtime failures gracefully.
+- Activity: design retries, fallback paths, and compensation.
+- Output: failure policy matrix.
+
+## Applications
+
+1. **Application A - Operational pipeline v1**
+- Build an 8-step flow.
+- Use at least 3 external tools.
+- Include fallback logic for each critical step.
+
+2. **Application B - Traceability package**
+- Define execution logs.
+- Add decision-level event tracking.
+- Produce a minimal incident replay guide.
+
+## Assessment rubric (0-2 each)
+
+- Workflow coherence.
+- Tool contract quality.
+- State design adequacy.
+- Resilience under failure.
+- Auditability.
+
+Passing threshold: **8/10**.
+
+## Deliverables checklist
+
+- [ ] Workflow blueprint.
+- [ ] Tool registry and contracts.
+- [ ] Failure policy matrix.
+- [ ] Traceability and replay guide.
+
+## Bridge to next module
+
+Module 5 focuses on context engineering and structural prompting as stable system design.
