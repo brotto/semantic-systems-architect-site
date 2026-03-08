@@ -2,6 +2,28 @@
 
 Website for the **Semantic Systems Architect (SSA)** course/guide, built with Docusaurus.
 
+## The Semantic Systems Architect Declaration
+
+A fundamental shift is happening in computing.
+
+Code was never the final substrate. It was an intermediary.
+
+The deepest layer of computation is meaning.
+
+With AI, machines can increasingly operate on structured meaning, not only rigid syntax. This opens a new engineering discipline where language is an interface, intention is architecture, and AI is the implementation mechanism.
+
+That discipline is **Semantic Systems Architecture**.
+
+Its architect is the **Semantic Systems Architect**.
+
+## Foundational layers
+
+Use these three layers as the project's conceptual core:
+
+1. `README.md` -> short declaration (entry point)
+2. `manifesto/ssa-manifesto.md` -> full manifesto (foundational text)
+3. `foundations/` -> philosophical and theoretical essays
+
 ## Requirements
 
 - Node.js 20+
@@ -39,6 +61,13 @@ npm run serve
 - `docs/onboarding-corporativo`: enterprise adoption, internal academy, rollout
 - `docs/referencias`: glossary, competency map, study roadmap
 - `docs/comunidade`: contribution guides, governance, and roadmap
+- `docs/manifesto`: declaration, manifesto topic, and foundational theses
+- `manifesto`: canonical declaration and long-form manifesto texts
+- `foundations`: philosophical and theoretical foundation papers
+- `glossary`: repository-level SSA vocabulary
+- `examples`: concrete semantic-systems examples
+- `research`: research notes and open questions
+- `course`: course packaging layer
 - `community-assets`: templates and community submission assets
   - `community-assets/rag`: architecture templates, eval dataset, operational checklist
   - `community-assets/economia`: cost templates, dashboard, optimization experiments

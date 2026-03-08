@@ -21,8 +21,8 @@ function HomepageHeader() {
           <Link className="button button--lg" to="/docs/intro">
             Explore course
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs/certificacao/capstone-ssa">
-            View capstone
+          <Link className="button button--secondary button--lg" to="/docs/manifesto/declaration">
+            Read declaration
           </Link>
         </div>
       </div>

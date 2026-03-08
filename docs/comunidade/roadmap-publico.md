@@ -61,3 +61,10 @@ title: Public Roadmap
 
 - Full documentation and navigation translated to English.
 - Contributor workflows translated to English.
+
+## Phase 10 - Manifesto and Foundations Layer (completed)
+
+- [SSA Declaration](../manifesto/declaration)
+- [Manifesto of Semantic Systems Architecture](../manifesto/ssa-manifesto)
+- [Foundational theses](../manifesto/foundational-theses)
+- Repository-level `manifesto/` and `foundations/` structure

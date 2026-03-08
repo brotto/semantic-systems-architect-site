@@ -7,6 +7,12 @@ title: Overview
 
 This site organizes complete training for the **Semantic Systems Architect** category: professional who designs computer systems through semantic modeling, structured language and AI orchestration.
 
+## Manifesto
+
+- [The SSA Declaration](./manifesto/declaration)
+- [Manifesto of Semantic Systems Architecture](./manifesto/ssa-manifesto)
+- [Foundational theses](./manifesto/foundational-theses)
+
 ## Objective
 
 Form an SSA capable of:
@@ -29,7 +35,7 @@ Form an SSA capable of:
 
 ## Suggested workload
 
-- Theoretical trail: 32h
+- Core track theory: 32h
 - Labs and project: 28h
 - Total: 60h
 
@@ -78,7 +84,7 @@ Form an SSA capable of:
 
 - [Overview](./onboarding-corporativo/visao-geral)
 - [Plan 30-60-90](./onboarding-corporativo/plano-30-60-90)
-- [SSA Indoor Gym](./onboarding-corporativo/academia-interna)
+- [Internal SSA Academy](./onboarding-corporativo/academia-interna)
 - [Corporate Rollout Lab](./onboarding-corporativo/lab-rollout-corporativo)
 
 ## Community and evolution

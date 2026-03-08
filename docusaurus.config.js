@@ -70,6 +70,11 @@ const config = {
             label: 'Guide',
           },
           {
+            to: '/docs/manifesto/declaration',
+            position: 'left',
+            label: 'Manifesto',
+          },
+          {
             to: '/docs/comunidade/roadmap-publico',
             position: 'left',
             label: 'Roadmap',
@@ -117,6 +122,10 @@ const config = {
           {
             title: 'Course',
             items: [
+              {
+                label: 'Declaration',
+                to: '/docs/manifesto/declaration',
+              },
               {
                 label: 'Overview',
                 to: '/docs/intro',

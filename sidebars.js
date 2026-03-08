@@ -6,6 +6,15 @@ const sidebars = {
     'intro',
     {
       type: 'category',
+      label: 'Manifesto',
+      items: [
+        'manifesto/declaration',
+        'manifesto/ssa-manifesto',
+        'manifesto/foundational-theses',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Core Track',
       items: [
         'trilha/fundamentos-ssa',

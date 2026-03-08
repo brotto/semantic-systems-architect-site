@@ -9,6 +9,7 @@ This course was designed to evolve with the community.
 
 ## Where to contribute
 
+- **Manifesto and foundations**: `docs/manifesto`, `/manifesto`, and `/foundations`.
 - **Course content**: modules in `docs/trilha`.
 - **Exercises and labs**: `docs/labs`.
 - **Templates**: `docs/templates`.

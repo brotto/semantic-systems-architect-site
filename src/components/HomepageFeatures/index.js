@@ -19,9 +19,9 @@ const FeatureList = [
       'Labs, templates, rubrics, and capstone to form a production-ready SSA.',
   },
   {
-    title: 'Open-source community',
+    title: 'Foundational movement',
     description:
-      'Open roadmap, governance, and issue/PR contributions for continuous evolution.',
+      'Declaration, manifesto, and open roadmap to build SSA as a lasting discipline.',
   },
 ];
 
