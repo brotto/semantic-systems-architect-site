@@ -12,8 +12,8 @@ const config = {
     v4: true,
   },
 
-  url: 'https://brotto.github.io',
-  baseUrl: '/semantic-systems-architect-site/',
+  url: 'https://brotto.tech',
+  baseUrl: '/course/',
 
   organizationName: 'brotto',
   projectName: 'semantic-systems-architect-site',
