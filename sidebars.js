@@ -15,6 +15,22 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Computing Foundations',
+      link: { type: 'doc', id: 'fundamentos-computacao/visao-geral' },
+      items: [
+        'fundamentos-computacao/nivel-0-a-maquina',
+        'fundamentos-computacao/nivel-1-codigo',
+        'fundamentos-computacao/nivel-2-dados-e-persistencia',
+        'fundamentos-computacao/nivel-3-a-web',
+        'fundamentos-computacao/nivel-4-cliente-e-servidor',
+        'fundamentos-computacao/nivel-5-infraestrutura',
+        'fundamentos-computacao/nivel-6-padroes-de-produto',
+        'fundamentos-computacao/nivel-7-ia-e-llms',
+        'fundamentos-computacao/lexico',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Core Track',
       items: [
         {
